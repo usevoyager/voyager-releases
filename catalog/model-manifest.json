@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-22T21:20:47Z",
+  "updatedAt": "2026-09-24T02:38:32Z",
   "currentModels": {
     "codex": [
       "gpt-6-astra",
@@ -398,7 +398,9 @@
             ]
           },
           "adapter": {
-            "claudeCode": {}
+            "claudeCode": {
+              "fixedContextWindowTokens": 200000
+            }
           }
         },
         "sonnet-5": {
@@ -551,7 +553,9 @@
             ]
           },
           "adapter": {
-            "claudeCode": {}
+            "claudeCode": {
+              "fixedContextWindowTokens": 200000
+            }
           }
         },
         "opus-5-5": {
