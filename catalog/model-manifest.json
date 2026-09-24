@@ -1,6 +1,60 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-24T04:55:00Z",
+  "updatedAt": "2026-09-24T05:10:00Z",
+  "compatibility": [
+    {
+      "driver": "codex",
+      "voyagerRange": ">=0.1.0",
+      "recommendedRange": ">=0.129.0",
+      "ranges": [
+        { "range": ">=0.129.0", "status": "supported" },
+        { "range": "<0.129.0", "status": "broken" }
+      ]
+    },
+    {
+      "driver": "claudeAgent",
+      "voyagerRange": ">=0.1.0",
+      "recommendedRange": ">=2.1.280",
+      "ranges": [
+        { "range": ">=2.1.280", "status": "supported" },
+        { "range": ">=2.1.111 <2.1.280", "status": "graceful" },
+        { "range": "<2.1.111", "status": "unsupported" }
+      ]
+    },
+    {
+      "driver": "cursor",
+      "voyagerRange": ">=0.1.0",
+      "recommendedRange": ">=2026.05.09",
+      "ranges": [
+        { "range": ">=2026.05.09", "status": "supported" },
+        { "range": "<2026.05.09", "status": "unknown" }
+      ]
+    },
+    {
+      "driver": "grok",
+      "voyagerRange": ">=0.1.0",
+      "recommendedRange": ">=1.0.13",
+      "ranges": [
+        { "range": ">=1.0.13", "status": "supported" },
+        { "range": "<1.0.13", "status": "unknown" }
+      ]
+    },
+    {
+      "driver": "opencode",
+      "voyagerRange": ">=0.1.0",
+      "recommendedRange": ">=1.14.19",
+      "ranges": [
+        { "range": ">=1.14.19", "status": "supported" },
+        { "range": "<1.14.19", "status": "broken" }
+      ]
+    },
+    {
+      "driver": "antigravity",
+      "voyagerRange": ">=0.1.0",
+      "recommendedRange": "=1.1.1",
+      "ranges": [{ "range": "=1.1.1", "status": "supported" }]
+    }
+  ],
   "currentModels": {
     "codex": [
       "gpt-6-astra",
