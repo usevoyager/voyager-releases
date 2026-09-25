@@ -1,14 +1,15 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-25T18:00:00Z",
+  "updatedAt": "2026-09-25T20:00:00Z",
   "compatibility": [
     {
       "driver": "codex",
       "voyagerRange": ">=0.1.0",
-      "recommendedRange": ">=0.135.0",
+      "recommendedRange": ">=0.156.0",
       "ranges": [
-        { "range": ">=0.135.0", "status": "supported" },
-        { "range": "<0.135.0", "status": "broken" }
+        { "range": ">=0.156.0", "status": "supported" },
+        { "range": ">=0.149.0 <0.156.0", "status": "unsupported" },
+        { "range": "<0.149.0", "status": "broken" }
       ]
     },
     {
