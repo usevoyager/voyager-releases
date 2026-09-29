@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-26T07:00:00Z",
+  "updatedAt": "2026-09-29T07:00:00Z",
   "compatibility": [
     {
       "driver": "codex",
@@ -96,20 +96,28 @@
                   },
                   {
                     "id": "xhigh",
-                    "label": "Extra High"
+                    "label": "Extra High",
+                    "costTier": "higher",
+                    "warning": "Uses more credits and takes longer. Best for hard problems, not for quick edits."
                   },
                   {
                     "id": "max",
-                    "label": "Max"
+                    "label": "Max",
+                    "costTier": "highest",
+                    "warning": "Uses far more credits and takes much longer. Best for hard problems, not for quick edits."
                   },
                   {
                     "id": "ultracode",
                     "label": "Ultracode",
-                    "description": "xhigh effort plus multi-agent workflow orchestration"
+                    "description": "xhigh effort plus multi-agent workflow orchestration",
+                    "costTier": "highest",
+                    "warning": "Uses far more credits and takes much longer, because it runs several agents at once. Best for large, hard tasks, not for quick edits."
                   },
                   {
                     "id": "ultrathink",
-                    "label": "Ultrathink"
+                    "label": "Ultrathink",
+                    "costTier": "highest",
+                    "warning": "Uses far more credits and takes much longer for this message. Best for hard problems, not for quick edits."
                   }
                 ],
                 "promptInjectedValues": ["ultrathink"]
@@ -173,20 +181,28 @@
                   },
                   {
                     "id": "xhigh",
-                    "label": "Extra High"
+                    "label": "Extra High",
+                    "costTier": "higher",
+                    "warning": "Uses more credits and takes longer. Best for hard problems, not for quick edits."
                   },
                   {
                     "id": "max",
-                    "label": "Max"
+                    "label": "Max",
+                    "costTier": "highest",
+                    "warning": "Uses far more credits and takes much longer. Best for hard problems, not for quick edits."
                   },
                   {
                     "id": "ultracode",
                     "label": "Ultracode",
-                    "description": "xhigh effort plus multi-agent workflow orchestration"
+                    "description": "xhigh effort plus multi-agent workflow orchestration",
+                    "costTier": "highest",
+                    "warning": "Uses far more credits and takes much longer, because it runs several agents at once. Best for large, hard tasks, not for quick edits."
                   },
                   {
                     "id": "ultrathink",
-                    "label": "Ultrathink"
+                    "label": "Ultrathink",
+                    "costTier": "highest",
+                    "warning": "Uses far more credits and takes much longer for this message. Best for hard problems, not for quick edits."
                   }
                 ],
                 "promptInjectedValues": ["ultrathink"]
@@ -255,20 +271,28 @@
                   },
                   {
                     "id": "xhigh",
-                    "label": "Extra High"
+                    "label": "Extra High",
+                    "costTier": "higher",
+                    "warning": "Uses more credits and takes longer. Best for hard problems, not for quick edits."
                   },
                   {
                     "id": "max",
-                    "label": "Max"
+                    "label": "Max",
+                    "costTier": "highest",
+                    "warning": "Uses far more credits and takes much longer. Best for hard problems, not for quick edits."
                   },
                   {
                     "id": "ultracode",
                     "label": "Ultracode",
-                    "description": "xhigh effort plus multi-agent workflow orchestration"
+                    "description": "xhigh effort plus multi-agent workflow orchestration",
+                    "costTier": "highest",
+                    "warning": "Uses far more credits and takes much longer, because it runs several agents at once. Best for large, hard tasks, not for quick edits."
                   },
                   {
                     "id": "ultrathink",
-                    "label": "Ultrathink"
+                    "label": "Ultrathink",
+                    "costTier": "highest",
+                    "warning": "Uses far more credits and takes much longer for this message. Best for hard problems, not for quick edits."
                   }
                 ],
                 "promptInjectedValues": ["ultrathink"]
@@ -313,15 +337,21 @@
                   {
                     "id": "xhigh",
                     "label": "Extra High",
-                    "isDefault": true
+                    "isDefault": true,
+                    "costTier": "higher",
+                    "warning": "Uses more credits and takes longer. Best for hard problems, not for quick edits."
                   },
                   {
                     "id": "max",
-                    "label": "Max"
+                    "label": "Max",
+                    "costTier": "highest",
+                    "warning": "Uses far more credits and takes much longer. Best for hard problems, not for quick edits."
                   },
                   {
                     "id": "ultrathink",
-                    "label": "Ultrathink"
+                    "label": "Ultrathink",
+                    "costTier": "highest",
+                    "warning": "Uses far more credits and takes much longer for this message. Best for hard problems, not for quick edits."
                   }
                 ],
                 "promptInjectedValues": ["ultrathink"]
@@ -366,11 +396,15 @@
                   },
                   {
                     "id": "max",
-                    "label": "Max"
+                    "label": "Max",
+                    "costTier": "highest",
+                    "warning": "Uses far more credits and takes much longer. Best for hard problems, not for quick edits."
                   },
                   {
                     "id": "ultrathink",
-                    "label": "Ultrathink"
+                    "label": "Ultrathink",
+                    "costTier": "highest",
+                    "warning": "Uses far more credits and takes much longer for this message. Best for hard problems, not for quick edits."
                   }
                 ],
                 "promptInjectedValues": ["ultrathink"]
@@ -438,7 +472,9 @@
                   },
                   {
                     "id": "max",
-                    "label": "Max"
+                    "label": "Max",
+                    "costTier": "highest",
+                    "warning": "Uses far more credits and takes much longer. Best for hard problems, not for quick edits."
                   }
                 ]
               },
@@ -478,15 +514,21 @@
                   },
                   {
                     "id": "xhigh",
-                    "label": "Extra High"
+                    "label": "Extra High",
+                    "costTier": "higher",
+                    "warning": "Uses more credits and takes longer. Best for hard problems, not for quick edits."
                   },
                   {
                     "id": "max",
-                    "label": "Max"
+                    "label": "Max",
+                    "costTier": "highest",
+                    "warning": "Uses far more credits and takes much longer. Best for hard problems, not for quick edits."
                   },
                   {
                     "id": "ultrathink",
-                    "label": "Ultrathink"
+                    "label": "Ultrathink",
+                    "costTier": "highest",
+                    "warning": "Uses far more credits and takes much longer for this message. Best for hard problems, not for quick edits."
                   }
                 ],
                 "promptInjectedValues": ["ultrathink"]
@@ -549,11 +591,15 @@
                   },
                   {
                     "id": "max",
-                    "label": "Max"
+                    "label": "Max",
+                    "costTier": "highest",
+                    "warning": "Uses far more credits and takes much longer. Best for hard problems, not for quick edits."
                   },
                   {
                     "id": "ultrathink",
-                    "label": "Ultrathink"
+                    "label": "Ultrathink",
+                    "costTier": "highest",
+                    "warning": "Uses far more credits and takes much longer for this message. Best for hard problems, not for quick edits."
                   }
                 ],
                 "promptInjectedValues": ["ultrathink"]
@@ -634,11 +680,15 @@
                   },
                   {
                     "id": "xhigh",
-                    "label": "Extra High"
+                    "label": "Extra High",
+                    "costTier": "higher",
+                    "warning": "Uses more credits and takes longer. Best for hard problems, not for quick edits."
                   },
                   {
                     "id": "max",
-                    "label": "Max"
+                    "label": "Max",
+                    "costTier": "highest",
+                    "warning": "Uses far more credits and takes much longer. Best for hard problems, not for quick edits."
                   }
                 ]
               }
