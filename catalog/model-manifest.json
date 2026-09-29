@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-29T07:00:00Z",
+  "updatedAt": "2026-09-29T23:05:00Z",
   "compatibility": [
     {
       "driver": "codex",
@@ -15,10 +15,10 @@
     {
       "driver": "claudeAgent",
       "voyagerRange": ">=0.1.0",
-      "recommendedRange": ">=2.1.280",
+      "recommendedRange": ">=2.1.284",
       "ranges": [
-        { "range": ">=2.1.280", "status": "supported" },
-        { "range": ">=2.1.111 <2.1.280", "status": "graceful" },
+        { "range": ">=2.1.284", "status": "supported" },
+        { "range": ">=2.1.111 <2.1.284", "status": "graceful" },
         { "range": "<2.1.111", "status": "unsupported" }
       ]
     },
@@ -58,13 +58,14 @@
   ],
   "currentModels": {
     "codex": [
+      "gpt-6.1-sol",
       "gpt-6-astra",
       "gpt-6-sol",
       "gpt-6-luna",
       "gpt-daybreak-blue-latest",
       "gpt-daybreak-red-latest"
     ],
-    "claudeAgent": ["claude-opus-5-5", "claude-fable-5-1", "claude-sonnet-5"],
+    "claudeAgent": ["claude-opus-5-5", "claude-sonnet-5-5", "claude-fable-5-1", "claude-sonnet-5"],
     "antigravity": ["gemini-3.8-flash-high", "gemini-3.8-flash-medium", "gemini-3.8-flash-low"]
   },
   "providers": {
@@ -699,6 +700,49 @@
               "fixedContextWindowTokens": 1000000
             }
           }
+        },
+        "sonnet-5-5": {
+          "capabilities": {
+            "optionDescriptors": [
+              {
+                "id": "effort",
+                "label": "Reasoning",
+                "type": "select",
+                "options": [
+                  {
+                    "id": "low",
+                    "label": "Low"
+                  },
+                  {
+                    "id": "medium",
+                    "label": "Medium",
+                    "isDefault": true
+                  },
+                  {
+                    "id": "high",
+                    "label": "High"
+                  },
+                  {
+                    "id": "xhigh",
+                    "label": "Extra High",
+                    "costTier": "higher",
+                    "warning": "Uses more credits and takes longer. Best for hard problems, not for quick edits."
+                  },
+                  {
+                    "id": "max",
+                    "label": "Max",
+                    "costTier": "highest",
+                    "warning": "Uses far more credits and takes much longer. Best for hard problems, not for quick edits."
+                  }
+                ]
+              }
+            ]
+          },
+          "adapter": {
+            "claudeCode": {
+              "fixedContextWindowTokens": 1000000
+            }
+          }
         }
       },
       "models": [
@@ -713,6 +757,20 @@
           "adapter": {
             "claudeCode": {
               "minVersion": "2.1.280"
+            }
+          }
+        },
+        {
+          "slug": "claude-sonnet-5-5",
+          "name": "Claude Sonnet 5.5",
+          "aliases": ["sonnet", "sonnet-5.5", "claude-sonnet-5.5"],
+          "status": "current",
+          "badge": "new",
+          "newUntil": "2026-10-13T00:00:00Z",
+          "profile": "sonnet-5-5",
+          "adapter": {
+            "claudeCode": {
+              "minVersion": "2.1.284"
             }
           }
         },
@@ -791,7 +849,7 @@
         {
           "slug": "claude-sonnet-5",
           "name": "Claude Sonnet 5",
-          "aliases": ["sonnet", "sonnet-5", "claude-sonnet-5.0", "claude-sonnet-5-0"],
+          "aliases": ["sonnet-5", "claude-sonnet-5.0", "claude-sonnet-5-0"],
           "status": "current",
           "profile": "sonnet-5"
         },
