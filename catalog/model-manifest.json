@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-04T21:45:18Z",
+  "updatedAt": "2026-10-07T21:45:00Z",
   "compatibility": [
     {
       "driver": "codex",
@@ -15,29 +15,11 @@
     {
       "driver": "claudeAgent",
       "voyagerRange": ">=0.1.0",
-      "recommendedRange": ">=2.1.284",
+      "recommendedRange": ">=2.1.293",
       "ranges": [
-        { "range": ">=2.1.284", "status": "supported" },
-        { "range": ">=2.1.111 <2.1.284", "status": "graceful" },
+        { "range": ">=2.1.293", "status": "supported" },
+        { "range": ">=2.1.111 <2.1.293", "status": "graceful" },
         { "range": "<2.1.111", "status": "unsupported" }
-      ]
-    },
-    {
-      "driver": "cursor",
-      "voyagerRange": ">=0.1.0",
-      "recommendedRange": ">=2026.05.09",
-      "ranges": [
-        { "range": ">=2026.05.09", "status": "supported" },
-        { "range": "<2026.05.09", "status": "unknown" }
-      ]
-    },
-    {
-      "driver": "grok",
-      "voyagerRange": ">=0.1.0",
-      "recommendedRange": ">=1.0.13",
-      "ranges": [
-        { "range": ">=1.0.13", "status": "supported" },
-        { "range": "<1.0.13", "status": "unknown" }
       ]
     },
     {
@@ -50,12 +32,6 @@
         { "range": ">=2.0.0", "status": "unsupported" },
         { "range": "<1.14.19", "status": "broken" }
       ]
-    },
-    {
-      "driver": "antigravity",
-      "voyagerRange": ">=0.1.0",
-      "recommendedRange": "=1.1.1",
-      "ranges": [{ "range": "=1.1.1", "status": "supported" }]
     }
   ],
   "currentModels": {
@@ -67,8 +43,12 @@
       "gpt-daybreak-blue-latest",
       "gpt-daybreak-red-latest"
     ],
-    "claudeAgent": ["claude-opus-5-5", "claude-sonnet-5-5", "claude-fable-5-1", "claude-sonnet-5"],
-    "antigravity": ["gemini-3.8-flash-high", "gemini-3.8-flash-medium", "gemini-3.8-flash-low"]
+    "claudeAgent": [
+      "claude-opus-5-5",
+      "claude-sonnet-5-5",
+      "claude-fable-5-1",
+      "claude-haiku-5-5"
+    ]
   },
   "providers": {
     "claudeAgent": {
@@ -745,6 +725,49 @@
               "fixedContextWindowTokens": 1000000
             }
           }
+        },
+        "haiku-5-5": {
+          "capabilities": {
+            "optionDescriptors": [
+              {
+                "id": "effort",
+                "label": "Reasoning",
+                "type": "select",
+                "options": [
+                  {
+                    "id": "low",
+                    "label": "Low"
+                  },
+                  {
+                    "id": "medium",
+                    "label": "Medium",
+                    "isDefault": true
+                  },
+                  {
+                    "id": "high",
+                    "label": "High"
+                  },
+                  {
+                    "id": "xhigh",
+                    "label": "Extra High",
+                    "costTier": "higher",
+                    "warning": "Uses more credits and takes longer. Best for hard problems, not for quick edits."
+                  },
+                  {
+                    "id": "max",
+                    "label": "Max",
+                    "costTier": "highest",
+                    "warning": "Uses far more credits and takes much longer. Best for hard problems, not for quick edits."
+                  }
+                ]
+              }
+            ]
+          },
+          "adapter": {
+            "claudeCode": {
+              "fixedContextWindowTokens": 1000000
+            }
+          }
         }
       },
       "models": [
@@ -803,7 +826,7 @@
           "slug": "claude-opus-5",
           "name": "Claude Opus 5",
           "aliases": ["opus-5", "claude-opus-5.0", "claude-opus-5-0"],
-          "status": "current",
+          "status": "legacy",
           "profile": "opus-5",
           "adapter": {
             "claudeCode": {
@@ -852,7 +875,7 @@
           "slug": "claude-sonnet-5",
           "name": "Claude Sonnet 5",
           "aliases": ["sonnet-5", "claude-sonnet-5.0", "claude-sonnet-5-0"],
-          "status": "current",
+          "status": "legacy",
           "profile": "sonnet-5"
         },
         {
@@ -863,34 +886,25 @@
           "profile": "sonnet-4-6"
         },
         {
+          "slug": "claude-haiku-5-5",
+          "name": "Claude Haiku 5.5",
+          "aliases": ["haiku", "haiku-5.5", "claude-haiku-5.5"],
+          "status": "current",
+          "badge": "new",
+          "newUntil": "2026-10-21T00:00:00Z",
+          "profile": "haiku-5-5",
+          "adapter": {
+            "claudeCode": {
+              "minVersion": "2.1.293"
+            }
+          }
+        },
+        {
           "slug": "claude-haiku-4-5",
           "name": "Claude Haiku 4.5",
-          "aliases": ["haiku", "haiku-4.5", "claude-haiku-4.5", "claude-haiku-4-5-20251001"],
+          "aliases": ["haiku-4.5", "claude-haiku-4.5", "claude-haiku-4-5-20251001"],
           "status": "legacy",
           "profile": "haiku-4-5"
-        }
-      ]
-    },
-    "antigravity": {
-      "defaults": {
-        "chat": "gemini-3.8-flash-high"
-      },
-      "profiles": {},
-      "models": [
-        {
-          "slug": "gemini-3.8-flash-high",
-          "name": "Gemini 3.8 Flash (High)",
-          "status": "current"
-        },
-        {
-          "slug": "gemini-3.8-flash-medium",
-          "name": "Gemini 3.8 Flash (Medium)",
-          "status": "current"
-        },
-        {
-          "slug": "gemini-3.8-flash-low",
-          "name": "Gemini 3.8 Flash (Low)",
-          "status": "current"
         }
       ]
     }
