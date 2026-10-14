@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-07T21:45:00Z",
+  "updatedAt": "2026-10-14T03:05:56Z",
   "compatibility": [
     {
       "driver": "codex",
@@ -43,14 +43,34 @@
       "gpt-daybreak-blue-latest",
       "gpt-daybreak-red-latest"
     ],
-    "claudeAgent": [
-      "claude-opus-5-5",
-      "claude-sonnet-5-5",
-      "claude-fable-5-1",
-      "claude-haiku-5-5"
-    ]
+    "claudeAgent": ["claude-opus-5-5", "claude-sonnet-5-5", "claude-fable-5-1", "claude-haiku-5-5"]
   },
   "providers": {
+    "codex": {
+      "profiles": {},
+      "models": [
+        {
+          "slug": "gpt-5.6-sol",
+          "name": "GPT-5.6 Sol",
+          "status": "legacy"
+        },
+        {
+          "slug": "gpt-5.6-terra",
+          "name": "GPT-5.6 Terra",
+          "status": "legacy"
+        },
+        {
+          "slug": "gpt-5.6-luna",
+          "name": "GPT-5.6 Luna",
+          "status": "legacy"
+        },
+        {
+          "slug": "gpt-5.5",
+          "name": "GPT-5.5",
+          "status": "legacy"
+        }
+      ]
+    },
     "claudeAgent": {
       "defaults": {
         "chat": "claude-opus-5-5"
@@ -104,22 +124,6 @@
                   }
                 ],
                 "promptInjectedValues": ["ultrathink"]
-              },
-              {
-                "id": "contextWindow",
-                "label": "Context Window",
-                "type": "select",
-                "options": [
-                  {
-                    "id": "200k",
-                    "label": "200k"
-                  },
-                  {
-                    "id": "1m",
-                    "label": "1M",
-                    "isDefault": true
-                  }
-                ]
               }
             ]
           },
@@ -129,15 +133,7 @@
                 "ultracode": "xhigh",
                 "ultrathink": null
               },
-              "modelSuffixes": {
-                "contextWindow": {
-                  "1m": "[1m]"
-                }
-              },
-              "contextWindowTokens": {
-                "200k": 200000,
-                "1m": 1000000
-              }
+              "fixedContextWindowTokens": 1000000
             }
           }
         },
@@ -194,22 +190,6 @@
                 "id": "fastMode",
                 "label": "Fast Mode",
                 "type": "boolean"
-              },
-              {
-                "id": "contextWindow",
-                "label": "Context Window",
-                "type": "select",
-                "options": [
-                  {
-                    "id": "200k",
-                    "label": "200k"
-                  },
-                  {
-                    "id": "1m",
-                    "label": "1M",
-                    "isDefault": true
-                  }
-                ]
               }
             ]
           },
@@ -219,15 +199,7 @@
                 "ultracode": "xhigh",
                 "ultrathink": null
               },
-              "modelSuffixes": {
-                "contextWindow": {
-                  "1m": "[1m]"
-                }
-              },
-              "contextWindowTokens": {
-                "200k": 200000,
-                "1m": 1000000
-              }
+              "fixedContextWindowTokens": 1000000
             }
           }
         },
@@ -515,22 +487,6 @@
                   }
                 ],
                 "promptInjectedValues": ["ultrathink"]
-              },
-              {
-                "id": "contextWindow",
-                "label": "Context Window",
-                "type": "select",
-                "options": [
-                  {
-                    "id": "200k",
-                    "label": "200k",
-                    "isDefault": true
-                  },
-                  {
-                    "id": "1m",
-                    "label": "1M"
-                  }
-                ]
               }
             ]
           },
@@ -539,15 +495,7 @@
               "effortMap": {
                 "ultrathink": null
               },
-              "modelSuffixes": {
-                "contextWindow": {
-                  "1m": "[1m]"
-                }
-              },
-              "contextWindowTokens": {
-                "200k": 200000,
-                "1m": 1000000
-              }
+              "fixedContextWindowTokens": 1000000
             }
           }
         },
