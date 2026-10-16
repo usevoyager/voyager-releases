@@ -1,0 +1,19 @@
+name: Check content publisher
+on:
+  pull_request:
+  push:
+    branches: [main]
+    paths: ['scripts/**', 'package*.json', '.github/workflows/**']
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24.21.0
+          cache: npm
+      - run: npm ci
+      - run: npm test

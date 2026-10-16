@@ -1,0 +1,20 @@
+{
+  "action": "refresh",
+  "refs": [],
+  "evidence": null,
+  "reason": null,
+  "actor": "local",
+  "sourceRun": null,
+  "catalogs": [
+    {
+      "namespace": "skills",
+      "sequence": 3,
+      "revisions": 61
+    },
+    {
+      "namespace": "techniques",
+      "sequence": 3,
+      "revisions": 37
+    }
+  ]
+}

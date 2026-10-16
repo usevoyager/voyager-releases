@@ -1,0 +1,1532 @@
+{
+  "schemaVersion": 1,
+  "sourceCommit": "23ec158e54705ef6b28e421f4f6db65c360bf124",
+  "generatedAt": "2026-10-16T21:59:04.319Z",
+  "entries": [
+    {
+      "revision": 1,
+      "minVoyagerVersion": "2026.10.16",
+      "requiredCapabilities": [],
+      "dependencies": [],
+      "suggestedSkills": [],
+      "payload": {
+        "target": "skills/brand-kit/c7b59a4f10c268ec79ebc059016ee55e334a5d8e2c6e709c561e73411fc89f82.json",
+        "sha256": "c7b59a4f10c268ec79ebc059016ee55e334a5d8e2c6e709c561e73411fc89f82",
+        "length": 10006,
+        "mediaType": "application/json"
+      },
+      "title": "brand-kit",
+      "summary": "Brand kits, saved design directions and company logos.",
+      "tags": [],
+      "outcomes": [],
+      "prerequisites": [],
+      "sourceCommit": "23ec158e54705ef6b28e421f4f6db65c360bf124",
+      "testedAgainst": [
+        "0.1.0"
+      ],
+      "publishedAt": "2026-10-16T21:59:04.319Z",
+      "kind": "skill",
+      "id": "skills/brand-kit"
+    },
+    {
+      "revision": 1,
+      "minVoyagerVersion": "2026.10.16",
+      "requiredCapabilities": [],
+      "dependencies": [],
+      "suggestedSkills": [],
+      "payload": {
+        "target": "skills/choose-media-model/f610da769543e62a135676a5141b7445b478bbe35851485e9ed754e95b1c5b71.json",
+        "sha256": "f610da769543e62a135676a5141b7445b478bbe35851485e9ed754e95b1c5b71",
+        "length": 72381,
+        "mediaType": "application/json"
+      },
+      "title": "choose-media-model",
+      "summary": "Choose or compare fal media models for best/latest requests, unusual operations, missing defaults, or watching/listening to a clip.",
+      "tags": [],
+      "outcomes": [],
+      "prerequisites": [],
+      "sourceCommit": "23ec158e54705ef6b28e421f4f6db65c360bf124",
+      "testedAgainst": [
+        "0.1.0"
+      ],
+      "publishedAt": "2026-10-16T21:59:04.319Z",
+      "kind": "skill",
+      "id": "skills/choose-media-model"
+    },
+    {
+      "revision": 1,
+      "minVoyagerVersion": "2026.10.16",
+      "requiredCapabilities": [],
+      "dependencies": [],
+      "suggestedSkills": [],
+      "payload": {
+        "target": "skills/conversation-collaboration/3361c6a6e2fc40bf5e1dd2348f5bce3270f380b8aca2f4b71037450621df42a7.json",
+        "sha256": "3361c6a6e2fc40bf5e1dd2348f5bce3270f380b8aca2f4b71037450621df42a7",
+        "length": 9022,
+        "mediaType": "application/json"
+      },
+      "title": "conversation-collaboration",
+      "summary": "Collaborate with separate Voyager chats when authorized; read before chats_* calls or handling their work.",
+      "tags": [],
+      "outcomes": [],
+      "prerequisites": [],
+      "sourceCommit": "23ec158e54705ef6b28e421f4f6db65c360bf124",
+      "testedAgainst": [
+        "0.1.0"
+      ],
+      "publishedAt": "2026-10-16T21:59:04.319Z",
+      "kind": "skill",
+      "id": "skills/conversation-collaboration"
+    },
+    {
+      "revision": 1,
+      "minVoyagerVersion": "2026.10.16",
+      "requiredCapabilities": [],
+      "dependencies": [],
+      "suggestedSkills": [],
+      "payload": {
+        "target": "skills/critique-track/986e32565c2b32c68e66d542ae55e124bdae9a6f1090782ce2b98f6274f993d2.json",
+        "sha256": "986e32565c2b32c68e66d542ae55e124bdae9a6f1090782ce2b98f6274f993d2",
+        "length": 1004,
+        "mediaType": "application/json"
+      },
+      "title": "critique-track",
+      "summary": "Critique tracks and mixes against references.",
+      "tags": [],
+      "outcomes": [],
+      "prerequisites": [],
+      "sourceCommit": "23ec158e54705ef6b28e421f4f6db65c360bf124",
+      "testedAgainst": [
+        "0.1.0"
+      ],
+      "publishedAt": "2026-10-16T21:59:04.319Z",
+      "kind": "skill",
+      "id": "skills/critique-track"
+    },
+    {
+      "revision": 1,
+      "minVoyagerVersion": "2026.10.16",
+      "requiredCapabilities": [],
+      "dependencies": [],
+      "suggestedSkills": [],
+      "payload": {
+        "target": "skills/custom-connectors/99f7e16dd37f1d6cabe1433426d71ff34e3f99e89335657200b0374d80d31eb0.json",
+        "sha256": "99f7e16dd37f1d6cabe1433426d71ff34e3f99e89335657200b0374d80d31eb0",
+        "length": 17616,
+        "mediaType": "application/json"
+      },
+      "title": "custom-connectors",
+      "summary": "Create, repair or remove personal service connectors.",
+      "tags": [],
+      "outcomes": [],
+      "prerequisites": [],
+      "sourceCommit": "23ec158e54705ef6b28e421f4f6db65c360bf124",
+      "testedAgainst": [
+        "0.1.0"
+      ],
+      "publishedAt": "2026-10-16T21:59:04.319Z",
+      "kind": "skill",
+      "id": "skills/custom-connectors"
+    },
+    {
+      "revision": 1,
+      "minVoyagerVersion": "2026.10.16",
+      "requiredCapabilities": [],
+      "dependencies": [],
+      "suggestedSkills": [],
+      "payload": {
+        "target": "skills/develop-roblox/b83f29661fac1eb2688846d9de7b2821b8b2b4745098e5b8a9d4421da900f5dc.json",
+        "sha256": "b83f29661fac1eb2688846d9de7b2821b8b2b4745098e5b8a9d4421da900f5dc",
+        "length": 7075,
+        "mediaType": "application/json"
+      },
+      "title": "develop-roblox",
+      "summary": ".",
+      "tags": [],
+      "outcomes": [],
+      "prerequisites": [],
+      "sourceCommit": "23ec158e54705ef6b28e421f4f6db65c360bf124",
+      "testedAgainst": [
+        "0.1.0"
+      ],
+      "publishedAt": "2026-10-16T21:59:04.319Z",
+      "kind": "skill",
+      "id": "skills/develop-roblox"
+    },
+    {
+      "revision": 1,
+      "minVoyagerVersion": "2026.10.16",
+      "requiredCapabilities": [],
+      "dependencies": [],
+      "suggestedSkills": [],
+      "payload": {
+        "target": "skills/develop-unity/4d36491d051e934ab46eb7a40bf1342a84c4279c82495a817524d91d34219c28.json",
+        "sha256": "4d36491d051e934ab46eb7a40bf1342a84c4279c82495a817524d91d34219c28",
+        "length": 5912,
+        "mediaType": "application/json"
+      },
+      "title": "develop-unity",
+      "summary": ".",
+      "tags": [],
+      "outcomes": [],
+      "prerequisites": [],
+      "sourceCommit": "23ec158e54705ef6b28e421f4f6db65c360bf124",
+      "testedAgainst": [
+        "0.1.0"
+      ],
+      "publishedAt": "2026-10-16T21:59:04.319Z",
+      "kind": "skill",
+      "id": "skills/develop-unity"
+    },
+    {
+      "revision": 1,
+      "minVoyagerVersion": "2026.10.16",
+      "requiredCapabilities": [],
+      "dependencies": [],
+      "suggestedSkills": [],
+      "payload": {
+        "target": "skills/develop-unreal/2a6d3c54a3332c5268dc0d07f30f674696ab9e924d06bd4d3f1500cca9bc2f9f.json",
+        "sha256": "2a6d3c54a3332c5268dc0d07f30f674696ab9e924d06bd4d3f1500cca9bc2f9f",
+        "length": 5840,
+        "mediaType": "application/json"
+      },
+      "title": "develop-unreal",
+      "summary": "Drive Unreal Engine projects directly: build, run editor Python on levels and assets, C++ or Blueprints, and render Level Sequences. No MCP server needed.",
+      "tags": [],
+      "outcomes": [],
+      "prerequisites": [],
+      "sourceCommit": "23ec158e54705ef6b28e421f4f6db65c360bf124",
+      "testedAgainst": [
+        "0.1.0"
+      ],
+      "publishedAt": "2026-10-16T21:59:04.319Z",
+      "kind": "skill",
+      "id": "skills/develop-unreal"
+    },
+    {
+      "revision": 1,
+      "minVoyagerVersion": "2026.10.16",
+      "requiredCapabilities": [],
+      "dependencies": [],
+      "suggestedSkills": [],
+      "payload": {
+        "target": "skills/edit-in-ableton/e1bc290dbaad3de2ff432295bd31f689418796dc927b537eef743d42cd5d9050.json",
+        "sha256": "e1bc290dbaad3de2ff432295bd31f689418796dc927b537eef743d42cd5d9050",
+        "length": 3060,
+        "mediaType": "application/json"
+      },
+      "title": "edit-in-ableton",
+      "summary": ".",
+      "tags": [],
+      "outcomes": [],
+      "prerequisites": [],
+      "sourceCommit": "23ec158e54705ef6b28e421f4f6db65c360bf124",
+      "testedAgainst": [
+        "0.1.0"
+      ],
+      "publishedAt": "2026-10-16T21:59:04.319Z",
+      "kind": "skill",
+      "id": "skills/edit-in-ableton"
+    },
+    {
+      "revision": 1,
+      "minVoyagerVersion": "2026.10.16",
+      "requiredCapabilities": [],
+      "dependencies": [],
+      "suggestedSkills": [],
+      "payload": {
+        "target": "skills/edit-in-after-effects/7145567129f7fbba9a0e58309c04508b6971b106d62f9b11e953983a2ca2714a.json",
+        "sha256": "7145567129f7fbba9a0e58309c04508b6971b106d62f9b11e953983a2ca2714a",
+        "length": 2994,
+        "mediaType": "application/json"
+      },
+      "title": "edit-in-after-effects",
+      "summary": ".",
+      "tags": [],
+      "outcomes": [],
+      "prerequisites": [],
+      "sourceCommit": "23ec158e54705ef6b28e421f4f6db65c360bf124",
+      "testedAgainst": [
+        "0.1.0"
+      ],
+      "publishedAt": "2026-10-16T21:59:04.319Z",
+      "kind": "skill",
+      "id": "skills/edit-in-after-effects"
+    },
+    {
+      "revision": 1,
+      "minVoyagerVersion": "2026.10.16",
+      "requiredCapabilities": [],
+      "dependencies": [],
+      "suggestedSkills": [],
+      "payload": {
+        "target": "skills/edit-in-blender/c4c58aadeb9126892119491ce78d56828a7cf97e4403ff036aaac7d77421d59f.json",
+        "sha256": "c4c58aadeb9126892119491ce78d56828a7cf97e4403ff036aaac7d77421d59f",
+        "length": 404741,
+        "mediaType": "application/json"
+      },
+      "title": "edit-in-blender",
+      "summary": "Control Blender directly with its Python API: build, light, edit and render .blend scenes with tested look, camera and reference-matching recipes; import models and materials. Use for any Blender work, even with project instructions. No add-on or MCP server needed.",
+      "tags": [],
+      "outcomes": [],
+      "prerequisites": [],
+      "sourceCommit": "23ec158e54705ef6b28e421f4f6db65c360bf124",
+      "testedAgainst": [
+        "0.1.0"
+      ],
+      "publishedAt": "2026-10-16T21:59:04.319Z",
+      "kind": "skill",
+      "id": "skills/edit-in-blender"
+    },
+    {
+      "revision": 1,
+      "minVoyagerVersion": "2026.10.16",
+      "requiredCapabilities": [],
+      "dependencies": [],
+      "suggestedSkills": [],
+      "payload": {
+        "target": "skills/edit-in-capcut/b7efd1d289646b0035577f1419c8aa94153b6d3d42b2268e7366fe5e2d1e64d9.json",
+        "sha256": "b7efd1d289646b0035577f1419c8aa94153b6d3d42b2268e7366fe5e2d1e64d9",
+        "length": 1054,
+        "mediaType": "application/json"
+      },
+      "title": "edit-in-capcut",
+      "summary": ".",
+      "tags": [],
+      "outcomes": [],
+      "prerequisites": [],
+      "sourceCommit": "23ec158e54705ef6b28e421f4f6db65c360bf124",
+      "testedAgainst": [
+        "0.1.0"
+      ],
+      "publishedAt": "2026-10-16T21:59:04.319Z",
+      "kind": "skill",
+      "id": "skills/edit-in-capcut"
+    },
+    {
+      "revision": 1,
+      "minVoyagerVersion": "2026.10.16",
+      "requiredCapabilities": [],
+      "dependencies": [],
+      "suggestedSkills": [],
+      "payload": {
+        "target": "skills/edit-in-cinema-4d/895b148e0e94b506c079b7a94e8118d49f2fe5c5c5b38ce9074549031629947e.json",
+        "sha256": "895b148e0e94b506c079b7a94e8118d49f2fe5c5c5b38ce9074549031629947e",
+        "length": 1578,
+        "mediaType": "application/json"
+      },
+      "title": "edit-in-cinema-4d",
+      "summary": ".",
+      "tags": [],
+      "outcomes": [],
+      "prerequisites": [],
+      "sourceCommit": "23ec158e54705ef6b28e421f4f6db65c360bf124",
+      "testedAgainst": [
+        "0.1.0"
+      ],
+      "publishedAt": "2026-10-16T21:59:04.319Z",
+      "kind": "skill",
+      "id": "skills/edit-in-cinema-4d"
+    },
+    {
+      "revision": 1,
+      "minVoyagerVersion": "2026.10.16",
+      "requiredCapabilities": [],
+      "dependencies": [],
+      "suggestedSkills": [],
+      "payload": {
+        "target": "skills/edit-in-descript/5c6638fc185bcf71f89e6254322f99bab905583a4938025679630e64212024d6.json",
+        "sha256": "5c6638fc185bcf71f89e6254322f99bab905583a4938025679630e64212024d6",
+        "length": 390,
+        "mediaType": "application/json"
+      },
+      "title": "edit-in-descript",
+      "summary": ".",
+      "tags": [],
+      "outcomes": [],
+      "prerequisites": [],
+      "sourceCommit": "23ec158e54705ef6b28e421f4f6db65c360bf124",
+      "testedAgainst": [
+        "0.1.0"
+      ],
+      "publishedAt": "2026-10-16T21:59:04.319Z",
+      "kind": "skill",
+      "id": "skills/edit-in-descript"
+    },
+    {
+      "revision": 1,
+      "minVoyagerVersion": "2026.10.16",
+      "requiredCapabilities": [],
+      "dependencies": [],
+      "suggestedSkills": [],
+      "payload": {
+        "target": "skills/edit-in-effectcraft/e2b47c7ed080e3170cb505953b3f0bad830e80049e5842b4337d855b4dcf1a06.json",
+        "sha256": "e2b47c7ed080e3170cb505953b3f0bad830e80049e5842b4337d855b4dcf1a06",
+        "length": 1573,
+        "mediaType": "application/json"
+      },
+      "title": "edit-in-effectcraft",
+      "summary": "OSS headless After Effects alternative.",
+      "tags": [],
+      "outcomes": [],
+      "prerequisites": [],
+      "sourceCommit": "23ec158e54705ef6b28e421f4f6db65c360bf124",
+      "testedAgainst": [
+        "0.1.0"
+      ],
+      "publishedAt": "2026-10-16T21:59:04.319Z",
+      "kind": "skill",
+      "id": "skills/edit-in-effectcraft"
+    },
+    {
+      "revision": 1,
+      "minVoyagerVersion": "2026.10.16",
+      "requiredCapabilities": [],
+      "dependencies": [],
+      "suggestedSkills": [],
+      "payload": {
+        "target": "skills/edit-in-fframes/a6bb63bc9c84ab2b8596c50d8f229eb51ec39c62a429f9c3be2b9c55251d3675.json",
+        "sha256": "a6bb63bc9c84ab2b8596c50d8f229eb51ec39c62a429f9c3be2b9c55251d3675",
+        "length": 1603,
+        "mediaType": "application/json"
+      },
+      "title": "edit-in-fframes",
+      "summary": "Rust/SVG video framework.",
+      "tags": [],
+      "outcomes": [],
+      "prerequisites": [],
+      "sourceCommit": "23ec158e54705ef6b28e421f4f6db65c360bf124",
+      "testedAgainst": [
+        "0.1.0"
+      ],
+      "publishedAt": "2026-10-16T21:59:04.319Z",
+      "kind": "skill",
+      "id": "skills/edit-in-fframes"
+    },
+    {
+      "revision": 1,
+      "minVoyagerVersion": "2026.10.16",
+      "requiredCapabilities": [],
+      "dependencies": [],
+      "suggestedSkills": [],
+      "payload": {
+        "target": "skills/edit-in-final-cut/8549d4e00cd58dfb5028c1a0bd78caf80b399bb5853d8f0a0bb33bb45f0cdd0a.json",
+        "sha256": "8549d4e00cd58dfb5028c1a0bd78caf80b399bb5853d8f0a0bb33bb45f0cdd0a",
+        "length": 10218,
+        "mediaType": "application/json"
+      },
+      "title": "edit-in-final-cut",
+      "summary": ".",
+      "tags": [],
+      "outcomes": [],
+      "prerequisites": [],
+      "sourceCommit": "23ec158e54705ef6b28e421f4f6db65c360bf124",
+      "testedAgainst": [
+        "0.1.0"
+      ],
+      "publishedAt": "2026-10-16T21:59:04.319Z",
+      "kind": "skill",
+      "id": "skills/edit-in-final-cut"
+    },
+    {
+      "revision": 1,
+      "minVoyagerVersion": "2026.10.16",
+      "requiredCapabilities": [],
+      "dependencies": [],
+      "suggestedSkills": [],
+      "payload": {
+        "target": "skills/edit-in-houdini/cbcf28b4bbe581ce5580168b29975f51cda3effe1a689bd22dfdd62cdc60a58a.json",
+        "sha256": "cbcf28b4bbe581ce5580168b29975f51cda3effe1a689bd22dfdd62cdc60a58a",
+        "length": 1634,
+        "mediaType": "application/json"
+      },
+      "title": "edit-in-houdini",
+      "summary": ".",
+      "tags": [],
+      "outcomes": [],
+      "prerequisites": [],
+      "sourceCommit": "23ec158e54705ef6b28e421f4f6db65c360bf124",
+      "testedAgainst": [
+        "0.1.0"
+      ],
+      "publishedAt": "2026-10-16T21:59:04.319Z",
+      "kind": "skill",
+      "id": "skills/edit-in-houdini"
+    },
+    {
+      "revision": 1,
+      "minVoyagerVersion": "2026.10.16",
+      "requiredCapabilities": [],
+      "dependencies": [],
+      "suggestedSkills": [],
+      "payload": {
+        "target": "skills/edit-in-hyperframes/60199cc1f765c303a15adb29a25c84ee7240fb19d3c029ebc1f6a312e6bff00e.json",
+        "sha256": "60199cc1f765c303a15adb29a25c84ee7240fb19d3c029ebc1f6a312e6bff00e",
+        "length": 9123,
+        "mediaType": "application/json"
+      },
+      "title": "edit-in-hyperframes",
+      "summary": ".",
+      "tags": [],
+      "outcomes": [],
+      "prerequisites": [],
+      "sourceCommit": "23ec158e54705ef6b28e421f4f6db65c360bf124",
+      "testedAgainst": [
+        "0.1.0"
+      ],
+      "publishedAt": "2026-10-16T21:59:04.319Z",
+      "kind": "skill",
+      "id": "skills/edit-in-hyperframes"
+    },
+    {
+      "revision": 1,
+      "minVoyagerVersion": "2026.10.16",
+      "requiredCapabilities": [],
+      "dependencies": [],
+      "suggestedSkills": [],
+      "payload": {
+        "target": "skills/edit-in-illustrator/e87de010356f393a491e798639316b418d934034edb85fe6d9da58cb54d61f86.json",
+        "sha256": "e87de010356f393a491e798639316b418d934034edb85fe6d9da58cb54d61f86",
+        "length": 1440,
+        "mediaType": "application/json"
+      },
+      "title": "edit-in-illustrator",
+      "summary": ".",
+      "tags": [],
+      "outcomes": [],
+      "prerequisites": [],
+      "sourceCommit": "23ec158e54705ef6b28e421f4f6db65c360bf124",
+      "testedAgainst": [
+        "0.1.0"
+      ],
+      "publishedAt": "2026-10-16T21:59:04.319Z",
+      "kind": "skill",
+      "id": "skills/edit-in-illustrator"
+    },
+    {
+      "revision": 1,
+      "minVoyagerVersion": "2026.10.16",
+      "requiredCapabilities": [],
+      "dependencies": [],
+      "suggestedSkills": [],
+      "payload": {
+        "target": "skills/edit-in-lightcraft/0866c8d15781b062bf084cb157003802ee074b4db591c2a188bdab589945c628.json",
+        "sha256": "0866c8d15781b062bf084cb157003802ee074b4db591c2a188bdab589945c628",
+        "length": 1696,
+        "mediaType": "application/json"
+      },
+      "title": "edit-in-lightcraft",
+      "summary": "Batch-develop camera raw photos with exposure, color and lens adjustments. Use when LightCraft is requested or the project already uses it.",
+      "tags": [],
+      "outcomes": [],
+      "prerequisites": [],
+      "sourceCommit": "23ec158e54705ef6b28e421f4f6db65c360bf124",
+      "testedAgainst": [
+        "0.1.0"
+      ],
+      "publishedAt": "2026-10-16T21:59:04.319Z",
+      "kind": "skill",
+      "id": "skills/edit-in-lightcraft"
+    },
+    {
+      "revision": 1,
+      "minVoyagerVersion": "2026.10.16",
+      "requiredCapabilities": [],
+      "dependencies": [],
+      "suggestedSkills": [],
+      "payload": {
+        "target": "skills/edit-in-manim/8551d08b89fa8619223a3a4a3d4da138769e3fd48e273a5de9d06741300fb269.json",
+        "sha256": "8551d08b89fa8619223a3a4a3d4da138769e3fd48e273a5de9d06741300fb269",
+        "length": 5946,
+        "mediaType": "application/json"
+      },
+      "title": "edit-in-manim",
+      "summary": ".",
+      "tags": [],
+      "outcomes": [],
+      "prerequisites": [],
+      "sourceCommit": "23ec158e54705ef6b28e421f4f6db65c360bf124",
+      "testedAgainst": [
+        "0.1.0"
+      ],
+      "publishedAt": "2026-10-16T21:59:04.319Z",
+      "kind": "skill",
+      "id": "skills/edit-in-manim"
+    },
+    {
+      "revision": 1,
+      "minVoyagerVersion": "2026.10.16",
+      "requiredCapabilities": [],
+      "dependencies": [],
+      "suggestedSkills": [],
+      "payload": {
+        "target": "skills/edit-in-photocraft/fa2beef087cfa1ff8a7e2e0afb3da23b458d86b267063701a84538edb99404f7.json",
+        "sha256": "fa2beef087cfa1ff8a7e2e0afb3da23b458d86b267063701a84538edb99404f7",
+        "length": 1868,
+        "mediaType": "application/json"
+      },
+      "title": "edit-in-photocraft",
+      "summary": "OSS headless Photoshop alternative. PSD/PSB.",
+      "tags": [],
+      "outcomes": [],
+      "prerequisites": [],
+      "sourceCommit": "23ec158e54705ef6b28e421f4f6db65c360bf124",
+      "testedAgainst": [
+        "0.1.0"
+      ],
+      "publishedAt": "2026-10-16T21:59:04.319Z",
+      "kind": "skill",
+      "id": "skills/edit-in-photocraft"
+    },
+    {
+      "revision": 1,
+      "minVoyagerVersion": "2026.10.16",
+      "requiredCapabilities": [],
+      "dependencies": [],
+      "suggestedSkills": [],
+      "payload": {
+        "target": "skills/edit-in-photoshop/334c377896ee62fb98ce34f0d9c71caa545e67b716882d401d2484c32fa44f35.json",
+        "sha256": "334c377896ee62fb98ce34f0d9c71caa545e67b716882d401d2484c32fa44f35",
+        "length": 1474,
+        "mediaType": "application/json"
+      },
+      "title": "edit-in-photoshop",
+      "summary": ".",
+      "tags": [],
+      "outcomes": [],
+      "prerequisites": [],
+      "sourceCommit": "23ec158e54705ef6b28e421f4f6db65c360bf124",
+      "testedAgainst": [
+        "0.1.0"
+      ],
+      "publishedAt": "2026-10-16T21:59:04.319Z",
+      "kind": "skill",
+      "id": "skills/edit-in-photoshop"
+    },
+    {
+      "revision": 1,
+      "minVoyagerVersion": "2026.10.16",
+      "requiredCapabilities": [],
+      "dependencies": [],
+      "suggestedSkills": [],
+      "payload": {
+        "target": "skills/edit-in-premiere/d6d80c33d0038f5247fd8e42eb8851c6e77910307988fbc3336310caa7fe886b.json",
+        "sha256": "d6d80c33d0038f5247fd8e42eb8851c6e77910307988fbc3336310caa7fe886b",
+        "length": 1161,
+        "mediaType": "application/json"
+      },
+      "title": "edit-in-premiere",
+      "summary": ".",
+      "tags": [],
+      "outcomes": [],
+      "prerequisites": [],
+      "sourceCommit": "23ec158e54705ef6b28e421f4f6db65c360bf124",
+      "testedAgainst": [
+        "0.1.0"
+      ],
+      "publishedAt": "2026-10-16T21:59:04.319Z",
+      "kind": "skill",
+      "id": "skills/edit-in-premiere"
+    },
+    {
+      "revision": 1,
+      "minVoyagerVersion": "2026.10.16",
+      "requiredCapabilities": [],
+      "dependencies": [],
+      "suggestedSkills": [],
+      "payload": {
+        "target": "skills/edit-in-reaper/e9bee9baa3f5c8324365236d0ccd6da885751dde16a65189c596f9de0a502175.json",
+        "sha256": "e9bee9baa3f5c8324365236d0ccd6da885751dde16a65189c596f9de0a502175",
+        "length": 1637,
+        "mediaType": "application/json"
+      },
+      "title": "edit-in-reaper",
+      "summary": ".",
+      "tags": [],
+      "outcomes": [],
+      "prerequisites": [],
+      "sourceCommit": "23ec158e54705ef6b28e421f4f6db65c360bf124",
+      "testedAgainst": [
+        "0.1.0"
+      ],
+      "publishedAt": "2026-10-16T21:59:04.319Z",
+      "kind": "skill",
+      "id": "skills/edit-in-reaper"
+    },
+    {
+      "revision": 1,
+      "minVoyagerVersion": "2026.10.16",
+      "requiredCapabilities": [],
+      "dependencies": [],
+      "suggestedSkills": [],
+      "payload": {
+        "target": "skills/edit-in-remotion/f05ebe1e1d27f603a282a5c1c2ae7cb00ca5c241037325a5e3dc772da2051d87.json",
+        "sha256": "f05ebe1e1d27f603a282a5c1c2ae7cb00ca5c241037325a5e3dc772da2051d87",
+        "length": 8216,
+        "mediaType": "application/json"
+      },
+      "title": "edit-in-remotion",
+      "summary": ".",
+      "tags": [],
+      "outcomes": [],
+      "prerequisites": [],
+      "sourceCommit": "23ec158e54705ef6b28e421f4f6db65c360bf124",
+      "testedAgainst": [
+        "0.1.0"
+      ],
+      "publishedAt": "2026-10-16T21:59:04.319Z",
+      "kind": "skill",
+      "id": "skills/edit-in-remotion"
+    },
+    {
+      "revision": 1,
+      "minVoyagerVersion": "2026.10.16",
+      "requiredCapabilities": [],
+      "dependencies": [],
+      "suggestedSkills": [],
+      "payload": {
+        "target": "skills/edit-in-resolve/dbac6d813798834be442f2a17b539137762f214fbc39ab42eb5ccb556a2ddcbb.json",
+        "sha256": "dbac6d813798834be442f2a17b539137762f214fbc39ab42eb5ccb556a2ddcbb",
+        "length": 37553,
+        "mediaType": "application/json"
+      },
+      "title": "edit-in-resolve",
+      "summary": ".",
+      "tags": [],
+      "outcomes": [],
+      "prerequisites": [],
+      "sourceCommit": "23ec158e54705ef6b28e421f4f6db65c360bf124",
+      "testedAgainst": [
+        "0.1.0"
+      ],
+      "publishedAt": "2026-10-16T21:59:04.319Z",
+      "kind": "skill",
+      "id": "skills/edit-in-resolve"
+    },
+    {
+      "revision": 1,
+      "minVoyagerVersion": "2026.10.16",
+      "requiredCapabilities": [],
+      "dependencies": [],
+      "suggestedSkills": [],
+      "payload": {
+        "target": "skills/edit-in-tesseract/baee1de1cd9601896ab0e9e3f9c295d7be22031e3a561f93a731c464d65de244.json",
+        "sha256": "baee1de1cd9601896ab0e9e3f9c295d7be22031e3a561f93a731c464d65de244",
+        "length": 1677,
+        "mediaType": "application/json"
+      },
+      "title": "edit-in-tesseract",
+      "summary": "Layered .tsrct video and motion.",
+      "tags": [],
+      "outcomes": [],
+      "prerequisites": [],
+      "sourceCommit": "23ec158e54705ef6b28e421f4f6db65c360bf124",
+      "testedAgainst": [
+        "0.1.0"
+      ],
+      "publishedAt": "2026-10-16T21:59:04.319Z",
+      "kind": "skill",
+      "id": "skills/edit-in-tesseract"
+    },
+    {
+      "revision": 1,
+      "minVoyagerVersion": "2026.10.16",
+      "requiredCapabilities": [],
+      "dependencies": [],
+      "suggestedSkills": [],
+      "payload": {
+        "target": "skills/edit-in-vectorcraft/3a2a0f142a4c88b6f229fc26d0a65ba9b6c28722da53c2bae5b2fb958401e660.json",
+        "sha256": "3a2a0f142a4c88b6f229fc26d0a65ba9b6c28722da53c2bae5b2fb958401e660",
+        "length": 1606,
+        "mediaType": "application/json"
+      },
+      "title": "edit-in-vectorcraft",
+      "summary": "Open, edit and convert Illustrator, EPS and SVG artwork without Illustrator. Use when VectorCraft is requested or the project already uses it.",
+      "tags": [],
+      "outcomes": [],
+      "prerequisites": [],
+      "sourceCommit": "23ec158e54705ef6b28e421f4f6db65c360bf124",
+      "testedAgainst": [
+        "0.1.0"
+      ],
+      "publishedAt": "2026-10-16T21:59:04.319Z",
+      "kind": "skill",
+      "id": "skills/edit-in-vectorcraft"
+    },
+    {
+      "revision": 1,
+      "minVoyagerVersion": "2026.10.16",
+      "requiredCapabilities": [],
+      "dependencies": [],
+      "suggestedSkills": [],
+      "payload": {
+        "target": "skills/edit-video/0c12519ae6d702e858cd11cbde3622fa9bd0653f8dc06493e64da25b47a7f6ce.json",
+        "sha256": "0c12519ae6d702e858cd11cbde3622fa9bd0653f8dc06493e64da25b47a7f6ce",
+        "length": 20869,
+        "mediaType": "application/json"
+      },
+      "title": "edit-video",
+      "summary": "Find, cut and finish local footage; transcript edits, captions, reframing, grading and audio.",
+      "tags": [],
+      "outcomes": [],
+      "prerequisites": [],
+      "sourceCommit": "23ec158e54705ef6b28e421f4f6db65c360bf124",
+      "testedAgainst": [
+        "0.1.0"
+      ],
+      "publishedAt": "2026-10-16T21:59:04.319Z",
+      "kind": "skill",
+      "id": "skills/edit-video"
+    },
+    {
+      "revision": 1,
+      "minVoyagerVersion": "2026.10.16",
+      "requiredCapabilities": [],
+      "dependencies": [],
+      "suggestedSkills": [],
+      "payload": {
+        "target": "skills/figma/55d63a69df2451c0689f23568c76da9e55a05c5aaf6dedac86233975ea280604.json",
+        "sha256": "55d63a69df2451c0689f23568c76da9e55a05c5aaf6dedac86233975ea280604",
+        "length": 152169,
+        "mediaType": "application/json"
+      },
+      "title": "figma",
+      "summary": "Extract Figma assets and design details from links, .fig/.deck files or copied selections. Not for new designs or brand kits.",
+      "tags": [],
+      "outcomes": [],
+      "prerequisites": [],
+      "sourceCommit": "23ec158e54705ef6b28e421f4f6db65c360bf124",
+      "testedAgainst": [
+        "0.1.0"
+      ],
+      "publishedAt": "2026-10-16T21:59:04.319Z",
+      "kind": "skill",
+      "id": "skills/figma"
+    },
+    {
+      "revision": 1,
+      "minVoyagerVersion": "2026.10.16",
+      "requiredCapabilities": [],
+      "dependencies": [],
+      "suggestedSkills": [],
+      "payload": {
+        "target": "skills/find-samples/0e30c953c560c625c342ed3648f9ef3775f7956a2159f26e042c85a3345d7863.json",
+        "sha256": "0e30c953c560c625c342ed3648f9ef3775f7956a2159f26e042c85a3345d7863",
+        "length": 5476,
+        "mediaType": "application/json"
+      },
+      "title": "find-samples",
+      "summary": "Find matching samples in local libraries.",
+      "tags": [],
+      "outcomes": [],
+      "prerequisites": [],
+      "sourceCommit": "23ec158e54705ef6b28e421f4f6db65c360bf124",
+      "testedAgainst": [
+        "0.1.0"
+      ],
+      "publishedAt": "2026-10-16T21:59:04.319Z",
+      "kind": "skill",
+      "id": "skills/find-samples"
+    },
+    {
+      "revision": 1,
+      "minVoyagerVersion": "2026.10.16",
+      "requiredCapabilities": [],
+      "dependencies": [],
+      "suggestedSkills": [],
+      "payload": {
+        "target": "skills/gpu-machines/894c1b50a691f6b97fa8acd32436b6ca2e01e37257059b4baa9bb44df2fb1928.json",
+        "sha256": "894c1b50a691f6b97fa8acd32436b6ca2e01e37257059b4baa9bb44df2fb1928",
+        "length": 133004,
+        "mediaType": "application/json"
+      },
+      "title": "gpu-machines",
+      "summary": "Run heavy or CUDA-only work on Voyager GPUs (remote machines) - long renders, simulations, training, model inference, live previews - and reconnect to, snapshot, pause or resume that work. Not for quick local work.",
+      "tags": [],
+      "outcomes": [],
+      "prerequisites": [],
+      "sourceCommit": "23ec158e54705ef6b28e421f4f6db65c360bf124",
+      "testedAgainst": [
+        "0.1.0"
+      ],
+      "publishedAt": "2026-10-16T21:59:04.319Z",
+      "kind": "skill",
+      "id": "skills/gpu-machines"
+    },
+    {
+      "revision": 1,
+      "minVoyagerVersion": "2026.10.16",
+      "requiredCapabilities": [],
+      "dependencies": [],
+      "suggestedSkills": [],
+      "payload": {
+        "target": "skills/make-ai-video/1c90ca396dedf71021f598fff4b5b171c5da93ad41e3a4137cc3ed30f2472dad.json",
+        "sha256": "1c90ca396dedf71021f598fff4b5b171c5da93ad41e3a4137cc3ed30f2472dad",
+        "length": 316098,
+        "mediaType": "application/json"
+      },
+      "title": "make-ai-video",
+      "summary": "Generate clips, ads and commercials, animate images, restyle footage, storyboard and assemble films.",
+      "tags": [],
+      "outcomes": [],
+      "prerequisites": [],
+      "sourceCommit": "23ec158e54705ef6b28e421f4f6db65c360bf124",
+      "testedAgainst": [
+        "0.1.0"
+      ],
+      "publishedAt": "2026-10-16T21:59:04.319Z",
+      "kind": "skill",
+      "id": "skills/make-ai-video"
+    },
+    {
+      "revision": 1,
+      "minVoyagerVersion": "2026.10.16",
+      "requiredCapabilities": [],
+      "dependencies": [],
+      "suggestedSkills": [],
+      "payload": {
+        "target": "skills/make-announcement-video/9ee9c37df2b3aa5cfd4c6a6c5cf7ed3a9726c24254e6321a235a52332487c432.json",
+        "sha256": "9ee9c37df2b3aa5cfd4c6a6c5cf7ed3a9726c24254e6321a235a52332487c432",
+        "length": 29732,
+        "mediaType": "application/json"
+      },
+      "title": "make-announcement-video",
+      "summary": "Short company news and milestone motion posts without product screens; a launch video from product screenshots or recordings is make-product-demo.",
+      "tags": [],
+      "outcomes": [],
+      "prerequisites": [],
+      "sourceCommit": "23ec158e54705ef6b28e421f4f6db65c360bf124",
+      "testedAgainst": [
+        "0.1.0"
+      ],
+      "publishedAt": "2026-10-16T21:59:04.319Z",
+      "kind": "skill",
+      "id": "skills/make-announcement-video"
+    },
+    {
+      "revision": 1,
+      "minVoyagerVersion": "2026.10.16",
+      "requiredCapabilities": [],
+      "dependencies": [],
+      "suggestedSkills": [],
+      "payload": {
+        "target": "skills/make-deck/76cd684c591984f6b85ecf98b7f5a7da2c101d9654b00342ecbefddca6417d6f.json",
+        "sha256": "76cd684c591984f6b85ecf98b7f5a7da2c101d9654b00342ecbefddca6417d6f",
+        "length": 11862,
+        "mediaType": "application/json"
+      },
+      "title": "make-deck",
+      "summary": "Slides and presentations; PPTX or PDF.",
+      "tags": [],
+      "outcomes": [],
+      "prerequisites": [],
+      "sourceCommit": "23ec158e54705ef6b28e421f4f6db65c360bf124",
+      "testedAgainst": [
+        "0.1.0"
+      ],
+      "publishedAt": "2026-10-16T21:59:04.319Z",
+      "kind": "skill",
+      "id": "skills/make-deck"
+    },
+    {
+      "revision": 1,
+      "minVoyagerVersion": "2026.10.16",
+      "requiredCapabilities": [],
+      "dependencies": [],
+      "suggestedSkills": [],
+      "payload": {
+        "target": "skills/make-design/46969274c53446d08e38cd3bc7498beeb9b9a8daf9eab630e44314fab64cb1a2.json",
+        "sha256": "46969274c53446d08e38cd3bc7498beeb9b9a8daf9eab630e44314fab64cb1a2",
+        "length": 13205,
+        "mediaType": "application/json"
+      },
+      "title": "make-design",
+      "summary": "Static layouts, posters, social graphics, logos and drawn illustrations.",
+      "tags": [],
+      "outcomes": [],
+      "prerequisites": [],
+      "sourceCommit": "23ec158e54705ef6b28e421f4f6db65c360bf124",
+      "testedAgainst": [
+        "0.1.0"
+      ],
+      "publishedAt": "2026-10-16T21:59:04.319Z",
+      "kind": "skill",
+      "id": "skills/make-design"
+    },
+    {
+      "revision": 1,
+      "minVoyagerVersion": "2026.10.16",
+      "requiredCapabilities": [],
+      "dependencies": [],
+      "suggestedSkills": [],
+      "payload": {
+        "target": "skills/make-game/2c03c0ee714f1e65151cc76a24f95850d5c7f30497b316ab5d1b5862458cee21.json",
+        "sha256": "2c03c0ee714f1e65151cc76a24f95850d5c7f30497b316ab5d1b5862458cee21",
+        "length": 9912,
+        "mediaType": "application/json"
+      },
+      "title": "make-game",
+      "summary": "Build, change and playtest desktop games in Godot, LÖVE, Pygame, Bevy, Defold or GameMaker.",
+      "tags": [],
+      "outcomes": [],
+      "prerequisites": [],
+      "sourceCommit": "23ec158e54705ef6b28e421f4f6db65c360bf124",
+      "testedAgainst": [
+        "0.1.0"
+      ],
+      "publishedAt": "2026-10-16T21:59:04.319Z",
+      "kind": "skill",
+      "id": "skills/make-game"
+    },
+    {
+      "revision": 1,
+      "minVoyagerVersion": "2026.10.16",
+      "requiredCapabilities": [],
+      "dependencies": [],
+      "suggestedSkills": [],
+      "payload": {
+        "target": "skills/make-image/9fc78346ed86ed4082ddb0219ff97707753c6a3991d7142ebb3a4d0b2307e299.json",
+        "sha256": "9fc78346ed86ed4082ddb0219ff97707753c6a3991d7142ebb3a4d0b2307e299",
+        "length": 40867,
+        "mediaType": "application/json"
+      },
+      "title": "make-image",
+      "summary": "Generate or edit standalone images; upscale, cutout and vectorize.",
+      "tags": [],
+      "outcomes": [],
+      "prerequisites": [],
+      "sourceCommit": "23ec158e54705ef6b28e421f4f6db65c360bf124",
+      "testedAgainst": [
+        "0.1.0"
+      ],
+      "publishedAt": "2026-10-16T21:59:04.319Z",
+      "kind": "skill",
+      "id": "skills/make-image"
+    },
+    {
+      "revision": 1,
+      "minVoyagerVersion": "2026.10.16",
+      "requiredCapabilities": [],
+      "dependencies": [],
+      "suggestedSkills": [],
+      "payload": {
+        "target": "skills/make-motion-graphics/a8e75c293623352a3f48576468cde35640edf223756bb336cc406c28c55c1d38.json",
+        "sha256": "a8e75c293623352a3f48576468cde35640edf223756bb336cc406c28c55c1d38",
+        "length": 31789,
+        "mediaType": "application/json"
+      },
+      "title": "make-motion-graphics",
+      "summary": "Editable motion graphics, animated type, explainers, charts, captions and overlays.",
+      "tags": [],
+      "outcomes": [],
+      "prerequisites": [],
+      "sourceCommit": "23ec158e54705ef6b28e421f4f6db65c360bf124",
+      "testedAgainst": [
+        "0.1.0"
+      ],
+      "publishedAt": "2026-10-16T21:59:04.319Z",
+      "kind": "skill",
+      "id": "skills/make-motion-graphics"
+    },
+    {
+      "revision": 1,
+      "minVoyagerVersion": "2026.10.16",
+      "requiredCapabilities": [],
+      "dependencies": [],
+      "suggestedSkills": [],
+      "payload": {
+        "target": "skills/make-music/789b885ffd6d8d330cf1f92e2c5fa327afa69be32f3a465cb36d948661189067.json",
+        "sha256": "789b885ffd6d8d330cf1f92e2c5fa327afa69be32f3a465cb36d948661189067",
+        "length": 23879,
+        "mediaType": "application/json"
+      },
+      "title": "make-music",
+      "summary": "Compose or revise original tracks, beats, loops, songs and video scores.",
+      "tags": [],
+      "outcomes": [],
+      "prerequisites": [],
+      "sourceCommit": "23ec158e54705ef6b28e421f4f6db65c360bf124",
+      "testedAgainst": [
+        "0.1.0"
+      ],
+      "publishedAt": "2026-10-16T21:59:04.319Z",
+      "kind": "skill",
+      "id": "skills/make-music"
+    },
+    {
+      "revision": 1,
+      "minVoyagerVersion": "2026.10.16",
+      "requiredCapabilities": [],
+      "dependencies": [],
+      "suggestedSkills": [],
+      "payload": {
+        "target": "skills/make-product-demo/549a454496dddc16d690974fb51cf17dabcb35f2e17472b86ea362d5675031ec.json",
+        "sha256": "549a454496dddc16d690974fb51cf17dabcb35f2e17472b86ea362d5675031ec",
+        "length": 19891,
+        "mediaType": "application/json"
+      },
+      "title": "make-product-demo",
+      "summary": "Software walkthroughs, tutorials, app promos, launch videos and interactive demos from real product UI, screenshots or recordings; recording optional.",
+      "tags": [],
+      "outcomes": [],
+      "prerequisites": [],
+      "sourceCommit": "23ec158e54705ef6b28e421f4f6db65c360bf124",
+      "testedAgainst": [
+        "0.1.0"
+      ],
+      "publishedAt": "2026-10-16T21:59:04.319Z",
+      "kind": "skill",
+      "id": "skills/make-product-demo"
+    },
+    {
+      "revision": 1,
+      "minVoyagerVersion": "2026.10.16",
+      "requiredCapabilities": [],
+      "dependencies": [],
+      "suggestedSkills": [],
+      "payload": {
+        "target": "skills/make-social-loop/abda1e276da93355ac1e899c6459624cfdf0f7b64daebce5b7da12626d3ed07a.json",
+        "sha256": "abda1e276da93355ac1e899c6459624cfdf0f7b64daebce5b7da12626d3ed07a",
+        "length": 18104,
+        "mediaType": "application/json"
+      },
+      "title": "make-social-loop",
+      "summary": "Seamless social loops, GIFs, stickers and ambient backgrounds.",
+      "tags": [],
+      "outcomes": [],
+      "prerequisites": [],
+      "sourceCommit": "23ec158e54705ef6b28e421f4f6db65c360bf124",
+      "testedAgainst": [
+        "0.1.0"
+      ],
+      "publishedAt": "2026-10-16T21:59:04.319Z",
+      "kind": "skill",
+      "id": "skills/make-social-loop"
+    },
+    {
+      "revision": 1,
+      "minVoyagerVersion": "2026.10.16",
+      "requiredCapabilities": [],
+      "dependencies": [],
+      "suggestedSkills": [],
+      "payload": {
+        "target": "skills/make-sound/4ba60a019e9aed527cb1e1d44ca16abe89db5daf4160a01f8041ee15dc3926c6.json",
+        "sha256": "4ba60a019e9aed527cb1e1d44ca16abe89db5daf4160a01f8041ee15dc3926c6",
+        "length": 25429,
+        "mediaType": "application/json"
+      },
+      "title": "make-sound",
+      "summary": "Sound effects and video soundtrack mixing.",
+      "tags": [],
+      "outcomes": [],
+      "prerequisites": [],
+      "sourceCommit": "23ec158e54705ef6b28e421f4f6db65c360bf124",
+      "testedAgainst": [
+        "0.1.0"
+      ],
+      "publishedAt": "2026-10-16T21:59:04.319Z",
+      "kind": "skill",
+      "id": "skills/make-sound"
+    },
+    {
+      "revision": 1,
+      "minVoyagerVersion": "2026.10.16",
+      "requiredCapabilities": [],
+      "dependencies": [],
+      "suggestedSkills": [],
+      "payload": {
+        "target": "skills/make-web-game/95e5fb871f75ede243617943ae3b7d5565407b86c0be05212edb9ef2eb3ec786.json",
+        "sha256": "95e5fb871f75ede243617943ae3b7d5565407b86c0be05212edb9ef2eb3ec786",
+        "length": 8303,
+        "mediaType": "application/json"
+      },
+      "title": "make-web-game",
+      "summary": "Build and playtest browser games with three.js, Phaser, PixiJS, Babylon.js, PlayCanvas or KAPLAY.",
+      "tags": [],
+      "outcomes": [],
+      "prerequisites": [],
+      "sourceCommit": "23ec158e54705ef6b28e421f4f6db65c360bf124",
+      "testedAgainst": [
+        "0.1.0"
+      ],
+      "publishedAt": "2026-10-16T21:59:04.319Z",
+      "kind": "skill",
+      "id": "skills/make-web-game"
+    },
+    {
+      "revision": 1,
+      "minVoyagerVersion": "2026.10.16",
+      "requiredCapabilities": [],
+      "dependencies": [],
+      "suggestedSkills": [],
+      "payload": {
+        "target": "skills/make-x-game/e4514e28ae062bc81d31647a26c526ceff363c9c840b666da70e3b73409c7ff2.json",
+        "sha256": "e4514e28ae062bc81d31647a26c526ceff363c9c840b666da70e3b73409c7ff2",
+        "length": 18250,
+        "mediaType": "application/json"
+      },
+      "title": "make-x-game",
+      "summary": "Playable browser games for X posts and player cards.",
+      "tags": [],
+      "outcomes": [],
+      "prerequisites": [],
+      "sourceCommit": "23ec158e54705ef6b28e421f4f6db65c360bf124",
+      "testedAgainst": [
+        "0.1.0"
+      ],
+      "publishedAt": "2026-10-16T21:59:04.319Z",
+      "kind": "skill",
+      "id": "skills/make-x-game"
+    },
+    {
+      "revision": 1,
+      "minVoyagerVersion": "2026.10.16",
+      "requiredCapabilities": [],
+      "dependencies": [],
+      "suggestedSkills": [],
+      "payload": {
+        "target": "skills/mini-flows/cbce6ed49876c0e88985912caddf30c9110e24fd2afca8780eb1916ba435dd53.json",
+        "sha256": "cbce6ed49876c0e88985912caddf30c9110e24fd2afca8780eb1916ba435dd53",
+        "length": 118660,
+        "mediaType": "application/json"
+      },
+      "title": "mini-flows",
+      "summary": "Chained media generations and variants with intermediate choices in the Flows panel.",
+      "tags": [],
+      "outcomes": [],
+      "prerequisites": [],
+      "sourceCommit": "23ec158e54705ef6b28e421f4f6db65c360bf124",
+      "testedAgainst": [
+        "0.1.0"
+      ],
+      "publishedAt": "2026-10-16T21:59:04.319Z",
+      "kind": "skill",
+      "id": "skills/mini-flows"
+    },
+    {
+      "revision": 1,
+      "minVoyagerVersion": "2026.10.16",
+      "requiredCapabilities": [],
+      "dependencies": [],
+      "suggestedSkills": [],
+      "payload": {
+        "target": "skills/publish-game/d42bf62e31c6105f8476dc87b3dfe5f40bfde498d211ed00572a8af149394629.json",
+        "sha256": "d42bf62e31c6105f8476dc87b3dfe5f40bfde498d211ed00572a8af149394629",
+        "length": 9034,
+        "mediaType": "application/json"
+      },
+      "title": "publish-game",
+      "summary": "Publish, update or unpublish static HTML/JavaScript games on voyager.site.",
+      "tags": [],
+      "outcomes": [],
+      "prerequisites": [],
+      "sourceCommit": "23ec158e54705ef6b28e421f4f6db65c360bf124",
+      "testedAgainst": [
+        "0.1.0"
+      ],
+      "publishedAt": "2026-10-16T21:59:04.319Z",
+      "kind": "skill",
+      "id": "skills/publish-game"
+    },
+    {
+      "revision": 1,
+      "minVoyagerVersion": "2026.10.16",
+      "requiredCapabilities": [],
+      "dependencies": [],
+      "suggestedSkills": [],
+      "payload": {
+        "target": "skills/publish-to-itch/6a0124df7f08c15f0df9ed8ebbc2ef418e4d9f0e0aa80101cb549f495435ebbb.json",
+        "sha256": "6a0124df7f08c15f0df9ed8ebbc2ef418e4d9f0e0aa80101cb549f495435ebbb",
+        "length": 1155,
+        "mediaType": "application/json"
+      },
+      "title": "publish-to-itch",
+      "summary": "Upload game builds with butler.",
+      "tags": [],
+      "outcomes": [],
+      "prerequisites": [],
+      "sourceCommit": "23ec158e54705ef6b28e421f4f6db65c360bf124",
+      "testedAgainst": [
+        "0.1.0"
+      ],
+      "publishedAt": "2026-10-16T21:59:04.319Z",
+      "kind": "skill",
+      "id": "skills/publish-to-itch"
+    },
+    {
+      "revision": 1,
+      "minVoyagerVersion": "2026.10.16",
+      "requiredCapabilities": [],
+      "dependencies": [],
+      "suggestedSkills": [],
+      "payload": {
+        "target": "skills/publish-video/d1d30a9eef96030aae55d3041605221fd33a16260216fdf6f1f4b9c5761d47d4.json",
+        "sha256": "d1d30a9eef96030aae55d3041605221fd33a16260216fdf6f1f4b9c5761d47d4",
+        "length": 17196,
+        "mediaType": "application/json"
+      },
+      "title": "publish-video",
+      "summary": "Publish, draft or schedule videos on YouTube and TikTok; check existing posts.",
+      "tags": [],
+      "outcomes": [],
+      "prerequisites": [],
+      "sourceCommit": "23ec158e54705ef6b28e421f4f6db65c360bf124",
+      "testedAgainst": [
+        "0.1.0"
+      ],
+      "publishedAt": "2026-10-16T21:59:04.319Z",
+      "kind": "skill",
+      "id": "skills/publish-video"
+    },
+    {
+      "revision": 1,
+      "minVoyagerVersion": "2026.10.16",
+      "requiredCapabilities": [],
+      "dependencies": [],
+      "suggestedSkills": [],
+      "payload": {
+        "target": "skills/record-in-obs/fae982cd7a47e224472f73730e90d9e8ee4d8ac8d72b63aa2b0838a26f67ebb4.json",
+        "sha256": "fae982cd7a47e224472f73730e90d9e8ee4d8ac8d72b63aa2b0838a26f67ebb4",
+        "length": 366,
+        "mediaType": "application/json"
+      },
+      "title": "record-in-obs",
+      "summary": ".",
+      "tags": [],
+      "outcomes": [],
+      "prerequisites": [],
+      "sourceCommit": "23ec158e54705ef6b28e421f4f6db65c360bf124",
+      "testedAgainst": [
+        "0.1.0"
+      ],
+      "publishedAt": "2026-10-16T21:59:04.319Z",
+      "kind": "skill",
+      "id": "skills/record-in-obs"
+    },
+    {
+      "revision": 1,
+      "minVoyagerVersion": "2026.10.16",
+      "requiredCapabilities": [],
+      "dependencies": [],
+      "suggestedSkills": [],
+      "payload": {
+        "target": "skills/room-to-video/d589aafac618b5e4157ad452699c8a081bbf826c2dbb885cc8d25fe1d61138b9.json",
+        "sha256": "d589aafac618b5e4157ad452699c8a081bbf826c2dbb885cc8d25fe1d61138b9",
+        "length": 51451,
+        "mediaType": "application/json"
+      },
+      "title": "room-to-video",
+      "summary": "Reconstruct real rooms from photos/video; editable Blender camera paths and generated walkthroughs.",
+      "tags": [],
+      "outcomes": [],
+      "prerequisites": [],
+      "sourceCommit": "23ec158e54705ef6b28e421f4f6db65c360bf124",
+      "testedAgainst": [
+        "0.1.0"
+      ],
+      "publishedAt": "2026-10-16T21:59:04.319Z",
+      "kind": "skill",
+      "id": "skills/room-to-video"
+    },
+    {
+      "revision": 1,
+      "minVoyagerVersion": "2026.10.16",
+      "requiredCapabilities": [],
+      "dependencies": [],
+      "suggestedSkills": [],
+      "payload": {
+        "target": "skills/screen-capture/5810693c8bca4df64d489cf7b6e1d7188d1f17751062224d32889d63eddb405c.json",
+        "sha256": "5810693c8bca4df64d489cf7b6e1d7188d1f17751062224d32889d63eddb405c",
+        "length": 15736,
+        "mediaType": "application/json"
+      },
+      "title": "screen-capture",
+      "summary": "Record screen, window, camera and audio with editable cursor telemetry; style presenter camera tracks.",
+      "tags": [],
+      "outcomes": [],
+      "prerequisites": [],
+      "sourceCommit": "23ec158e54705ef6b28e421f4f6db65c360bf124",
+      "testedAgainst": [
+        "0.1.0"
+      ],
+      "publishedAt": "2026-10-16T21:59:04.319Z",
+      "kind": "skill",
+      "id": "skills/screen-capture"
+    },
+    {
+      "revision": 1,
+      "minVoyagerVersion": "2026.10.16",
+      "requiredCapabilities": [],
+      "dependencies": [],
+      "suggestedSkills": [],
+      "payload": {
+        "target": "skills/use-comfyui/a4134dfb1a928cf0b07e8f6b948d3f521cc4bd93184a7f9517923bfb05ad783c.json",
+        "sha256": "a4134dfb1a928cf0b07e8f6b948d3f521cc4bd93184a7f9517923bfb05ad783c",
+        "length": 1328,
+        "mediaType": "application/json"
+      },
+      "title": "use-comfyui",
+      "summary": ".",
+      "tags": [],
+      "outcomes": [],
+      "prerequisites": [],
+      "sourceCommit": "23ec158e54705ef6b28e421f4f6db65c360bf124",
+      "testedAgainst": [
+        "0.1.0"
+      ],
+      "publishedAt": "2026-10-16T21:59:04.319Z",
+      "kind": "skill",
+      "id": "skills/use-comfyui"
+    },
+    {
+      "revision": 1,
+      "minVoyagerVersion": "2026.10.16",
+      "requiredCapabilities": [],
+      "dependencies": [],
+      "suggestedSkills": [],
+      "payload": {
+        "target": "skills/use-computer/e6dead783f1286d103efd2f3e2ddbc2b997beaf537f51bc34cccf7d16a6c71c3.json",
+        "sha256": "e6dead783f1286d103efd2f3e2ddbc2b997beaf537f51bc34cccf7d16a6c71c3",
+        "length": 20786,
+        "mediaType": "application/json"
+      },
+      "title": "use-computer",
+      "summary": "Operate app interfaces for steps without an integration or browser tool.",
+      "tags": [],
+      "outcomes": [],
+      "prerequisites": [],
+      "sourceCommit": "23ec158e54705ef6b28e421f4f6db65c360bf124",
+      "testedAgainst": [
+        "0.1.0"
+      ],
+      "publishedAt": "2026-10-16T21:59:04.319Z",
+      "kind": "skill",
+      "id": "skills/use-computer"
+    },
+    {
+      "revision": 1,
+      "minVoyagerVersion": "2026.10.16",
+      "requiredCapabilities": [],
+      "dependencies": [],
+      "suggestedSkills": [],
+      "payload": {
+        "target": "skills/use-pixellab/52256bf227333ba8aed715464ae7312f2ad67aec32c6a6ecf33e8c0613b4242c.json",
+        "sha256": "52256bf227333ba8aed715464ae7312f2ad67aec32c6a6ecf33e8c0613b4242c",
+        "length": 1185,
+        "mediaType": "application/json"
+      },
+      "title": "use-pixellab",
+      "summary": "Pixel-art sprites, animations and tilesets.",
+      "tags": [],
+      "outcomes": [],
+      "prerequisites": [],
+      "sourceCommit": "23ec158e54705ef6b28e421f4f6db65c360bf124",
+      "testedAgainst": [
+        "0.1.0"
+      ],
+      "publishedAt": "2026-10-16T21:59:04.319Z",
+      "kind": "skill",
+      "id": "skills/use-pixellab"
+    },
+    {
+      "revision": 1,
+      "minVoyagerVersion": "2026.10.16",
+      "requiredCapabilities": [],
+      "dependencies": [],
+      "suggestedSkills": [],
+      "payload": {
+        "target": "skills/video-styles/e4632491462d5ca89dfb07fe233832042a8e01fbb88c662d12ce808374596bd5.json",
+        "sha256": "e4632491462d5ca89dfb07fe233832042a8e01fbb88c662d12ce808374596bd5",
+        "length": 41444,
+        "mediaType": "application/json"
+      },
+      "title": "video-styles",
+      "summary": "Style guides for named or stylized video looks.",
+      "tags": [],
+      "outcomes": [],
+      "prerequisites": [],
+      "sourceCommit": "23ec158e54705ef6b28e421f4f6db65c360bf124",
+      "testedAgainst": [
+        "0.1.0"
+      ],
+      "publishedAt": "2026-10-16T21:59:04.319Z",
+      "kind": "skill",
+      "id": "skills/video-styles"
+    },
+    {
+      "revision": 1,
+      "minVoyagerVersion": "2026.10.16",
+      "requiredCapabilities": [],
+      "dependencies": [],
+      "suggestedSkills": [],
+      "payload": {
+        "target": "skills/voiceover/cd511386947c799396047b9eb2634c86a31b29f10fbe9c5269ab0a183c2ed340.json",
+        "sha256": "cd511386947c799396047b9eb2634c86a31b29f10fbe9c5269ab0a183c2ed340",
+        "length": 80369,
+        "mediaType": "application/json"
+      },
+      "title": "voiceover",
+      "summary": "Cast and generate narration; clean, repair, mix and deliver audio recordings.",
+      "tags": [],
+      "outcomes": [],
+      "prerequisites": [],
+      "sourceCommit": "23ec158e54705ef6b28e421f4f6db65c360bf124",
+      "testedAgainst": [
+        "0.1.0"
+      ],
+      "publishedAt": "2026-10-16T21:59:04.319Z",
+      "kind": "skill",
+      "id": "skills/voiceover"
+    },
+    {
+      "revision": 1,
+      "minVoyagerVersion": "2026.10.16",
+      "requiredCapabilities": [],
+      "dependencies": [],
+      "suggestedSkills": [],
+      "payload": {
+        "target": "skills/voyager-setup/70cb9da595953b3e59ba766d902b70bec992fff7290d84b6474624e6e70b392a.json",
+        "sha256": "70cb9da595953b3e59ba766d902b70bec992fff7290d84b6474624e6e70b392a",
+        "length": 3276,
+        "mediaType": "application/json"
+      },
+      "title": "voyager-setup",
+      "summary": "Troubleshoot CLI setup, sign-in, workspaces, desktop companion and managed skills.",
+      "tags": [],
+      "outcomes": [],
+      "prerequisites": [],
+      "sourceCommit": "23ec158e54705ef6b28e421f4f6db65c360bf124",
+      "testedAgainst": [
+        "0.1.0"
+      ],
+      "publishedAt": "2026-10-16T21:59:04.319Z",
+      "kind": "skill",
+      "id": "skills/voyager-setup"
+    },
+    {
+      "revision": 1,
+      "minVoyagerVersion": "2026.10.16",
+      "requiredCapabilities": [],
+      "dependencies": [],
+      "suggestedSkills": [],
+      "payload": {
+        "target": "skills/widgets/362fc84b5839dd178962f37b2c95a68cdf24f84c0edc2a76e8814a40e89a1aef.json",
+        "sha256": "362fc84b5839dd178962f37b2c95a68cdf24f84c0edc2a76e8814a40e89a1aef",
+        "length": 118229,
+        "mediaType": "application/json"
+      },
+      "title": "widgets",
+      "summary": "Interactive cards in the chat: let the user pick, approve or review media and settings, or explain, visualize and animate.",
+      "tags": [],
+      "outcomes": [],
+      "prerequisites": [],
+      "sourceCommit": "23ec158e54705ef6b28e421f4f6db65c360bf124",
+      "testedAgainst": [
+        "0.1.0"
+      ],
+      "publishedAt": "2026-10-16T21:59:04.319Z",
+      "kind": "skill",
+      "id": "skills/widgets"
+    }
+  ]
+}
