@@ -6,6 +6,7 @@ import { pathToFileURL } from 'node:url';
 import { PUBLIC_KEY, KEY_ID } from './content-public-key.mjs';
 import { Schema } from 'effect';
 import { ContentCatalog, ContentRevision } from './content-schema.mjs';
+import { openAIEmbedder, recommendationsFor } from './content-embeddings.mjs';
 
 const MAX_BYTES = 8 * 1024 * 1024;
 const hash = bytes => createHash('sha256').update(bytes).digest('hex');
@@ -161,7 +162,12 @@ export async function publishContent(options, trust = { publicKey: PUBLIC_KEY, k
       }
     }
     const refs = options.refs?.filter(ref => ref.startsWith(namespace + '/'));
-    const next = updateCatalog(previous, namespace, { entries, now, action: refs?.length ? options.action : 'refresh', refs, evidence: options.evidence, reason: options.reason });
+    const updated = updateCatalog(previous, namespace, { entries, now, action: refs?.length ? options.action : 'refresh', refs, evidence: options.evidence, reason: options.reason });
+    // Only refreshes embed new revisions; emergency operations carry the signed vectors forward.
+    const recommendations = namespace === 'techniques'
+      ? await recommendationsFor(updated, previous?.recommendations, { featured: JSON.parse(await readOptional(join(options.root, 'content/featured.json')) ?? '[]'), embed: options.action === 'refresh' ? options.embed : undefined })
+      : undefined;
+    const next = recommendations ? requireCatalog({ ...updated, recommendations }, namespace) : updated;
     planned.push({ namespace, catalog:next, envelope:signCatalog(next, namespace, key, trust.keyId) });
   }
   // Both namespaces validate before either pointer is written; Git publishes all files in one commit.
@@ -178,5 +184,5 @@ if (process.argv[1] && import.meta.url === pathToFileURL(resolve(process.argv[1]
   const { values } = parseArgs({ options: { action: {type:'string',default:'refresh'}, refs:{type:'string'}, evidence:{type:'string'}, reason:{type:'string'}, techniques:{type:'string'} } });
   if (!['refresh','promote','revoke'].includes(values.action)) throw new Error('Unknown action.');
   if (values.techniques && values.techniques !== 'https://voyager.so/techniques/export.json') throw new Error('Only the reviewed website export is accepted.');
-  console.log(JSON.stringify(await publishContent({ root: process.cwd(), privateKey: process.env.VOYAGER_CONTENT_SIGNING_KEY, action: values.action, refs: values.refs?.split(',').filter(Boolean), evidence: values.evidence, reason: values.reason, techniquesUrl: values.techniques })));
+  console.log(JSON.stringify(await publishContent({ root: process.cwd(), privateKey: process.env.VOYAGER_CONTENT_SIGNING_KEY, action: values.action, refs: values.refs?.split(',').filter(Boolean), evidence: values.evidence, reason: values.reason, techniquesUrl: values.techniques, embed: process.env.OPENAI_API_KEY ? openAIEmbedder(process.env.OPENAI_API_KEY) : undefined })));
 }

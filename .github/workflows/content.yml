@@ -42,6 +42,7 @@ jobs:
       - name: Sign and atomically publish with bounded conflict retry
         env:
           VOYAGER_CONTENT_SIGNING_KEY: ${{ secrets.VOYAGER_CONTENT_SIGNING_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           CONTENT_ACTION: ${{ inputs.action || 'refresh' }}
           CONTENT_REFS: ${{ inputs.refs }}
           CONTENT_EVIDENCE: ${{ inputs.evidence }}
