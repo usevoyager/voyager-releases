@@ -1,0 +1,1 @@
+{"schemaVersion":1,"files":[{"path":"SKILL.md","content":"---\nname: record-in-obs\ndescription: \".\"\napplications:\n  - id: obs\n    role: primary\n---\n\nOBS Studio has a built-in WebSocket API (obs-websocket v5) for scenes, sources, recording and\nstreaming; the user enables it in Tools > WebSocket Server Settings (default port 4455, optional password).\n"}]}

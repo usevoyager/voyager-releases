@@ -1,0 +1,63 @@
+name: Publish signed Voyager content
+on:
+  push:
+    branches: [main]
+    paths: ['content/candidates/**']
+  schedule:
+    - cron: '17 */6 * * *'
+  workflow_dispatch:
+    inputs:
+      action:
+        description: Refresh nightly, promote exact revisions, or revoke
+        type: choice
+        options: [refresh, promote, revoke]
+        default: refresh
+      refs:
+        description: Comma-separated exact references, e.g. skills/make-deck@2
+        type: string
+      evidence:
+        description: Promotion evidence URL covering nightly observation and minimum/current runtime checks
+        type: string
+      reason:
+        description: Required revocation reason
+        type: string
+permissions:
+  contents: write
+concurrency:
+  group: voyager-content-publisher
+  cancel-in-progress: false
+jobs:
+  publish:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: main
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24.21.0
+      - run: npm ci
+      - run: npm test
+      - name: Sign and atomically publish with bounded conflict retry
+        env:
+          VOYAGER_CONTENT_SIGNING_KEY: ${{ secrets.VOYAGER_CONTENT_SIGNING_KEY }}
+          CONTENT_ACTION: ${{ inputs.action || 'refresh' }}
+          CONTENT_REFS: ${{ inputs.refs }}
+          CONTENT_EVIDENCE: ${{ inputs.evidence }}
+          CONTENT_REASON: ${{ inputs.reason }}
+        run: |
+          git config user.name 'Voyager content publisher'
+          git config user.email 'voyager-content@users.noreply.github.com'
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git reset --hard origin/main
+            git clean -fd content/audit content/v1
+            node scripts/content-publisher.mjs --action "$CONTENT_ACTION" --refs "$CONTENT_REFS" --evidence "$CONTENT_EVIDENCE" --reason "$CONTENT_REASON" --techniques https://voyager.so/techniques/export.json
+            git add content/v1 content/audit
+            if git diff --cached --quiet; then exit 0; fi
+            git commit -m 'chore(content): publish signed catalog snapshot'
+            if git push origin HEAD:main; then exit 0; fi
+          done
+          echo 'Content publication failed after concurrent-update retries.' >&2
+          exit 1
