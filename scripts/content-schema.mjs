@@ -124,6 +124,18 @@ var ContentRevocation = Schema.Struct({
   reason: text(1024),
   revokedAt: Timestamp
 });
+var EmbeddingVector = Schema.String.check(Schema.isMaxLength(21848), Schema.isPattern(/^(?:[A-Za-z0-9+/]{4})+(?:[A-Za-z0-9+/]{2}==|[A-Za-z0-9+/]{3}=)?$/));
+var EmbeddingKey = text(128).check(Schema.isPattern(/^[a-z0-9-]+$/));
+var ContentRecommendations = Schema.Struct({
+  model: text(128),
+  dimensions: PositiveInteger.check(Schema.isLessThanOrEqualTo(4096)),
+  vectors: Schema.Record(text(160).check(Schema.isPattern(/^techniques\/[a-z0-9]+(?:-[a-z0-9]+)*@[1-9]\d*$/)), EmbeddingVector).check(Schema.isMaxProperties(CONTENT_CATALOG_LIMITS.entries)),
+  onboarding: Schema.Struct({
+    role: Schema.Record(EmbeddingKey, EmbeddingVector).check(Schema.isMaxProperties(64)),
+    make: Schema.Record(EmbeddingKey, EmbeddingVector).check(Schema.isMaxProperties(64))
+  }),
+  featured: Schema.Array(TechniqueId).check(Schema.isMaxLength(256))
+});
 var ContentCatalog = Schema.Struct({
   schemaVersion: Schema.Literal(1),
   catalogSequence: PositiveInteger,
@@ -131,11 +143,12 @@ var ContentCatalog = Schema.Struct({
   expiresAt: Timestamp,
   entries: Schema.Array(ContentRevision).check(Schema.isMaxLength(CONTENT_CATALOG_LIMITS.entries)),
   releases: Schema.Array(ReleaseMembership).check(Schema.isMaxLength(CONTENT_CATALOG_LIMITS.entries)),
-  revoked: Schema.Array(ContentRevocation).check(Schema.isMaxLength(CONTENT_CATALOG_LIMITS.entries))
+  revoked: Schema.Array(ContentRevocation).check(Schema.isMaxLength(CONTENT_CATALOG_LIMITS.entries)),
+  recommendations: Schema.optional(ContentRecommendations)
 }).check(Schema.makeFilter((catalog) => {
   const key = (value) => `${value.id}@${value.revision}`;
   const entries = new Set(catalog.entries.map(key));
-  return Date.parse(catalog.expiresAt) > Date.parse(catalog.publishedAt) && entries.size === catalog.entries.length && new Set(catalog.releases.map(key)).size === catalog.releases.length && new Set(catalog.revoked.map(key)).size === catalog.revoked.length && catalog.releases.every((release) => entries.has(key(release))) && new Set([...catalog.entries, ...catalog.releases, ...catalog.revoked].map((entry) => entry.id.split("/")[0])).size <= 1;
+  return Date.parse(catalog.expiresAt) > Date.parse(catalog.publishedAt) && entries.size === catalog.entries.length && new Set(catalog.releases.map(key)).size === catalog.releases.length && new Set(catalog.revoked.map(key)).size === catalog.revoked.length && catalog.releases.every((release) => entries.has(key(release))) && (catalog.recommendations === undefined || catalog.entries.every((entry) => entry.kind === "technique")) && new Set([...catalog.entries, ...catalog.releases, ...catalog.revoked].map((entry) => entry.id.split("/")[0])).size <= 1;
 }));
 var ContentSkillPackage = Schema.Struct({
   schemaVersion: Schema.Literal(1),
@@ -154,6 +167,7 @@ export {
   ContentRevocation,
   ContentRevision,
   ContentReference,
+  ContentRecommendations,
   ContentPayload,
   ContentMediaUrl,
   ContentMedia,

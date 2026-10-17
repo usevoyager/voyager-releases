@@ -52,6 +52,14 @@ Run `node --test scripts/content-publisher.test.mjs` with Node 24.21.0. The vers
 `{schemaVersion:1,keyId,payload,signature}`, with base64 exact catalog bytes and an Ed25519
 signature over `UTF8("voyager-content:v1:" + namespace + ":" + keyId + "\0") || payloadBytes`.
 
+The techniques catalog also carries a signed `recommendations` block so Voyager can rank technique
+cards on the device: one `openai/text-embedding-3-small` vector (512 dimensions, L2-normalized,
+base64 little-endian float32) per technique revision, vectors for each onboarding role and "what you
+make" answer (`scripts/content-embeddings.mjs`), and the editorial order in `content/featured.json`.
+Each technique's title, card title, summary, tags and outcomes are embedded. Refreshes embed only
+revisions without a signed vector, using the `OPENAI_API_KEY` Actions secret; without the key, or
+when the call fails, the previous vectors carry forward, so embeddings never block publishing.
+
 The publisher validates the same Effect schema as the app. `scripts/content-schema.mjs` is the
 readable ESM build of `packages/contracts/src/contentCatalog.ts` in video-editor (VOY-438).
 After a reviewed schema change, regenerate from that checkout with
