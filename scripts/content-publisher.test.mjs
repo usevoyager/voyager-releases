@@ -33,12 +33,15 @@ test('stable needs overnight plus explicit evidence, promotes identical bytes', 
  assert.throws(()=>updateCatalog(first,'skills',{now:'2026-10-17T00:00:00Z',action:'promote',refs:['skills/make-deck@1']}));
  const promoted=updateCatalog(first,'skills',{now:'2026-10-17T00:00:00Z',action:'promote',refs:['skills/make-deck@1'],evidence:'minimum and current runtime report'});
  assert.deepEqual(promoted.entries,first.entries); assert.deepEqual(promoted.releases[0].channels,['nightly','stable']);
+ const early=updateCatalog(first,'skills',{now,action:'promote',refs:['skills/make-deck@1'],evidence:'checked',override:'owner order'});
+ assert.deepEqual(early.entries,first.entries); assert.deepEqual(early.releases[0].channels,['nightly','stable']);
 });
 test('revocation is monotonic and revoked revisions cannot be promoted', () => {
  const first=updateCatalog(undefined,'skills',{entries:[candidate],now,action:'refresh'});
  const revoked=updateCatalog(first,'skills',{now:'2026-10-17T00:00:00Z',action:'revoke',refs:['skills/make-deck@1'],reason:'regression'});
  assert.equal(revoked.catalogSequence,2); assert.equal(revoked.revoked.length,1);
  assert.throws(()=>updateCatalog(revoked,'skills',{now:'2026-10-18T00:00:00Z',action:'promote',refs:['skills/make-deck@1'],evidence:'checked'}));
+ assert.throws(()=>updateCatalog(revoked,'skills',{now:'2026-10-18T00:00:00Z',action:'promote',refs:['skills/make-deck@1'],evidence:'checked',override:'owner order'}));
 });
 test('rejects unsafe target paths and namespace contamination', () => {
  assert.throws(()=>updateCatalog(undefined,'skills',{entries:[{...candidate,payload:{...candidate.payload,target:'skills/../secret'}}],now,action:'refresh'}));

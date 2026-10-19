@@ -109,7 +109,8 @@ export function updateCatalog(previous, namespace, input) {
     for (const ref of input.refs) {
       const index = releases.findIndex(release => referenceKey(release) === ref);
       const release = releases[index];
-      if (!release || revoked.some(item => referenceKey(item) === ref) || Date.parse(input.now) - Date.parse(release.nightlyPublishedAt) < 12*60*60*1000) throw new Error(`Revision not eligible after nightly observation: ${ref}`);
+      // An owner-ordered override skips only the observation window; revoked or unknown revisions still fail.
+      if (!release || revoked.some(item => referenceKey(item) === ref) || (!input.override?.trim() && Date.parse(input.now) - Date.parse(release.nightlyPublishedAt) < 12*60*60*1000)) throw new Error(`Revision not eligible after nightly observation: ${ref}`);
       releases[index] = { ...release, channels: ['nightly', 'stable'] };
     }
   }
@@ -162,7 +163,7 @@ export async function publishContent(options, trust = { publicKey: PUBLIC_KEY, k
       }
     }
     const refs = options.refs?.filter(ref => ref.startsWith(namespace + '/'));
-    const updated = updateCatalog(previous, namespace, { entries, now, action: refs?.length ? options.action : 'refresh', refs, evidence: options.evidence, reason: options.reason });
+    const updated = updateCatalog(previous, namespace, { entries, now, action: refs?.length ? options.action : 'refresh', refs, evidence: options.evidence, reason: options.reason, override: options.action === 'promote' ? options.override : undefined });
     // Only refreshes embed new revisions; emergency operations carry the signed vectors forward.
     const recommendations = namespace === 'techniques'
       ? await recommendationsFor(updated, previous?.recommendations, { featured: JSON.parse(await readOptional(join(options.root, 'content/featured.json')) ?? '[]'), embed: options.action === 'refresh' ? options.embed : undefined })
@@ -177,12 +178,12 @@ export async function publishContent(options, trust = { publicKey: PUBLIC_KEY, k
   }
   const audit=planned.map(item=>({namespace:item.namespace,sequence:item.catalog.catalogSequence,revisions:item.catalog.entries.length}));
   await mkdir(join(options.root, 'content/audit'), { recursive: true });
-  await writeFile(join(options.root, 'content/audit', `${now.replaceAll(':','-')}.json`), JSON.stringify({ action: options.action, refs: options.refs ?? [], evidence: options.evidence ?? null, reason: options.reason ?? null, actor: process.env.GITHUB_ACTOR ?? 'local', sourceRun: process.env.GITHUB_RUN_ID ?? null, catalogs: audit }, null, 2) + '\n');
+  await writeFile(join(options.root, 'content/audit', `${now.replaceAll(':','-')}.json`), JSON.stringify({ action: options.action, refs: options.refs ?? [], evidence: options.evidence ?? null, reason: options.reason ?? null, override: options.override || null, actor: process.env.GITHUB_ACTOR ?? 'local', sourceRun: process.env.GITHUB_RUN_ID ?? null, catalogs: audit }, null, 2) + '\n');
   return audit;
 }
 if (process.argv[1] && import.meta.url === pathToFileURL(resolve(process.argv[1])).href) {
-  const { values } = parseArgs({ options: { action: {type:'string',default:'refresh'}, refs:{type:'string'}, evidence:{type:'string'}, reason:{type:'string'}, techniques:{type:'string'} } });
+  const { values } = parseArgs({ options: { action: {type:'string',default:'refresh'}, refs:{type:'string'}, evidence:{type:'string'}, reason:{type:'string'}, override:{type:'string'}, techniques:{type:'string'} } });
   if (!['refresh','promote','revoke'].includes(values.action)) throw new Error('Unknown action.');
   if (values.techniques && values.techniques !== 'https://voyager.so/techniques/export.json') throw new Error('Only the reviewed website export is accepted.');
-  console.log(JSON.stringify(await publishContent({ root: process.cwd(), privateKey: process.env.VOYAGER_CONTENT_SIGNING_KEY, action: values.action, refs: values.refs?.split(',').filter(Boolean), evidence: values.evidence, reason: values.reason, techniquesUrl: values.techniques, embed: process.env.OPENAI_API_KEY ? openAIEmbedder(process.env.OPENAI_API_KEY) : undefined })));
+  console.log(JSON.stringify(await publishContent({ root: process.cwd(), privateKey: process.env.VOYAGER_CONTENT_SIGNING_KEY, action: values.action, refs: values.refs?.split(',').filter(Boolean), evidence: values.evidence, reason: values.reason, override: values.override, techniquesUrl: values.techniques, embed: process.env.OPENAI_API_KEY ? openAIEmbedder(process.env.OPENAI_API_KEY) : undefined })));
 }

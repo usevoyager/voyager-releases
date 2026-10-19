@@ -39,7 +39,8 @@ fixes ship under a higher version.
 The `Publish signed Voyager content` workflow accepts reviewed skill exports, imports the
 reviewed website technique export, and refreshes seven-day metadata every six hours. New
 revisions are nightly-only. Manual promotion names exact `id@revision` values and requires
-nightly observation plus minimum/current-runtime evidence. Revocation records persist and
+nightly observation plus minimum/current-runtime evidence. An owner-ordered `override`
+reason skips only the 12-hour observation; it is recorded in the audit file. Revocation records persist and
 catalog sequences increase; rolling back selects an older retained digest.
 
 The Ed25519 signing key exists only in the `VOYAGER_CONTENT_SIGNING_KEY` Actions secret and
