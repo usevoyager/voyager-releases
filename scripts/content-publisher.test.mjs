@@ -139,3 +139,30 @@ test('emergency operations carry signed technique vectors forward without embedd
   assert.equal(skills.recommendations,undefined);
  } finally { await rm(root,{recursive:true,force:true}); }
 });
+
+test('promotion validates both planned namespaces before writing either signed pointer', async () => {
+ const { mkdtemp, mkdir, writeFile, readFile, rm } = await import('node:fs/promises');
+ const { join } = await import('node:path');
+ const { tmpdir } = await import('node:os');
+ const { publishContent } = await import('./content-publisher.mjs');
+ const root = await mkdtemp(join(tmpdir(), 'voy-dependency-'));
+ const trust = { publicKey: pair.publicKey.export({type:'spki',format:'pem'}), keyId:'fixture' };
+ const technique = {...candidate, kind:'technique', id:'techniques/demo', payload:{...candidate.payload,target:'techniques/demo/1.md',mediaType:'text/markdown'},slug:'demo',sourceUrl:'https://voyager.so/blog/demo',cardTitle:'Demo',starterText:'Make something',suggestedSkills:[{id:candidate.id,reason:'Create a deck'}],media:{poster:{url:'https://cdn.moda.app/voyager/demo.webp',filename:'poster.webp',sha256:'b'.repeat(64),length:123,mediaType:'image/webp'}},assets:[]};
+ try {
+  const originals = {};
+  for (const [namespace, entry] of [['skills',candidate],['techniques',technique]]) {
+   await mkdir(join(root,'content/v1',namespace), {recursive:true});
+   originals[namespace] = JSON.stringify(signCatalog(updateCatalog(undefined,namespace,{entries:[entry],now,action:'refresh'}),namespace,pair.privateKey,'fixture'));
+   await writeFile(join(root,'content/v1',namespace,'catalog.json'), originals[namespace]);
+  }
+  const options = {root,privateKey:pair.privateKey.export({type:'pkcs8',format:'pem'}),action:'promote',refs:['techniques/demo@1'],now:'2026-10-17T00:00:00Z',evidence:'minimum/current runtime report'};
+  await assert.rejects(publishContent(options,trust), /Stable dependencies unavailable/);
+  for (const namespace of ['skills','techniques']) assert.equal(await readFile(join(root,'content/v1',namespace,'catalog.json'),'utf8'),originals[namespace]);
+  // A single atomic promotion may include the required skill.
+  await publishContent({...options,refs:['skills/make-deck@1','techniques/demo@1']},trust);
+  for (const namespace of ['skills','techniques']) {
+   const result = verifyCatalog(JSON.parse(await readFile(join(root,'content/v1',namespace,'catalog.json'))),namespace,pair.publicKey,'fixture');
+   assert.ok(result.releases[0].channels.includes('stable'));
+  }
+ } finally { await rm(root,{recursive:true,force:true}); }
+});

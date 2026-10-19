@@ -7,6 +7,7 @@ import { PUBLIC_KEY, KEY_ID } from './content-public-key.mjs';
 import { Schema } from 'effect';
 import { ContentCatalog, ContentRevision } from './content-schema.mjs';
 import { openAIEmbedder, recommendationsFor } from './content-embeddings.mjs';
+import { requireStableDependencies } from './content-dependencies.mjs';
 
 const MAX_BYTES = 8 * 1024 * 1024;
 const hash = bytes => createHash('sha256').update(bytes).digest('hex');
@@ -171,6 +172,7 @@ export async function publishContent(options, trust = { publicKey: PUBLIC_KEY, k
     const next = recommendations ? requireCatalog({ ...updated, recommendations }, namespace) : updated;
     planned.push({ namespace, catalog:next, envelope:signCatalog(next, namespace, key, trust.keyId) });
   }
+  if (options.action === 'promote') requireStableDependencies(planned.map(item => item.catalog), options.refs);
   // Both namespaces validate before either pointer is written; Git publishes all files in one commit.
   for (const item of planned) {
     await mkdir(join(root,item.namespace),{recursive:true});
