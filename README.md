@@ -72,3 +72,9 @@ The initial VOY-438 snapshot contains 61 skill packages from app commit
 `3dafe638d1edf8f5402d6076d2f5f9f831324405`). The not-yet-deployed website export was
 served locally for this bootstrap, with identical record/payload integrity validation.
 All initial releases are nightly-only. No stable promotion or installer release is included.
+
+Stable promotions validate the complete planned catalogs before either signed pointer is
+written. Every promoted technique's required dependencies and suggested skills must resolve
+to one unrevoked stable skill set, including transitive revision bounds. Promote required
+skills in the same `refs` operation when needed. The observation-window override does not
+bypass dependency checks; failed promotions leave both catalog pointers unchanged.

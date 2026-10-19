@@ -2,6 +2,6 @@
   "name": "voyager-content-publisher",
   "private": true,
   "type": "module",
-  "scripts": { "test": "node --test scripts/content-publisher.test.mjs" },
+  "scripts": { "test": "node --test scripts/*.test.mjs" },
   "dependencies": { "effect": "4.0.0-rc.115", "semver": "7.8.5" }
 }
