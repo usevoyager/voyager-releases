@@ -1,0 +1,35 @@
+{
+  "action": "promote",
+  "refs": [
+    "skills/blender-previs-to-photoreal-style-transfer@1",
+    "skills/cad-to-cinematic-product-animation-blender@1",
+    "skills/cinematic-car-film-blender-original-score@1",
+    "skills/composite-3d-object-into-live-action-blender@1",
+    "skills/fpv-drone-flythrough-blender@1",
+    "skills/talking-character-launch-video@1",
+    "skills/choose-media-model@6",
+    "skills/make-ai-video@9",
+    "skills/edit-in-blender@5",
+    "skills/gpu-machines@7",
+    "skills/room-to-video@2",
+    "techniques/add-cg-behind-actor-blender-fusion@1",
+    "techniques/script-scene-to-blender-previs@1"
+  ],
+  "evidence": "https://github.com/usevoyager/voyager-releases/blob/f5f9669b45a36b945ad33b3aec788c54f2bbcee9/docs/verification/stable-2026-10-19-override/README.md",
+  "reason": "",
+  "override": "John's direct order, Oct 19 2:10 PM PT: promote everything nightly-only now to fix stable 2026.10.19+2",
+  "actor": "jhh3",
+  "sourceRun": "39325237559",
+  "catalogs": [
+    {
+      "namespace": "skills",
+      "sequence": 48,
+      "revisions": 132
+    },
+    {
+      "namespace": "techniques",
+      "sequence": 48,
+      "revisions": 82
+    }
+  ]
+}
