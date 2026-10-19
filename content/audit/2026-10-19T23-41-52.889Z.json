@@ -1,0 +1,35 @@
+{
+  "action": "promote",
+  "refs": [
+    "techniques/3d-model-to-product-commercial@4",
+    "techniques/animate-a-poster@4",
+    "techniques/archival-footage-montage@3",
+    "techniques/cinematic-title-sequence@4",
+    "techniques/clay-character-animation@4",
+    "techniques/color-grade-log-footage@4",
+    "techniques/drawing-to-playable-game@4",
+    "techniques/engineering-drawing-to-video@4",
+    "techniques/exploded-food-animation@3",
+    "techniques/find-existing-footage@3",
+    "techniques/liquid-product-reveal@4",
+    "techniques/miniature-world-reveal@4",
+    "techniques/real-ui-product-video@3"
+  ],
+  "evidence": "https://github.com/moda-design/voyager-web/actions/runs/39341928285",
+  "reason": "",
+  "override": "Owner-authorized techniques-stable-revision-fallback brief, October 19: promote PR 226 revisions to stable immediately after green CI, deployment and nightly refresh. Minimum/current selection and all 13 payload hashes verified.",
+  "actor": "jhh3",
+  "sourceRun": "39343140827",
+  "catalogs": [
+    {
+      "namespace": "skills",
+      "sequence": 54,
+      "revisions": 134
+    },
+    {
+      "namespace": "techniques",
+      "sequence": 54,
+      "revisions": 105
+    }
+  ]
+}
