@@ -1,0 +1,25 @@
+{
+  "action": "promote",
+  "refs": [
+    "skills/publish-video@3",
+    "skills/room-to-video@3",
+    "techniques/clone-your-voice-for-narration@1"
+  ],
+  "evidence": "https://github.com/usevoyager/voyager-releases/blob/8cdf4c4c87c4de15ea18c46497170dadc9e2b795/docs/verification/stable-2026-10-19-override-2/README.md",
+  "reason": "",
+  "override": "John's order, Oct 19 2:17 PM PT: nothing left nightly-only for stable users (Kleo's technique)",
+  "actor": "jhh3",
+  "sourceRun": "39329316277",
+  "catalogs": [
+    {
+      "namespace": "skills",
+      "sequence": 52,
+      "revisions": 134
+    },
+    {
+      "namespace": "techniques",
+      "sequence": 52,
+      "revisions": 83
+    }
+  ]
+}
