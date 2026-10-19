@@ -21,6 +21,9 @@ on:
       reason:
         description: Required revocation reason
         type: string
+      override:
+        description: Owner-ordered reason to skip the 12-hour nightly observation (promote only; recorded in the audit)
+        type: string
 permissions:
   contents: write
 concurrency:
@@ -47,6 +50,7 @@ jobs:
           CONTENT_REFS: ${{ inputs.refs }}
           CONTENT_EVIDENCE: ${{ inputs.evidence }}
           CONTENT_REASON: ${{ inputs.reason }}
+          CONTENT_OVERRIDE: ${{ inputs.override }}
         run: |
           git config user.name 'Voyager content publisher'
           git config user.email 'voyager-content@users.noreply.github.com'
@@ -54,7 +58,7 @@ jobs:
             git fetch origin main
             git reset --hard origin/main
             git clean -fd content/audit content/v1
-            node scripts/content-publisher.mjs --action "$CONTENT_ACTION" --refs "$CONTENT_REFS" --evidence "$CONTENT_EVIDENCE" --reason "$CONTENT_REASON" --techniques https://voyager.so/techniques/export.json
+            node scripts/content-publisher.mjs --action "$CONTENT_ACTION" --refs "$CONTENT_REFS" --evidence "$CONTENT_EVIDENCE" --reason "$CONTENT_REASON" --override "$CONTENT_OVERRIDE" --techniques https://voyager.so/techniques/export.json
             git add content/v1 content/audit
             if git diff --cached --quiet; then exit 0; fi
             git commit -m 'chore(content): publish signed catalog snapshot'
