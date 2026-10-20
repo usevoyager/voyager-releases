@@ -1,0 +1,23 @@
+{
+  "action": "promote",
+  "refs": [
+    "techniques/script-scene-to-storyboard-animatic@1"
+  ],
+  "evidence": "https://github.com/moda-design/voyager-web/actions/runs/39374990950",
+  "reason": "",
+  "override": "John, Oct 19 10:14 PM PT: 'review that and publish if it looks good' (Rob's storyboard animatic technique). Reviewed; CI green on voyager-web #241; deployed to voyager.so and refreshed into nightly.",
+  "actor": "jhh3",
+  "sourceRun": "39376487092",
+  "catalogs": [
+    {
+      "namespace": "skills",
+      "sequence": 61,
+      "revisions": 155
+    },
+    {
+      "namespace": "techniques",
+      "sequence": 61,
+      "revisions": 106
+    }
+  ]
+}
