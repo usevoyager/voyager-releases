@@ -1,83 +1,8 @@
 {
   "schemaVersion": 1,
-  "sourceCommit": "2c04e4caba58027b02bc05c98a878dd1ebecfc97",
-  "generatedAt": "2026-10-26T20:56:51.084Z",
+  "sourceCommit": "4af4a513b1ff1536e3549b7c44e78b3bbc975381",
+  "generatedAt": "2026-10-26T21:22:04.030Z",
   "entries": [
-    {
-      "revision": 1,
-      "minVoyagerVersion": "2026.10.19",
-      "requiredCapabilities": [],
-      "dependencies": [],
-      "suggestedSkills": [],
-      "payload": {
-        "target": "skills/blender-looks/aff67f8a128028f4393ce147905c6d5669f88d11108eea7cd20390abd8d1ca8e.json",
-        "sha256": "aff67f8a128028f4393ce147905c6d5669f88d11108eea7cd20390abd8d1ca8e",
-        "length": 150781,
-        "mediaType": "application/json"
-      },
-      "title": "blender-looks",
-      "summary": "Lit, atmospheric looks for Blender videos and animations: rainy night, fog with light shafts, sunbeams, neon interior, night city, golden hour, blue hour, overcast, studio or wet product.",
-      "tags": [],
-      "outcomes": [],
-      "prerequisites": [],
-      "sourceCommit": "2c04e4caba58027b02bc05c98a878dd1ebecfc97",
-      "testedAgainst": [
-        "0.1.0"
-      ],
-      "publishedAt": "2026-10-26T20:56:51.084Z",
-      "kind": "skill",
-      "id": "skills/blender-looks"
-    },
-    {
-      "revision": 1,
-      "minVoyagerVersion": "2026.10.24",
-      "requiredCapabilities": [],
-      "dependencies": [],
-      "suggestedSkills": [],
-      "payload": {
-        "target": "skills/blender-previs-to-photoreal-style-transfer/c3b731e0dc2b565872b9965dbcb6d756fa05d4239718ec322661be52fdf24481.json",
-        "sha256": "c3b731e0dc2b565872b9965dbcb6d756fa05d4239718ec322661be52fdf24481",
-        "length": 21433,
-        "mediaType": "application/json"
-      },
-      "title": "blender-previs-to-photoreal-style-transfer",
-      "summary": "Turn a scene idea into a shotlist and Blender previs blockout, then restyle it into photoreal live action with an AI video-editing model, keeping cameras, cuts and timing. For testing or pitching an action scene before shooting it.",
-      "tags": [],
-      "outcomes": [],
-      "prerequisites": [],
-      "sourceCommit": "2c04e4caba58027b02bc05c98a878dd1ebecfc97",
-      "testedAgainst": [
-        "0.1.0"
-      ],
-      "publishedAt": "2026-10-26T20:56:51.084Z",
-      "kind": "skill",
-      "id": "skills/blender-previs-to-photoreal-style-transfer"
-    },
-    {
-      "revision": 1,
-      "minVoyagerVersion": "2026.10.19",
-      "requiredCapabilities": [],
-      "dependencies": [],
-      "suggestedSkills": [],
-      "payload": {
-        "target": "skills/blender-sets/242d5fcb1fbe5fa4db7cac10fd875d034612e43dd25ce827d04cfb029714910a.json",
-        "sha256": "242d5fcb1fbe5fa4db7cac10fd875d034612e43dd25ce827d04cfb029714910a",
-        "length": 86066,
-        "mediaType": "application/json"
-      },
-      "title": "blender-sets",
-      "summary": "Build big Blender sets (forest, city block, downtown, street, market, valley) with a camera path, and scatter scenery (plants, rocks, debris or your own models) on a surface. Use with edit-in-blender for large environments.",
-      "tags": [],
-      "outcomes": [],
-      "prerequisites": [],
-      "sourceCommit": "2c04e4caba58027b02bc05c98a878dd1ebecfc97",
-      "testedAgainst": [
-        "0.1.0"
-      ],
-      "publishedAt": "2026-10-26T20:56:51.084Z",
-      "kind": "skill",
-      "id": "skills/blender-sets"
-    },
     {
       "revision": 1,
       "minVoyagerVersion": "2026.10.23",
@@ -95,38 +20,13 @@
       "tags": [],
       "outcomes": [],
       "prerequisites": [],
-      "sourceCommit": "2c04e4caba58027b02bc05c98a878dd1ebecfc97",
+      "sourceCommit": "4af4a513b1ff1536e3549b7c44e78b3bbc975381",
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-26T20:56:51.084Z",
+      "publishedAt": "2026-10-26T21:22:04.030Z",
       "kind": "skill",
       "id": "skills/brand-kit"
-    },
-    {
-      "revision": 1,
-      "minVoyagerVersion": "2026.10.23+1",
-      "requiredCapabilities": [],
-      "dependencies": [],
-      "suggestedSkills": [],
-      "payload": {
-        "target": "skills/cad-to-cinematic-product-animation-blender/a533ac42925c837de00aef9f764b0f59adbe2c76a062d6a98a165a1fa8858b5a.json",
-        "sha256": "a533ac42925c837de00aef9f764b0f59adbe2c76a062d6a98a165a1fa8858b5a",
-        "length": 10560,
-        "mediaType": "application/json"
-      },
-      "title": "cad-to-cinematic-product-animation-blender",
-      "summary": "Turn a supplied CAD assembly into a CAD-accurate cinematic product film in Blender: real joint motion, an exploded view, shallow-focus close-ups, titles and music. For a product animation that stays true to the engineering model.",
-      "tags": [],
-      "outcomes": [],
-      "prerequisites": [],
-      "sourceCommit": "2c04e4caba58027b02bc05c98a878dd1ebecfc97",
-      "testedAgainst": [
-        "0.1.0"
-      ],
-      "publishedAt": "2026-10-26T20:56:51.084Z",
-      "kind": "skill",
-      "id": "skills/cad-to-cinematic-product-animation-blender"
     },
     {
       "revision": 1,
@@ -145,63 +45,13 @@
       "tags": [],
       "outcomes": [],
       "prerequisites": [],
-      "sourceCommit": "2c04e4caba58027b02bc05c98a878dd1ebecfc97",
+      "sourceCommit": "4af4a513b1ff1536e3549b7c44e78b3bbc975381",
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-26T20:56:51.084Z",
+      "publishedAt": "2026-10-26T21:22:04.030Z",
       "kind": "skill",
       "id": "skills/choose-media-model"
-    },
-    {
-      "revision": 1,
-      "minVoyagerVersion": "2026.10.24",
-      "requiredCapabilities": [],
-      "dependencies": [],
-      "suggestedSkills": [],
-      "payload": {
-        "target": "skills/cinematic-car-film-blender-original-score/75abb8f7487649362f5535d6e44e6ac534cbfed5c02f1a77214568150fa388ea.json",
-        "sha256": "75abb8f7487649362f5535d6e44e6ac534cbfed5c02f1a77214568150fa388ea",
-        "length": 25630,
-        "mediaType": "application/json"
-      },
-      "title": "cinematic-car-film-blender-original-score",
-      "summary": "Make a short cinematic car film in Blender (any car, road or location) with fast multi-angle coverage, real-camera-style moves and an original score composed to the cuts. For a car commercial, hero spot or car film made in 3D.",
-      "tags": [],
-      "outcomes": [],
-      "prerequisites": [],
-      "sourceCommit": "2c04e4caba58027b02bc05c98a878dd1ebecfc97",
-      "testedAgainst": [
-        "0.1.0"
-      ],
-      "publishedAt": "2026-10-26T20:56:51.084Z",
-      "kind": "skill",
-      "id": "skills/cinematic-car-film-blender-original-score"
-    },
-    {
-      "revision": 1,
-      "minVoyagerVersion": "2026.10.23+1",
-      "requiredCapabilities": [],
-      "dependencies": [],
-      "suggestedSkills": [],
-      "payload": {
-        "target": "skills/composite-3d-object-into-live-action-blender/7de3503ef88240d92dbe4bfbdb3f77d7c067b4a40965d1a1924951161ed0131b.json",
-        "sha256": "7de3503ef88240d92dbe4bfbdb3f77d7c067b4a40965d1a1924951161ed0131b",
-        "length": 5247,
-        "mediaType": "application/json"
-      },
-      "title": "composite-3d-object-into-live-action-blender",
-      "summary": "Build a realistic 3D object (vehicle, airship, prop, creature) and composite it into live-action or generated footage in Blender, matched to the camera move, light and atmosphere. For a VFX insert or CG object shot.",
-      "tags": [],
-      "outcomes": [],
-      "prerequisites": [],
-      "sourceCommit": "2c04e4caba58027b02bc05c98a878dd1ebecfc97",
-      "testedAgainst": [
-        "0.1.0"
-      ],
-      "publishedAt": "2026-10-26T20:56:51.084Z",
-      "kind": "skill",
-      "id": "skills/composite-3d-object-into-live-action-blender"
     },
     {
       "revision": 1,
@@ -220,11 +70,11 @@
       "tags": [],
       "outcomes": [],
       "prerequisites": [],
-      "sourceCommit": "2c04e4caba58027b02bc05c98a878dd1ebecfc97",
+      "sourceCommit": "4af4a513b1ff1536e3549b7c44e78b3bbc975381",
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-26T20:56:51.084Z",
+      "publishedAt": "2026-10-26T21:22:04.030Z",
       "kind": "skill",
       "id": "skills/conversation-collaboration"
     },
@@ -245,11 +95,11 @@
       "tags": [],
       "outcomes": [],
       "prerequisites": [],
-      "sourceCommit": "2c04e4caba58027b02bc05c98a878dd1ebecfc97",
+      "sourceCommit": "4af4a513b1ff1536e3549b7c44e78b3bbc975381",
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-26T20:56:51.084Z",
+      "publishedAt": "2026-10-26T21:22:04.030Z",
       "kind": "skill",
       "id": "skills/custom-connectors"
     },
@@ -270,11 +120,11 @@
       "tags": [],
       "outcomes": [],
       "prerequisites": [],
-      "sourceCommit": "2c04e4caba58027b02bc05c98a878dd1ebecfc97",
+      "sourceCommit": "4af4a513b1ff1536e3549b7c44e78b3bbc975381",
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-26T20:56:51.084Z",
+      "publishedAt": "2026-10-26T21:22:04.030Z",
       "kind": "skill",
       "id": "skills/edit-video"
     },
@@ -295,38 +145,13 @@
       "tags": [],
       "outcomes": [],
       "prerequisites": [],
-      "sourceCommit": "2c04e4caba58027b02bc05c98a878dd1ebecfc97",
+      "sourceCommit": "4af4a513b1ff1536e3549b7c44e78b3bbc975381",
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-26T20:56:51.084Z",
+      "publishedAt": "2026-10-26T21:22:04.030Z",
       "kind": "skill",
       "id": "skills/figma"
-    },
-    {
-      "revision": 1,
-      "minVoyagerVersion": "2026.10.24",
-      "requiredCapabilities": [],
-      "dependencies": [],
-      "suggestedSkills": [],
-      "payload": {
-        "target": "skills/fpv-drone-flythrough-blender/73b406803db3f99288422ff8c4abc55a967dd4ddb48cc15e5dc9afa4803c97da.json",
-        "sha256": "73b406803db3f99288422ff8c4abc55a967dd4ddb48cc15e5dc9afa4803c97da",
-        "length": 21535,
-        "mediaType": "application/json"
-      },
-      "title": "fpv-drone-flythrough-blender",
-      "summary": "Build a fast, multi-cut FPV drone flythrough of a landmark, building, city or landscape in Blender, preview every shot at true frame rate, then final-render the approved shots locally or on Voyager GPUs.",
-      "tags": [],
-      "outcomes": [],
-      "prerequisites": [],
-      "sourceCommit": "2c04e4caba58027b02bc05c98a878dd1ebecfc97",
-      "testedAgainst": [
-        "0.1.0"
-      ],
-      "publishedAt": "2026-10-26T20:56:51.084Z",
-      "kind": "skill",
-      "id": "skills/fpv-drone-flythrough-blender"
     },
     {
       "revision": 1,
@@ -345,11 +170,11 @@
       "tags": [],
       "outcomes": [],
       "prerequisites": [],
-      "sourceCommit": "2c04e4caba58027b02bc05c98a878dd1ebecfc97",
+      "sourceCommit": "4af4a513b1ff1536e3549b7c44e78b3bbc975381",
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-26T20:56:51.084Z",
+      "publishedAt": "2026-10-26T21:22:04.030Z",
       "kind": "skill",
       "id": "skills/gpu-machines"
     },
@@ -370,11 +195,11 @@
       "tags": [],
       "outcomes": [],
       "prerequisites": [],
-      "sourceCommit": "2c04e4caba58027b02bc05c98a878dd1ebecfc97",
+      "sourceCommit": "4af4a513b1ff1536e3549b7c44e78b3bbc975381",
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-26T20:56:51.084Z",
+      "publishedAt": "2026-10-26T21:22:04.030Z",
       "kind": "skill",
       "id": "skills/make-ai-video"
     },
@@ -395,11 +220,11 @@
       "tags": [],
       "outcomes": [],
       "prerequisites": [],
-      "sourceCommit": "2c04e4caba58027b02bc05c98a878dd1ebecfc97",
+      "sourceCommit": "4af4a513b1ff1536e3549b7c44e78b3bbc975381",
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-26T20:56:51.084Z",
+      "publishedAt": "2026-10-26T21:22:04.030Z",
       "kind": "skill",
       "id": "skills/make-announcement-video"
     },
@@ -420,11 +245,11 @@
       "tags": [],
       "outcomes": [],
       "prerequisites": [],
-      "sourceCommit": "2c04e4caba58027b02bc05c98a878dd1ebecfc97",
+      "sourceCommit": "4af4a513b1ff1536e3549b7c44e78b3bbc975381",
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-26T20:56:51.084Z",
+      "publishedAt": "2026-10-26T21:22:04.030Z",
       "kind": "skill",
       "id": "skills/make-deck"
     },
@@ -445,11 +270,11 @@
       "tags": [],
       "outcomes": [],
       "prerequisites": [],
-      "sourceCommit": "2c04e4caba58027b02bc05c98a878dd1ebecfc97",
+      "sourceCommit": "4af4a513b1ff1536e3549b7c44e78b3bbc975381",
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-26T20:56:51.084Z",
+      "publishedAt": "2026-10-26T21:22:04.030Z",
       "kind": "skill",
       "id": "skills/make-design"
     },
@@ -470,11 +295,11 @@
       "tags": [],
       "outcomes": [],
       "prerequisites": [],
-      "sourceCommit": "2c04e4caba58027b02bc05c98a878dd1ebecfc97",
+      "sourceCommit": "4af4a513b1ff1536e3549b7c44e78b3bbc975381",
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-26T20:56:51.084Z",
+      "publishedAt": "2026-10-26T21:22:04.030Z",
       "kind": "skill",
       "id": "skills/make-game"
     },
@@ -495,11 +320,11 @@
       "tags": [],
       "outcomes": [],
       "prerequisites": [],
-      "sourceCommit": "2c04e4caba58027b02bc05c98a878dd1ebecfc97",
+      "sourceCommit": "4af4a513b1ff1536e3549b7c44e78b3bbc975381",
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-26T20:56:51.084Z",
+      "publishedAt": "2026-10-26T21:22:04.030Z",
       "kind": "skill",
       "id": "skills/make-image"
     },
@@ -520,11 +345,11 @@
       "tags": [],
       "outcomes": [],
       "prerequisites": [],
-      "sourceCommit": "2c04e4caba58027b02bc05c98a878dd1ebecfc97",
+      "sourceCommit": "4af4a513b1ff1536e3549b7c44e78b3bbc975381",
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-26T20:56:51.084Z",
+      "publishedAt": "2026-10-26T21:22:04.030Z",
       "kind": "skill",
       "id": "skills/make-motion-graphics"
     },
@@ -545,11 +370,11 @@
       "tags": [],
       "outcomes": [],
       "prerequisites": [],
-      "sourceCommit": "2c04e4caba58027b02bc05c98a878dd1ebecfc97",
+      "sourceCommit": "4af4a513b1ff1536e3549b7c44e78b3bbc975381",
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-26T20:56:51.084Z",
+      "publishedAt": "2026-10-26T21:22:04.030Z",
       "kind": "skill",
       "id": "skills/make-music"
     },
@@ -570,11 +395,11 @@
       "tags": [],
       "outcomes": [],
       "prerequisites": [],
-      "sourceCommit": "2c04e4caba58027b02bc05c98a878dd1ebecfc97",
+      "sourceCommit": "4af4a513b1ff1536e3549b7c44e78b3bbc975381",
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-26T20:56:51.084Z",
+      "publishedAt": "2026-10-26T21:22:04.030Z",
       "kind": "skill",
       "id": "skills/make-product-demo"
     },
@@ -595,11 +420,11 @@
       "tags": [],
       "outcomes": [],
       "prerequisites": [],
-      "sourceCommit": "2c04e4caba58027b02bc05c98a878dd1ebecfc97",
+      "sourceCommit": "4af4a513b1ff1536e3549b7c44e78b3bbc975381",
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-26T20:56:51.084Z",
+      "publishedAt": "2026-10-26T21:22:04.030Z",
       "kind": "skill",
       "id": "skills/make-social-loop"
     },
@@ -620,11 +445,11 @@
       "tags": [],
       "outcomes": [],
       "prerequisites": [],
-      "sourceCommit": "2c04e4caba58027b02bc05c98a878dd1ebecfc97",
+      "sourceCommit": "4af4a513b1ff1536e3549b7c44e78b3bbc975381",
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-26T20:56:51.084Z",
+      "publishedAt": "2026-10-26T21:22:04.030Z",
       "kind": "skill",
       "id": "skills/make-sound"
     },
@@ -645,11 +470,11 @@
       "tags": [],
       "outcomes": [],
       "prerequisites": [],
-      "sourceCommit": "2c04e4caba58027b02bc05c98a878dd1ebecfc97",
+      "sourceCommit": "4af4a513b1ff1536e3549b7c44e78b3bbc975381",
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-26T20:56:51.084Z",
+      "publishedAt": "2026-10-26T21:22:04.030Z",
       "kind": "skill",
       "id": "skills/mini-flows"
     },
@@ -670,11 +495,11 @@
       "tags": [],
       "outcomes": [],
       "prerequisites": [],
-      "sourceCommit": "2c04e4caba58027b02bc05c98a878dd1ebecfc97",
+      "sourceCommit": "4af4a513b1ff1536e3549b7c44e78b3bbc975381",
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-26T20:56:51.084Z",
+      "publishedAt": "2026-10-26T21:22:04.030Z",
       "kind": "skill",
       "id": "skills/publish-game"
     },
@@ -695,11 +520,11 @@
       "tags": [],
       "outcomes": [],
       "prerequisites": [],
-      "sourceCommit": "2c04e4caba58027b02bc05c98a878dd1ebecfc97",
+      "sourceCommit": "4af4a513b1ff1536e3549b7c44e78b3bbc975381",
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-26T20:56:51.084Z",
+      "publishedAt": "2026-10-26T21:22:04.030Z",
       "kind": "skill",
       "id": "skills/publish-video"
     },
@@ -720,11 +545,11 @@
       "tags": [],
       "outcomes": [],
       "prerequisites": [],
-      "sourceCommit": "2c04e4caba58027b02bc05c98a878dd1ebecfc97",
+      "sourceCommit": "4af4a513b1ff1536e3549b7c44e78b3bbc975381",
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-26T20:56:51.084Z",
+      "publishedAt": "2026-10-26T21:22:04.030Z",
       "kind": "skill",
       "id": "skills/room-to-video"
     },
@@ -745,38 +570,13 @@
       "tags": [],
       "outcomes": [],
       "prerequisites": [],
-      "sourceCommit": "2c04e4caba58027b02bc05c98a878dd1ebecfc97",
+      "sourceCommit": "4af4a513b1ff1536e3549b7c44e78b3bbc975381",
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-26T20:56:51.084Z",
+      "publishedAt": "2026-10-26T21:22:04.030Z",
       "kind": "skill",
       "id": "skills/screen-capture"
-    },
-    {
-      "revision": 1,
-      "minVoyagerVersion": "2026.10.24",
-      "requiredCapabilities": [],
-      "dependencies": [],
-      "suggestedSkills": [],
-      "payload": {
-        "target": "skills/talking-character-launch-video/ca8b8095fd206641513027fd99b4fccb9389f90f02accc51a1f98dc4fdfb43fd.json",
-        "sha256": "ca8b8095fd206641513027fd99b4fccb9389f90f02accc51a1f98dc4fdfb43fd",
-        "length": 23703,
-        "mediaType": "application/json"
-      },
-      "title": "talking-character-launch-video",
-      "summary": "Make a short social launch or announcement video where characters talk through a product or feature: one dialogue track, lip-synced AI video shots, on-screen text and motion graphics. For a fun feature, partner or product announcement.",
-      "tags": [],
-      "outcomes": [],
-      "prerequisites": [],
-      "sourceCommit": "2c04e4caba58027b02bc05c98a878dd1ebecfc97",
-      "testedAgainst": [
-        "0.1.0"
-      ],
-      "publishedAt": "2026-10-26T20:56:51.084Z",
-      "kind": "skill",
-      "id": "skills/talking-character-launch-video"
     },
     {
       "revision": 1,
@@ -795,11 +595,11 @@
       "tags": [],
       "outcomes": [],
       "prerequisites": [],
-      "sourceCommit": "2c04e4caba58027b02bc05c98a878dd1ebecfc97",
+      "sourceCommit": "4af4a513b1ff1536e3549b7c44e78b3bbc975381",
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-26T20:56:51.084Z",
+      "publishedAt": "2026-10-26T21:22:04.030Z",
       "kind": "skill",
       "id": "skills/video-styles"
     },
@@ -820,11 +620,11 @@
       "tags": [],
       "outcomes": [],
       "prerequisites": [],
-      "sourceCommit": "2c04e4caba58027b02bc05c98a878dd1ebecfc97",
+      "sourceCommit": "4af4a513b1ff1536e3549b7c44e78b3bbc975381",
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-26T20:56:51.084Z",
+      "publishedAt": "2026-10-26T21:22:04.030Z",
       "kind": "skill",
       "id": "skills/voiceover"
     },
@@ -845,11 +645,11 @@
       "tags": [],
       "outcomes": [],
       "prerequisites": [],
-      "sourceCommit": "2c04e4caba58027b02bc05c98a878dd1ebecfc97",
+      "sourceCommit": "4af4a513b1ff1536e3549b7c44e78b3bbc975381",
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-26T20:56:51.084Z",
+      "publishedAt": "2026-10-26T21:22:04.030Z",
       "kind": "skill",
       "id": "skills/voyager-setup"
     },
@@ -870,11 +670,11 @@
       "tags": [],
       "outcomes": [],
       "prerequisites": [],
-      "sourceCommit": "2c04e4caba58027b02bc05c98a878dd1ebecfc97",
+      "sourceCommit": "4af4a513b1ff1536e3549b7c44e78b3bbc975381",
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-26T20:56:51.084Z",
+      "publishedAt": "2026-10-26T21:22:04.030Z",
       "kind": "skill",
       "id": "skills/widgets"
     }
