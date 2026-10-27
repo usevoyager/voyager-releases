@@ -1,0 +1,23 @@
+{
+  "action": "revoke",
+  "refs": [
+    "skills/make-ai-video@21"
+  ],
+  "evidence": "",
+  "reason": "Names `voyager film`, which no CLI on main has; blocks nightly preflight (run 40555840435). Re-promote once voyager film lands on main. Coordinator-approved (VOY-1054).",
+  "override": null,
+  "actor": "jhh3",
+  "sourceRun": "40556539850",
+  "catalogs": [
+    {
+      "namespace": "skills",
+      "sequence": 126,
+      "revisions": 354
+    },
+    {
+      "namespace": "techniques",
+      "sequence": 126,
+      "revisions": 111
+    }
+  ]
+}
