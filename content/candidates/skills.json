@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "sourceCommit": "20487039969bb624f62c954bd54fd6b2a7981314",
-  "generatedAt": "2026-10-28T10:23:13.731Z",
+  "generatedAt": "2026-10-28T11:47:21.430Z",
   "entries": [
     {
       "revision": 1,
@@ -24,7 +24,7 @@
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-28T10:23:13.731Z",
+      "publishedAt": "2026-10-28T11:47:21.430Z",
       "kind": "skill",
       "id": "skills/ableton-live"
     },
@@ -49,7 +49,7 @@
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-28T10:23:13.731Z",
+      "publishedAt": "2026-10-28T11:47:21.430Z",
       "kind": "skill",
       "id": "skills/after-effects"
     },
@@ -74,7 +74,7 @@
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-28T10:23:13.731Z",
+      "publishedAt": "2026-10-28T11:47:21.430Z",
       "kind": "skill",
       "id": "skills/blender"
     },
@@ -99,7 +99,7 @@
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-28T10:23:13.731Z",
+      "publishedAt": "2026-10-28T11:47:21.430Z",
       "kind": "skill",
       "id": "skills/brand-kit"
     },
@@ -124,20 +124,20 @@
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-28T10:23:13.731Z",
+      "publishedAt": "2026-10-28T11:47:21.430Z",
       "kind": "skill",
       "id": "skills/capcut"
     },
     {
       "revision": 1,
-      "minVoyagerVersion": "2026.10.29-nightly.20261028.14521",
+      "minVoyagerVersion": "2026.10.29-nightly.20261028.14548",
       "requiredCapabilities": [],
       "dependencies": [],
       "suggestedSkills": [],
       "payload": {
-        "target": "skills/choose-media-model/3de83f7fa84e35d319f9df6d221cd2873c671139249d4cbbd1e2771a4152b3f5.json",
-        "sha256": "3de83f7fa84e35d319f9df6d221cd2873c671139249d4cbbd1e2771a4152b3f5",
-        "length": 62131,
+        "target": "skills/choose-media-model/a40f68c6100cf8cbb2ddeddbb5cc4b24e296bafe8b96c3cbd12ccf257545318d.json",
+        "sha256": "a40f68c6100cf8cbb2ddeddbb5cc4b24e296bafe8b96c3cbd12ccf257545318d",
+        "length": 62500,
         "mediaType": "application/json"
       },
       "title": "choose-media-model",
@@ -149,7 +149,7 @@
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-28T10:23:13.731Z",
+      "publishedAt": "2026-10-28T11:47:21.430Z",
       "kind": "skill",
       "id": "skills/choose-media-model"
     },
@@ -174,7 +174,7 @@
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-28T10:23:13.731Z",
+      "publishedAt": "2026-10-28T11:47:21.430Z",
       "kind": "skill",
       "id": "skills/cinema-4d"
     },
@@ -199,7 +199,7 @@
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-28T10:23:13.731Z",
+      "publishedAt": "2026-10-28T11:47:21.430Z",
       "kind": "skill",
       "id": "skills/comfyui"
     },
@@ -224,7 +224,7 @@
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-28T10:23:13.731Z",
+      "publishedAt": "2026-10-28T11:47:21.430Z",
       "kind": "skill",
       "id": "skills/computer-use"
     },
@@ -249,7 +249,7 @@
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-28T10:23:13.731Z",
+      "publishedAt": "2026-10-28T11:47:21.430Z",
       "kind": "skill",
       "id": "skills/conversation-collaboration"
     },
@@ -274,7 +274,7 @@
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-28T10:23:13.731Z",
+      "publishedAt": "2026-10-28T11:47:21.430Z",
       "kind": "skill",
       "id": "skills/custom-connectors"
     },
@@ -299,7 +299,7 @@
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-28T10:23:13.731Z",
+      "publishedAt": "2026-10-28T11:47:21.430Z",
       "kind": "skill",
       "id": "skills/davinci-resolve"
     },
@@ -324,7 +324,7 @@
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-28T10:23:13.731Z",
+      "publishedAt": "2026-10-28T11:47:21.430Z",
       "kind": "skill",
       "id": "skills/descript"
     },
@@ -349,7 +349,7 @@
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-28T10:23:13.731Z",
+      "publishedAt": "2026-10-28T11:47:21.430Z",
       "kind": "skill",
       "id": "skills/edit-video"
     },
@@ -374,7 +374,7 @@
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-28T10:23:13.731Z",
+      "publishedAt": "2026-10-28T11:47:21.430Z",
       "kind": "skill",
       "id": "skills/effectcraft"
     },
@@ -399,7 +399,7 @@
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-28T10:23:13.731Z",
+      "publishedAt": "2026-10-28T11:47:21.430Z",
       "kind": "skill",
       "id": "skills/fframes"
     },
@@ -424,7 +424,7 @@
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-28T10:23:13.731Z",
+      "publishedAt": "2026-10-28T11:47:21.430Z",
       "kind": "skill",
       "id": "skills/figma"
     },
@@ -449,7 +449,7 @@
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-28T10:23:13.731Z",
+      "publishedAt": "2026-10-28T11:47:21.430Z",
       "kind": "skill",
       "id": "skills/final-cut-pro"
     },
@@ -474,7 +474,7 @@
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-28T10:23:13.731Z",
+      "publishedAt": "2026-10-28T11:47:21.430Z",
       "kind": "skill",
       "id": "skills/gpu-machines"
     },
@@ -499,7 +499,7 @@
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-28T10:23:13.731Z",
+      "publishedAt": "2026-10-28T11:47:21.430Z",
       "kind": "skill",
       "id": "skills/houdini"
     },
@@ -524,7 +524,7 @@
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-28T10:23:13.731Z",
+      "publishedAt": "2026-10-28T11:47:21.430Z",
       "kind": "skill",
       "id": "skills/hyperframes"
     },
@@ -549,7 +549,7 @@
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-28T10:23:13.731Z",
+      "publishedAt": "2026-10-28T11:47:21.430Z",
       "kind": "skill",
       "id": "skills/illustrator"
     },
@@ -574,20 +574,20 @@
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-28T10:23:13.731Z",
+      "publishedAt": "2026-10-28T11:47:21.430Z",
       "kind": "skill",
       "id": "skills/lightcraft"
     },
     {
       "revision": 1,
-      "minVoyagerVersion": "2026.10.29-nightly.20261028.14521",
+      "minVoyagerVersion": "2026.10.29-nightly.20261028.14548",
       "requiredCapabilities": [],
       "dependencies": [],
       "suggestedSkills": [],
       "payload": {
-        "target": "skills/make-ai-video/fd79e06f45c84f352b647d5492054944359a181e0ff1818d268bc55476a50569.json",
-        "sha256": "fd79e06f45c84f352b647d5492054944359a181e0ff1818d268bc55476a50569",
-        "length": 135659,
+        "target": "skills/make-ai-video/9c6dc4ff68a54f388ec009582158686ca4c19362a1b4eedb4df0f6d9706e639c.json",
+        "sha256": "9c6dc4ff68a54f388ec009582158686ca4c19362a1b4eedb4df0f6d9706e639c",
+        "length": 136028,
         "mediaType": "application/json"
       },
       "title": "make-ai-video",
@@ -599,20 +599,20 @@
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-28T10:23:13.731Z",
+      "publishedAt": "2026-10-28T11:47:21.430Z",
       "kind": "skill",
       "id": "skills/make-ai-video"
     },
     {
       "revision": 1,
-      "minVoyagerVersion": "2026.10.28",
+      "minVoyagerVersion": "2026.10.29-nightly.20261028.14548",
       "requiredCapabilities": [],
       "dependencies": [],
       "suggestedSkills": [],
       "payload": {
-        "target": "skills/make-announcement-video/1f72e6fbc4291c5efaa97b4f1dac355a5795cbbd1061dd38792cc41e61a6888f.json",
-        "sha256": "1f72e6fbc4291c5efaa97b4f1dac355a5795cbbd1061dd38792cc41e61a6888f",
-        "length": 31908,
+        "target": "skills/make-announcement-video/73f22feef7e1862fa797329c9e3f81352b3879572ee63ea00d957074b98bb74f.json",
+        "sha256": "73f22feef7e1862fa797329c9e3f81352b3879572ee63ea00d957074b98bb74f",
+        "length": 32277,
         "mediaType": "application/json"
       },
       "title": "make-announcement-video",
@@ -624,8 +624,11 @@
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-28T10:23:13.731Z",
+      "publishedAt": "2026-10-28T11:47:21.430Z",
       "kind": "skill",
+      "absorbedSkills": [
+        "talking-character-launch-video"
+      ],
       "id": "skills/make-announcement-video"
     },
     {
@@ -649,7 +652,7 @@
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-28T10:23:13.731Z",
+      "publishedAt": "2026-10-28T11:47:21.430Z",
       "kind": "skill",
       "id": "skills/make-deck"
     },
@@ -674,7 +677,7 @@
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-28T10:23:13.731Z",
+      "publishedAt": "2026-10-28T11:47:21.430Z",
       "kind": "skill",
       "absorbedSkills": [
         "make-web-game",
@@ -684,14 +687,14 @@
     },
     {
       "revision": 1,
-      "minVoyagerVersion": "2026.10.29-nightly.20261028.14521",
+      "minVoyagerVersion": "2026.10.29-nightly.20261028.14548",
       "requiredCapabilities": [],
       "dependencies": [],
       "suggestedSkills": [],
       "payload": {
-        "target": "skills/make-image/0c454328d8351bd7f5369f789bfdd49df2e0e93866fa9247dfe3d3f4e919f92e.json",
-        "sha256": "0c454328d8351bd7f5369f789bfdd49df2e0e93866fa9247dfe3d3f4e919f92e",
-        "length": 44199,
+        "target": "skills/make-image/8fe62891a4c2aebcdefcb6ac0b4caa63ab59fbe9fb9e6919b49c7d137ac7fe17.json",
+        "sha256": "8fe62891a4c2aebcdefcb6ac0b4caa63ab59fbe9fb9e6919b49c7d137ac7fe17",
+        "length": 44568,
         "mediaType": "application/json"
       },
       "title": "make-image",
@@ -703,20 +706,20 @@
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-28T10:23:13.731Z",
+      "publishedAt": "2026-10-28T11:47:21.430Z",
       "kind": "skill",
       "id": "skills/make-image"
     },
     {
       "revision": 1,
-      "minVoyagerVersion": "2026.10.28",
+      "minVoyagerVersion": "2026.10.29-nightly.20261028.14548",
       "requiredCapabilities": [],
       "dependencies": [],
       "suggestedSkills": [],
       "payload": {
-        "target": "skills/make-motion-graphics/c7f4900d79ea53fd86b5b2f1737d4d888a9f9040de81dcd891aa1c7a663f794e.json",
-        "sha256": "c7f4900d79ea53fd86b5b2f1737d4d888a9f9040de81dcd891aa1c7a663f794e",
-        "length": 39845,
+        "target": "skills/make-motion-graphics/39d22f6678b03d53a3af5307ba9c62396b997658692bbb11bda7a911d674da53.json",
+        "sha256": "39d22f6678b03d53a3af5307ba9c62396b997658692bbb11bda7a911d674da53",
+        "length": 40214,
         "mediaType": "application/json"
       },
       "title": "make-motion-graphics",
@@ -728,20 +731,20 @@
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-28T10:23:13.731Z",
+      "publishedAt": "2026-10-28T11:47:21.430Z",
       "kind": "skill",
       "id": "skills/make-motion-graphics"
     },
     {
       "revision": 1,
-      "minVoyagerVersion": "2026.10.28",
+      "minVoyagerVersion": "2026.10.29-nightly.20261028.14548",
       "requiredCapabilities": [],
       "dependencies": [],
       "suggestedSkills": [],
       "payload": {
-        "target": "skills/make-music/a9a4de21df907071cb03cd0d2a58b39460a2ec1fdc8b96f9aea27f30205159f1.json",
-        "sha256": "a9a4de21df907071cb03cd0d2a58b39460a2ec1fdc8b96f9aea27f30205159f1",
-        "length": 32365,
+        "target": "skills/make-music/e9e7384893081d7ad406f7bcfc6b3281ef0969289fa3582ea3b449a255673c09.json",
+        "sha256": "e9e7384893081d7ad406f7bcfc6b3281ef0969289fa3582ea3b449a255673c09",
+        "length": 32734,
         "mediaType": "application/json"
       },
       "title": "make-music",
@@ -753,8 +756,12 @@
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-28T10:23:13.731Z",
+      "publishedAt": "2026-10-28T11:47:21.430Z",
       "kind": "skill",
+      "absorbedSkills": [
+        "critique-track",
+        "find-samples"
+      ],
       "id": "skills/make-music"
     },
     {
@@ -778,7 +785,7 @@
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-28T10:23:13.731Z",
+      "publishedAt": "2026-10-28T11:47:21.430Z",
       "kind": "skill",
       "id": "skills/make-product-demo"
     },
@@ -803,20 +810,20 @@
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-28T10:23:13.731Z",
+      "publishedAt": "2026-10-28T11:47:21.430Z",
       "kind": "skill",
       "id": "skills/make-social-loop"
     },
     {
       "revision": 1,
-      "minVoyagerVersion": "2026.10.28",
+      "minVoyagerVersion": "2026.10.29-nightly.20261028.14548",
       "requiredCapabilities": [],
       "dependencies": [],
       "suggestedSkills": [],
       "payload": {
-        "target": "skills/make-sound/0c34f5f7ca593e7a7693f1f735aff649db61f0aa92440ff5242824fc364f1ed0.json",
-        "sha256": "0c34f5f7ca593e7a7693f1f735aff649db61f0aa92440ff5242824fc364f1ed0",
-        "length": 28393,
+        "target": "skills/make-sound/f5887613c50077cee7756585165bb7c496f087a4d230509d2864700cb2e8f294.json",
+        "sha256": "f5887613c50077cee7756585165bb7c496f087a4d230509d2864700cb2e8f294",
+        "length": 28762,
         "mediaType": "application/json"
       },
       "title": "make-sound",
@@ -828,7 +835,7 @@
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-28T10:23:13.731Z",
+      "publishedAt": "2026-10-28T11:47:21.430Z",
       "kind": "skill",
       "id": "skills/make-sound"
     },
@@ -853,7 +860,7 @@
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-28T10:23:13.731Z",
+      "publishedAt": "2026-10-28T11:47:21.430Z",
       "kind": "skill",
       "id": "skills/make-static-graphic"
     },
@@ -878,7 +885,7 @@
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-28T10:23:13.731Z",
+      "publishedAt": "2026-10-28T11:47:21.430Z",
       "kind": "skill",
       "id": "skills/manim"
     },
@@ -903,7 +910,7 @@
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-28T10:23:13.731Z",
+      "publishedAt": "2026-10-28T11:47:21.430Z",
       "kind": "skill",
       "id": "skills/mini-flows"
     },
@@ -928,7 +935,7 @@
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-28T10:23:13.731Z",
+      "publishedAt": "2026-10-28T11:47:21.430Z",
       "kind": "skill",
       "id": "skills/mirage-tesseract"
     },
@@ -953,7 +960,7 @@
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-28T10:23:13.731Z",
+      "publishedAt": "2026-10-28T11:47:21.430Z",
       "kind": "skill",
       "id": "skills/obs-studio"
     },
@@ -978,7 +985,7 @@
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-28T10:23:13.731Z",
+      "publishedAt": "2026-10-28T11:47:21.430Z",
       "kind": "skill",
       "id": "skills/photocraft"
     },
@@ -1003,7 +1010,7 @@
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-28T10:23:13.731Z",
+      "publishedAt": "2026-10-28T11:47:21.430Z",
       "kind": "skill",
       "id": "skills/photoshop"
     },
@@ -1028,7 +1035,7 @@
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-28T10:23:13.731Z",
+      "publishedAt": "2026-10-28T11:47:21.430Z",
       "kind": "skill",
       "id": "skills/pixellab"
     },
@@ -1053,7 +1060,7 @@
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-28T10:23:13.731Z",
+      "publishedAt": "2026-10-28T11:47:21.430Z",
       "kind": "skill",
       "id": "skills/premiere-pro"
     },
@@ -1078,7 +1085,7 @@
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-28T10:23:13.731Z",
+      "publishedAt": "2026-10-28T11:47:21.430Z",
       "kind": "skill",
       "absorbedSkills": [
         "publish-to-itch"
@@ -1106,7 +1113,7 @@
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-28T10:23:13.731Z",
+      "publishedAt": "2026-10-28T11:47:21.430Z",
       "kind": "skill",
       "id": "skills/publish-video"
     },
@@ -1131,7 +1138,7 @@
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-28T10:23:13.731Z",
+      "publishedAt": "2026-10-28T11:47:21.430Z",
       "kind": "skill",
       "id": "skills/reaper"
     },
@@ -1156,7 +1163,7 @@
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-28T10:23:13.731Z",
+      "publishedAt": "2026-10-28T11:47:21.430Z",
       "kind": "skill",
       "id": "skills/remotion"
     },
@@ -1181,7 +1188,7 @@
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-28T10:23:13.731Z",
+      "publishedAt": "2026-10-28T11:47:21.430Z",
       "kind": "skill",
       "id": "skills/roblox-studio"
     },
@@ -1206,7 +1213,7 @@
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-28T10:23:13.731Z",
+      "publishedAt": "2026-10-28T11:47:21.430Z",
       "kind": "skill",
       "id": "skills/room-to-video"
     },
@@ -1231,7 +1238,7 @@
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-28T10:23:13.731Z",
+      "publishedAt": "2026-10-28T11:47:21.430Z",
       "kind": "skill",
       "id": "skills/screen-capture"
     },
@@ -1256,7 +1263,7 @@
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-28T10:23:13.731Z",
+      "publishedAt": "2026-10-28T11:47:21.430Z",
       "kind": "skill",
       "id": "skills/unity-engine"
     },
@@ -1281,7 +1288,7 @@
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-28T10:23:13.731Z",
+      "publishedAt": "2026-10-28T11:47:21.430Z",
       "kind": "skill",
       "id": "skills/unreal-engine"
     },
@@ -1306,7 +1313,7 @@
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-28T10:23:13.731Z",
+      "publishedAt": "2026-10-28T11:47:21.430Z",
       "kind": "skill",
       "id": "skills/vectorcraft"
     },
@@ -1331,20 +1338,20 @@
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-28T10:23:13.731Z",
+      "publishedAt": "2026-10-28T11:47:21.430Z",
       "kind": "skill",
       "id": "skills/video-styles"
     },
     {
       "revision": 1,
-      "minVoyagerVersion": "2026.10.28",
+      "minVoyagerVersion": "2026.10.29-nightly.20261028.14548",
       "requiredCapabilities": [],
       "dependencies": [],
       "suggestedSkills": [],
       "payload": {
-        "target": "skills/voiceover/795f9056c6714743bcd13d89386cf72057239bf949932ec0493b1bb43aefdb1e.json",
-        "sha256": "795f9056c6714743bcd13d89386cf72057239bf949932ec0493b1bb43aefdb1e",
-        "length": 76021,
+        "target": "skills/voiceover/0094fe76fdb4810075794a5cdae40acbee55b463a3355c1e52f68713a2feba96.json",
+        "sha256": "0094fe76fdb4810075794a5cdae40acbee55b463a3355c1e52f68713a2feba96",
+        "length": 76390,
         "mediaType": "application/json"
       },
       "title": "voiceover",
@@ -1356,7 +1363,7 @@
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-28T10:23:13.731Z",
+      "publishedAt": "2026-10-28T11:47:21.430Z",
       "kind": "skill",
       "id": "skills/voiceover"
     },
@@ -1381,20 +1388,20 @@
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-28T10:23:13.731Z",
+      "publishedAt": "2026-10-28T11:47:21.430Z",
       "kind": "skill",
       "id": "skills/voyager-setup"
     },
     {
       "revision": 1,
-      "minVoyagerVersion": "2026.10.29-nightly.20261028.14521",
+      "minVoyagerVersion": "2026.10.29-nightly.20261028.14548",
       "requiredCapabilities": [],
       "dependencies": [],
       "suggestedSkills": [],
       "payload": {
-        "target": "skills/widgets/147d2796494be54ac8b4930422ce540062f40f86bed6f9edcabb7099a9a1d0ee.json",
-        "sha256": "147d2796494be54ac8b4930422ce540062f40f86bed6f9edcabb7099a9a1d0ee",
-        "length": 147383,
+        "target": "skills/widgets/372706d063a669c67f86c2c2e34ae7a6847866d3dae0197a59fd705f390bfe75.json",
+        "sha256": "372706d063a669c67f86c2c2e34ae7a6847866d3dae0197a59fd705f390bfe75",
+        "length": 147518,
         "mediaType": "application/json"
       },
       "title": "widgets",
@@ -1406,7 +1413,7 @@
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-28T10:23:13.731Z",
+      "publishedAt": "2026-10-28T11:47:21.430Z",
       "kind": "skill",
       "id": "skills/widgets"
     }
