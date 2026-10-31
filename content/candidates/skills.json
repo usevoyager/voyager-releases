@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "sourceCommit": "75018c035a988317f1feb4dace052ddf647c4ae2",
-  "generatedAt": "2026-10-29T06:46:27.406Z",
+  "sourceCommit": "4f023513bdb268fec4724e91e603ff9f75826a6f",
+  "generatedAt": "2026-10-31T07:41:31.658Z",
   "entries": [
     {
       "revision": 1,
@@ -20,11 +20,11 @@
       "tags": [],
       "outcomes": [],
       "prerequisites": [],
-      "sourceCommit": "75018c035a988317f1feb4dace052ddf647c4ae2",
+      "sourceCommit": "4f023513bdb268fec4724e91e603ff9f75826a6f",
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-29T06:46:27.406Z",
+      "publishedAt": "2026-10-31T07:41:31.658Z",
       "kind": "skill",
       "id": "skills/ableton-live"
     },
@@ -45,49 +45,49 @@
       "tags": [],
       "outcomes": [],
       "prerequisites": [],
-      "sourceCommit": "75018c035a988317f1feb4dace052ddf647c4ae2",
+      "sourceCommit": "4f023513bdb268fec4724e91e603ff9f75826a6f",
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-29T06:46:27.406Z",
+      "publishedAt": "2026-10-31T07:41:31.658Z",
       "kind": "skill",
       "id": "skills/after-effects"
     },
     {
       "revision": 1,
-      "minVoyagerVersion": "2026.10.29-nightly.20261028.14778",
+      "minVoyagerVersion": "2026.10.30-nightly.20261029.15108",
       "requiredCapabilities": [],
       "dependencies": [],
       "suggestedSkills": [],
       "payload": {
-        "target": "skills/blender/db4bc6d1328e3d796f90f5b35be43cb727fc1a887cacc978c9a544bca4171e5e.json",
-        "sha256": "db4bc6d1328e3d796f90f5b35be43cb727fc1a887cacc978c9a544bca4171e5e",
-        "length": 654863,
+        "target": "skills/blender/e1070f22d198e030ca3d595fb485bd12c49951b6937d9e9ecf9620dd8a4d61cb.json",
+        "sha256": "e1070f22d198e030ca3d595fb485bd12c49951b6937d9e9ecf9620dd8a4d61cb",
+        "length": 632503,
         "mediaType": "application/json"
       },
       "title": "blender",
-      "summary": "Voyager Blender tools, contracts, references and delivery.",
+      "summary": "Build, animate and render Blender scenes, including grey-box previs, marked proxies and coverage cameras; Voyager tools and delivery.",
       "tags": [],
       "outcomes": [],
       "prerequisites": [],
-      "sourceCommit": "75018c035a988317f1feb4dace052ddf647c4ae2",
+      "sourceCommit": "4f023513bdb268fec4724e91e603ff9f75826a6f",
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-29T06:46:27.406Z",
+      "publishedAt": "2026-10-31T07:41:31.658Z",
       "kind": "skill",
       "id": "skills/blender"
     },
     {
       "revision": 1,
-      "minVoyagerVersion": "2026.10.29-nightly.20261028.14778",
+      "minVoyagerVersion": "2026.10.30-nightly.20261029.15108",
       "requiredCapabilities": [],
       "dependencies": [],
       "suggestedSkills": [],
       "payload": {
-        "target": "skills/brand-kit/4a1a581816bf5041fc1832f3cf1bb98384a87aa6700002b975e6bcebe4ea0055.json",
-        "sha256": "4a1a581816bf5041fc1832f3cf1bb98384a87aa6700002b975e6bcebe4ea0055",
-        "length": 15473,
+        "target": "skills/brand-kit/ee5eed308d2ff6743228b5020858feceb58f1ee05df68fbcef52048f404fe6e4.json",
+        "sha256": "ee5eed308d2ff6743228b5020858feceb58f1ee05df68fbcef52048f404fe6e4",
+        "length": 15620,
         "mediaType": "application/json"
       },
       "title": "brand-kit",
@@ -95,24 +95,24 @@
       "tags": [],
       "outcomes": [],
       "prerequisites": [],
-      "sourceCommit": "75018c035a988317f1feb4dace052ddf647c4ae2",
+      "sourceCommit": "4f023513bdb268fec4724e91e603ff9f75826a6f",
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-29T06:46:27.406Z",
+      "publishedAt": "2026-10-31T07:41:31.658Z",
       "kind": "skill",
       "id": "skills/brand-kit"
     },
     {
       "revision": 1,
-      "minVoyagerVersion": "2026.10.28-nightly.20261027.14234",
+      "minVoyagerVersion": "2026.10.30-nightly.20261029.15108",
       "requiredCapabilities": [],
       "dependencies": [],
       "suggestedSkills": [],
       "payload": {
-        "target": "skills/capcut/2c8dbf8aed0521d7ff505e551af49a00b1c8c6f6ccd7ff04e4eba0475074a39f.json",
-        "sha256": "2c8dbf8aed0521d7ff505e551af49a00b1c8c6f6ccd7ff04e4eba0475074a39f",
-        "length": 1245,
+        "target": "skills/capcut/c499688e16a0d62ffcf9a09063dee5cef0e40893f4231bf655b76057e0d7b658.json",
+        "sha256": "c499688e16a0d62ffcf9a09063dee5cef0e40893f4231bf655b76057e0d7b658",
+        "length": 1235,
         "mediaType": "application/json"
       },
       "title": "capcut",
@@ -120,24 +120,24 @@
       "tags": [],
       "outcomes": [],
       "prerequisites": [],
-      "sourceCommit": "75018c035a988317f1feb4dace052ddf647c4ae2",
+      "sourceCommit": "4f023513bdb268fec4724e91e603ff9f75826a6f",
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-29T06:46:27.406Z",
+      "publishedAt": "2026-10-31T07:41:31.658Z",
       "kind": "skill",
       "id": "skills/capcut"
     },
     {
       "revision": 1,
-      "minVoyagerVersion": "2026.10.27+1",
+      "minVoyagerVersion": "2026.10.29",
       "requiredCapabilities": [],
       "dependencies": [],
       "suggestedSkills": [],
       "payload": {
-        "target": "skills/cinema-4d/d653aa02123a752faa5a3c56c1bf48827d9f0e841d9904d8a22aaba1d892073f.json",
-        "sha256": "d653aa02123a752faa5a3c56c1bf48827d9f0e841d9904d8a22aaba1d892073f",
-        "length": 1589,
+        "target": "skills/cinema-4d/e1f0ab0c03729122d267f35cb1ea4be85243d255dd44c260590e24e8b624f795.json",
+        "sha256": "e1f0ab0c03729122d267f35cb1ea4be85243d255dd44c260590e24e8b624f795",
+        "length": 1584,
         "mediaType": "application/json"
       },
       "title": "cinema-4d",
@@ -145,36 +145,36 @@
       "tags": [],
       "outcomes": [],
       "prerequisites": [],
-      "sourceCommit": "75018c035a988317f1feb4dace052ddf647c4ae2",
+      "sourceCommit": "4f023513bdb268fec4724e91e603ff9f75826a6f",
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-29T06:46:27.406Z",
+      "publishedAt": "2026-10-31T07:41:31.658Z",
       "kind": "skill",
       "id": "skills/cinema-4d"
     },
     {
       "revision": 1,
-      "minVoyagerVersion": "2026.10.29-nightly.20261028.14778",
+      "minVoyagerVersion": "2026.10.29",
       "requiredCapabilities": [],
       "dependencies": [],
       "suggestedSkills": [],
       "payload": {
-        "target": "skills/clip-review/75b7d8f5d20cc3bfaa2f21d90f0271f098088b458cdb69ff268c85758f38de41.json",
-        "sha256": "75b7d8f5d20cc3bfaa2f21d90f0271f098088b458cdb69ff268c85758f38de41",
-        "length": 5128,
+        "target": "skills/clip-review/e2fd5a4a88fdf2c40e35f6d43e52e152dd5888930787a8e401292a1f1f901c77.json",
+        "sha256": "e2fd5a4a88fdf2c40e35f6d43e52e152dd5888930787a8e401292a1f1f901c77",
+        "length": 5172,
         "mediaType": "application/json"
       },
       "title": "clip-review",
-      "summary": "Use when reviewing a batch of more than six presented clips with the inline clip review widget.",
+      "summary": "Review generated clips for motion, sound and sync, or collect batch keep/refine/drop feedback.",
       "tags": [],
       "outcomes": [],
       "prerequisites": [],
-      "sourceCommit": "75018c035a988317f1feb4dace052ddf647c4ae2",
+      "sourceCommit": "4f023513bdb268fec4724e91e603ff9f75826a6f",
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-29T06:46:27.406Z",
+      "publishedAt": "2026-10-31T07:41:31.658Z",
       "kind": "skill",
       "id": "skills/clip-review"
     },
@@ -195,11 +195,11 @@
       "tags": [],
       "outcomes": [],
       "prerequisites": [],
-      "sourceCommit": "75018c035a988317f1feb4dace052ddf647c4ae2",
+      "sourceCommit": "4f023513bdb268fec4724e91e603ff9f75826a6f",
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-29T06:46:27.406Z",
+      "publishedAt": "2026-10-31T07:41:31.658Z",
       "kind": "skill",
       "id": "skills/comfyui"
     },
@@ -220,11 +220,11 @@
       "tags": [],
       "outcomes": [],
       "prerequisites": [],
-      "sourceCommit": "75018c035a988317f1feb4dace052ddf647c4ae2",
+      "sourceCommit": "4f023513bdb268fec4724e91e603ff9f75826a6f",
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-29T06:46:27.406Z",
+      "publishedAt": "2026-10-31T07:41:31.658Z",
       "kind": "skill",
       "id": "skills/composition-review"
     },
@@ -245,11 +245,11 @@
       "tags": [],
       "outcomes": [],
       "prerequisites": [],
-      "sourceCommit": "75018c035a988317f1feb4dace052ddf647c4ae2",
+      "sourceCommit": "4f023513bdb268fec4724e91e603ff9f75826a6f",
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-29T06:46:27.406Z",
+      "publishedAt": "2026-10-31T07:41:31.658Z",
       "kind": "skill",
       "id": "skills/computer-use"
     },
@@ -270,11 +270,11 @@
       "tags": [],
       "outcomes": [],
       "prerequisites": [],
-      "sourceCommit": "75018c035a988317f1feb4dace052ddf647c4ae2",
+      "sourceCommit": "4f023513bdb268fec4724e91e603ff9f75826a6f",
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-29T06:46:27.406Z",
+      "publishedAt": "2026-10-31T07:41:31.658Z",
       "kind": "skill",
       "id": "skills/conversation-collaboration"
     },
@@ -295,24 +295,24 @@
       "tags": [],
       "outcomes": [],
       "prerequisites": [],
-      "sourceCommit": "75018c035a988317f1feb4dace052ddf647c4ae2",
+      "sourceCommit": "4f023513bdb268fec4724e91e603ff9f75826a6f",
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-29T06:46:27.406Z",
+      "publishedAt": "2026-10-31T07:41:31.658Z",
       "kind": "skill",
       "id": "skills/custom-connectors"
     },
     {
       "revision": 1,
-      "minVoyagerVersion": "2026.10.28-nightly.20261027.14234",
+      "minVoyagerVersion": "2026.10.30-nightly.20261029.15108",
       "requiredCapabilities": [],
       "dependencies": [],
       "suggestedSkills": [],
       "payload": {
-        "target": "skills/davinci-resolve/3d39209f0cbf1845fbba6bf4152c817f6a9ae76679b2196ed076790b2bcd1c74.json",
-        "sha256": "3d39209f0cbf1845fbba6bf4152c817f6a9ae76679b2196ed076790b2bcd1c74",
-        "length": 38516,
+        "target": "skills/davinci-resolve/925d8522891cdff5ff581eab7a2cc37d6b93d0f60c05ac895d6b845d3143d464.json",
+        "sha256": "925d8522891cdff5ff581eab7a2cc37d6b93d0f60c05ac895d6b845d3143d464",
+        "length": 37708,
         "mediaType": "application/json"
       },
       "title": "davinci-resolve",
@@ -320,11 +320,11 @@
       "tags": [],
       "outcomes": [],
       "prerequisites": [],
-      "sourceCommit": "75018c035a988317f1feb4dace052ddf647c4ae2",
+      "sourceCommit": "4f023513bdb268fec4724e91e603ff9f75826a6f",
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-29T06:46:27.406Z",
+      "publishedAt": "2026-10-31T07:41:31.658Z",
       "kind": "skill",
       "id": "skills/davinci-resolve"
     },
@@ -345,11 +345,11 @@
       "tags": [],
       "outcomes": [],
       "prerequisites": [],
-      "sourceCommit": "75018c035a988317f1feb4dace052ddf647c4ae2",
+      "sourceCommit": "4f023513bdb268fec4724e91e603ff9f75826a6f",
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-29T06:46:27.406Z",
+      "publishedAt": "2026-10-31T07:41:31.658Z",
       "kind": "skill",
       "id": "skills/demo-mac"
     },
@@ -370,24 +370,24 @@
       "tags": [],
       "outcomes": [],
       "prerequisites": [],
-      "sourceCommit": "75018c035a988317f1feb4dace052ddf647c4ae2",
+      "sourceCommit": "4f023513bdb268fec4724e91e603ff9f75826a6f",
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-29T06:46:27.406Z",
+      "publishedAt": "2026-10-31T07:41:31.658Z",
       "kind": "skill",
       "id": "skills/descript"
     },
     {
       "revision": 1,
-      "minVoyagerVersion": "2026.10.29-nightly.20261028.14778",
+      "minVoyagerVersion": "2026.10.30-nightly.20261029.15108",
       "requiredCapabilities": [],
       "dependencies": [],
       "suggestedSkills": [],
       "payload": {
-        "target": "skills/edit-video/877bb1c06043e8322fad558a0ae0d0a78c16e840b239d6a019b44eda65c938ed.json",
-        "sha256": "877bb1c06043e8322fad558a0ae0d0a78c16e840b239d6a019b44eda65c938ed",
-        "length": 22857,
+        "target": "skills/edit-video/72b11017926d66b2d71b014ac2bacc63437966bbc7a40e93660f0fa873b88199.json",
+        "sha256": "72b11017926d66b2d71b014ac2bacc63437966bbc7a40e93660f0fa873b88199",
+        "length": 23318,
         "mediaType": "application/json"
       },
       "title": "edit-video",
@@ -395,11 +395,11 @@
       "tags": [],
       "outcomes": [],
       "prerequisites": [],
-      "sourceCommit": "75018c035a988317f1feb4dace052ddf647c4ae2",
+      "sourceCommit": "4f023513bdb268fec4724e91e603ff9f75826a6f",
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-29T06:46:27.406Z",
+      "publishedAt": "2026-10-31T07:41:31.658Z",
       "kind": "skill",
       "id": "skills/edit-video"
     },
@@ -420,11 +420,11 @@
       "tags": [],
       "outcomes": [],
       "prerequisites": [],
-      "sourceCommit": "75018c035a988317f1feb4dace052ddf647c4ae2",
+      "sourceCommit": "4f023513bdb268fec4724e91e603ff9f75826a6f",
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-29T06:46:27.406Z",
+      "publishedAt": "2026-10-31T07:41:31.658Z",
       "kind": "skill",
       "id": "skills/effectcraft"
     },
@@ -445,24 +445,24 @@
       "tags": [],
       "outcomes": [],
       "prerequisites": [],
-      "sourceCommit": "75018c035a988317f1feb4dace052ddf647c4ae2",
+      "sourceCommit": "4f023513bdb268fec4724e91e603ff9f75826a6f",
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-29T06:46:27.406Z",
+      "publishedAt": "2026-10-31T07:41:31.658Z",
       "kind": "skill",
       "id": "skills/fframes"
     },
     {
       "revision": 1,
-      "minVoyagerVersion": "2026.10.27+1",
+      "minVoyagerVersion": "2026.10.30-nightly.20261029.15108",
       "requiredCapabilities": [],
       "dependencies": [],
       "suggestedSkills": [],
       "payload": {
-        "target": "skills/figma/566a5d46e839afe3861847b48fc790b3d7b4878df0a12d42f810aad47f87da97.json",
-        "sha256": "566a5d46e839afe3861847b48fc790b3d7b4878df0a12d42f810aad47f87da97",
-        "length": 142511,
+        "target": "skills/figma/d7ef6287b608fa2b8148a6ae64ccebc119732d93992a3d47bbd590f778a2520b.json",
+        "sha256": "d7ef6287b608fa2b8148a6ae64ccebc119732d93992a3d47bbd590f778a2520b",
+        "length": 142625,
         "mediaType": "application/json"
       },
       "title": "figma",
@@ -470,24 +470,24 @@
       "tags": [],
       "outcomes": [],
       "prerequisites": [],
-      "sourceCommit": "75018c035a988317f1feb4dace052ddf647c4ae2",
+      "sourceCommit": "4f023513bdb268fec4724e91e603ff9f75826a6f",
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-29T06:46:27.406Z",
+      "publishedAt": "2026-10-31T07:41:31.658Z",
       "kind": "skill",
       "id": "skills/figma"
     },
     {
       "revision": 1,
-      "minVoyagerVersion": "2026.10.27+1",
+      "minVoyagerVersion": "2026.10.29",
       "requiredCapabilities": [],
       "dependencies": [],
       "suggestedSkills": [],
       "payload": {
-        "target": "skills/final-cut-pro/fbae50a712f031aea698c76af5679a4a039d501d31f9e20d23a3d7d53f40f675.json",
-        "sha256": "fbae50a712f031aea698c76af5679a4a039d501d31f9e20d23a3d7d53f40f675",
-        "length": 11005,
+        "target": "skills/final-cut-pro/a6b67742054f6c5d839e437f3252797201527120848f28c91b1976e1f83a8485.json",
+        "sha256": "a6b67742054f6c5d839e437f3252797201527120848f28c91b1976e1f83a8485",
+        "length": 11163,
         "mediaType": "application/json"
       },
       "title": "final-cut-pro",
@@ -495,11 +495,11 @@
       "tags": [],
       "outcomes": [],
       "prerequisites": [],
-      "sourceCommit": "75018c035a988317f1feb4dace052ddf647c4ae2",
+      "sourceCommit": "4f023513bdb268fec4724e91e603ff9f75826a6f",
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-29T06:46:27.406Z",
+      "publishedAt": "2026-10-31T07:41:31.658Z",
       "kind": "skill",
       "id": "skills/final-cut-pro"
     },
@@ -520,11 +520,11 @@
       "tags": [],
       "outcomes": [],
       "prerequisites": [],
-      "sourceCommit": "75018c035a988317f1feb4dace052ddf647c4ae2",
+      "sourceCommit": "4f023513bdb268fec4724e91e603ff9f75826a6f",
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-29T06:46:27.406Z",
+      "publishedAt": "2026-10-31T07:41:31.658Z",
       "kind": "skill",
       "id": "skills/frameio"
     },
@@ -545,24 +545,24 @@
       "tags": [],
       "outcomes": [],
       "prerequisites": [],
-      "sourceCommit": "75018c035a988317f1feb4dace052ddf647c4ae2",
+      "sourceCommit": "4f023513bdb268fec4724e91e603ff9f75826a6f",
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-29T06:46:27.406Z",
+      "publishedAt": "2026-10-31T07:41:31.658Z",
       "kind": "skill",
       "id": "skills/gpu-machines"
     },
     {
       "revision": 1,
-      "minVoyagerVersion": "2026.10.27+1",
+      "minVoyagerVersion": "2026.10.29",
       "requiredCapabilities": [],
       "dependencies": [],
       "suggestedSkills": [],
       "payload": {
-        "target": "skills/houdini/66c873a74ec19304d265c0223f2e35461a1c6e4ef4ac5166941525472a88ea2a.json",
-        "sha256": "66c873a74ec19304d265c0223f2e35461a1c6e4ef4ac5166941525472a88ea2a",
-        "length": 1648,
+        "target": "skills/houdini/16b657828e304921a6ebc638cc65bc4d8091e288375aeffe71fbef5ad47c446a.json",
+        "sha256": "16b657828e304921a6ebc638cc65bc4d8091e288375aeffe71fbef5ad47c446a",
+        "length": 1643,
         "mediaType": "application/json"
       },
       "title": "houdini",
@@ -570,11 +570,11 @@
       "tags": [],
       "outcomes": [],
       "prerequisites": [],
-      "sourceCommit": "75018c035a988317f1feb4dace052ddf647c4ae2",
+      "sourceCommit": "4f023513bdb268fec4724e91e603ff9f75826a6f",
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-29T06:46:27.406Z",
+      "publishedAt": "2026-10-31T07:41:31.658Z",
       "kind": "skill",
       "id": "skills/houdini"
     },
@@ -595,24 +595,24 @@
       "tags": [],
       "outcomes": [],
       "prerequisites": [],
-      "sourceCommit": "75018c035a988317f1feb4dace052ddf647c4ae2",
+      "sourceCommit": "4f023513bdb268fec4724e91e603ff9f75826a6f",
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-29T06:46:27.406Z",
+      "publishedAt": "2026-10-31T07:41:31.658Z",
       "kind": "skill",
       "id": "skills/hum-to-music"
     },
     {
       "revision": 1,
-      "minVoyagerVersion": "2026.10.29-nightly.20261028.14778",
+      "minVoyagerVersion": "2026.10.29",
       "requiredCapabilities": [],
       "dependencies": [],
       "suggestedSkills": [],
       "payload": {
-        "target": "skills/hyperframes/840983c15b13b13c11956038c967bfa9406cecacaca5e0f7d341f59637631038.json",
-        "sha256": "840983c15b13b13c11956038c967bfa9406cecacaca5e0f7d341f59637631038",
-        "length": 9767,
+        "target": "skills/hyperframes/7906361cf3b044ef73afc436bf92842963fabce84b51928eb998856779bf5f04.json",
+        "sha256": "7906361cf3b044ef73afc436bf92842963fabce84b51928eb998856779bf5f04",
+        "length": 9762,
         "mediaType": "application/json"
       },
       "title": "hyperframes",
@@ -620,11 +620,11 @@
       "tags": [],
       "outcomes": [],
       "prerequisites": [],
-      "sourceCommit": "75018c035a988317f1feb4dace052ddf647c4ae2",
+      "sourceCommit": "4f023513bdb268fec4724e91e603ff9f75826a6f",
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-29T06:46:27.406Z",
+      "publishedAt": "2026-10-31T07:41:31.658Z",
       "kind": "skill",
       "id": "skills/hyperframes"
     },
@@ -645,11 +645,11 @@
       "tags": [],
       "outcomes": [],
       "prerequisites": [],
-      "sourceCommit": "75018c035a988317f1feb4dace052ddf647c4ae2",
+      "sourceCommit": "4f023513bdb268fec4724e91e603ff9f75826a6f",
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-29T06:46:27.406Z",
+      "publishedAt": "2026-10-31T07:41:31.658Z",
       "kind": "skill",
       "id": "skills/illustrator"
     },
@@ -670,11 +670,11 @@
       "tags": [],
       "outcomes": [],
       "prerequisites": [],
-      "sourceCommit": "75018c035a988317f1feb4dace052ddf647c4ae2",
+      "sourceCommit": "4f023513bdb268fec4724e91e603ff9f75826a6f",
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-29T06:46:27.406Z",
+      "publishedAt": "2026-10-31T07:41:31.658Z",
       "kind": "skill",
       "id": "skills/library-brand"
     },
@@ -695,11 +695,11 @@
       "tags": [],
       "outcomes": [],
       "prerequisites": [],
-      "sourceCommit": "75018c035a988317f1feb4dace052ddf647c4ae2",
+      "sourceCommit": "4f023513bdb268fec4724e91e603ff9f75826a6f",
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-29T06:46:27.406Z",
+      "publishedAt": "2026-10-31T07:41:31.658Z",
       "kind": "skill",
       "id": "skills/lightcraft"
     },
@@ -720,24 +720,24 @@
       "tags": [],
       "outcomes": [],
       "prerequisites": [],
-      "sourceCommit": "75018c035a988317f1feb4dace052ddf647c4ae2",
+      "sourceCommit": "4f023513bdb268fec4724e91e603ff9f75826a6f",
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-29T06:46:27.406Z",
+      "publishedAt": "2026-10-31T07:41:31.658Z",
       "kind": "skill",
       "id": "skills/make-ai-video"
     },
     {
       "revision": 1,
-      "minVoyagerVersion": "2026.10.29-nightly.20261028.14778",
+      "minVoyagerVersion": "2026.10.30-nightly.20261029.15108",
       "requiredCapabilities": [],
       "dependencies": [],
       "suggestedSkills": [],
       "payload": {
-        "target": "skills/make-announcement-video/60b581ebb2775acc395a7fe81ec6b57f47cdccafc72791016fb06eb69c36bdf1.json",
-        "sha256": "60b581ebb2775acc395a7fe81ec6b57f47cdccafc72791016fb06eb69c36bdf1",
-        "length": 8147,
+        "target": "skills/make-announcement-video/ed9537bc6be3a58b985410963a92e61c22fd8deab77781543a92cffcd83f7209.json",
+        "sha256": "ed9537bc6be3a58b985410963a92e61c22fd8deab77781543a92cffcd83f7209",
+        "length": 8409,
         "mediaType": "application/json"
       },
       "title": "make-announcement-video",
@@ -745,24 +745,27 @@
       "tags": [],
       "outcomes": [],
       "prerequisites": [],
-      "sourceCommit": "75018c035a988317f1feb4dace052ddf647c4ae2",
+      "sourceCommit": "4f023513bdb268fec4724e91e603ff9f75826a6f",
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-29T06:46:27.406Z",
+      "publishedAt": "2026-10-31T07:41:31.658Z",
       "kind": "skill",
+      "absorbedSkills": [
+        "talking-character-launch-video"
+      ],
       "id": "skills/make-announcement-video"
     },
     {
       "revision": 1,
-      "minVoyagerVersion": "2026.10.29-nightly.20261028.14778",
+      "minVoyagerVersion": "2026.10.30-nightly.20261029.15108",
       "requiredCapabilities": [],
       "dependencies": [],
       "suggestedSkills": [],
       "payload": {
-        "target": "skills/make-deck/54c3a72f638325ff13f4376e366c2c68c0d1e36d974b94858bd54fd7810ab239.json",
-        "sha256": "54c3a72f638325ff13f4376e366c2c68c0d1e36d974b94858bd54fd7810ab239",
-        "length": 8304,
+        "target": "skills/make-deck/67b09fb12289f431f0052301f39d8ba09b2c1abbd60f576fa5f8b5de04315ee6.json",
+        "sha256": "67b09fb12289f431f0052301f39d8ba09b2c1abbd60f576fa5f8b5de04315ee6",
+        "length": 9138,
         "mediaType": "application/json"
       },
       "title": "make-deck",
@@ -770,24 +773,24 @@
       "tags": [],
       "outcomes": [],
       "prerequisites": [],
-      "sourceCommit": "75018c035a988317f1feb4dace052ddf647c4ae2",
+      "sourceCommit": "4f023513bdb268fec4724e91e603ff9f75826a6f",
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-29T06:46:27.406Z",
+      "publishedAt": "2026-10-31T07:41:31.658Z",
       "kind": "skill",
       "id": "skills/make-deck"
     },
     {
       "revision": 1,
-      "minVoyagerVersion": "2026.10.29-nightly.20261028.14778",
+      "minVoyagerVersion": "2026.10.30-nightly.20261029.15108",
       "requiredCapabilities": [],
       "dependencies": [],
       "suggestedSkills": [],
       "payload": {
-        "target": "skills/make-game/455a6d031a5119883b3f6970a61a93dade2570be84f894a87fef8b7fcbb9a8c4.json",
-        "sha256": "455a6d031a5119883b3f6970a61a93dade2570be84f894a87fef8b7fcbb9a8c4",
-        "length": 13785,
+        "target": "skills/make-game/29ab9f2819db8a2859989fd4cb8e3294dd175b84fa13bb0d506970eb04bbaa82.json",
+        "sha256": "29ab9f2819db8a2859989fd4cb8e3294dd175b84fa13bb0d506970eb04bbaa82",
+        "length": 14423,
         "mediaType": "application/json"
       },
       "title": "make-game",
@@ -795,24 +798,28 @@
       "tags": [],
       "outcomes": [],
       "prerequisites": [],
-      "sourceCommit": "75018c035a988317f1feb4dace052ddf647c4ae2",
+      "sourceCommit": "4f023513bdb268fec4724e91e603ff9f75826a6f",
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-29T06:46:27.406Z",
+      "publishedAt": "2026-10-31T07:41:31.658Z",
       "kind": "skill",
+      "absorbedSkills": [
+        "make-web-game",
+        "make-x-game"
+      ],
       "id": "skills/make-game"
     },
     {
       "revision": 1,
-      "minVoyagerVersion": "2026.10.29-nightly.20261028.14778",
+      "minVoyagerVersion": "2026.10.30-nightly.20261029.15108",
       "requiredCapabilities": [],
       "dependencies": [],
       "suggestedSkills": [],
       "payload": {
-        "target": "skills/make-image/ffc42b018cc8731599ea1d898df9cdcd0afaccc4d1a884a33ed57fd6c2cc62a6.json",
-        "sha256": "ffc42b018cc8731599ea1d898df9cdcd0afaccc4d1a884a33ed57fd6c2cc62a6",
-        "length": 21645,
+        "target": "skills/make-image/f223432effc305a0834b24f7bf1b8a51abfb04e925c59449d7e242ca362aad31.json",
+        "sha256": "f223432effc305a0834b24f7bf1b8a51abfb04e925c59449d7e242ca362aad31",
+        "length": 27454,
         "mediaType": "application/json"
       },
       "title": "make-image",
@@ -820,24 +827,24 @@
       "tags": [],
       "outcomes": [],
       "prerequisites": [],
-      "sourceCommit": "75018c035a988317f1feb4dace052ddf647c4ae2",
+      "sourceCommit": "4f023513bdb268fec4724e91e603ff9f75826a6f",
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-29T06:46:27.406Z",
+      "publishedAt": "2026-10-31T07:41:31.658Z",
       "kind": "skill",
       "id": "skills/make-image"
     },
     {
       "revision": 1,
-      "minVoyagerVersion": "2026.10.29-nightly.20261028.14778",
+      "minVoyagerVersion": "2026.10.30-nightly.20261029.15108",
       "requiredCapabilities": [],
       "dependencies": [],
       "suggestedSkills": [],
       "payload": {
-        "target": "skills/make-motion-graphics/c0ab0c22e3c228f2211620def56e691ba0b7d59e82c8240b8231b4ab8a90a676.json",
-        "sha256": "c0ab0c22e3c228f2211620def56e691ba0b7d59e82c8240b8231b4ab8a90a676",
-        "length": 16474,
+        "target": "skills/make-motion-graphics/b45b3f2f37835aa5b509f1105dd04d5a1451dcd8d8b6f6523f4899c00a5e58e4.json",
+        "sha256": "b45b3f2f37835aa5b509f1105dd04d5a1451dcd8d8b6f6523f4899c00a5e58e4",
+        "length": 17795,
         "mediaType": "application/json"
       },
       "title": "make-motion-graphics",
@@ -845,24 +852,24 @@
       "tags": [],
       "outcomes": [],
       "prerequisites": [],
-      "sourceCommit": "75018c035a988317f1feb4dace052ddf647c4ae2",
+      "sourceCommit": "4f023513bdb268fec4724e91e603ff9f75826a6f",
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-29T06:46:27.406Z",
+      "publishedAt": "2026-10-31T07:41:31.658Z",
       "kind": "skill",
       "id": "skills/make-motion-graphics"
     },
     {
       "revision": 1,
-      "minVoyagerVersion": "2026.10.29-nightly.20261028.14778",
+      "minVoyagerVersion": "2026.10.30-nightly.20261029.15108",
       "requiredCapabilities": [],
       "dependencies": [],
       "suggestedSkills": [],
       "payload": {
-        "target": "skills/make-music/79c51920f80922094a6335a526e9654031c26673084a3b361617958cdb463516.json",
-        "sha256": "79c51920f80922094a6335a526e9654031c26673084a3b361617958cdb463516",
-        "length": 9852,
+        "target": "skills/make-music/c79b76c12b2e1070e82553296913ee792ed46a6428430cb45be0325264f930cf.json",
+        "sha256": "c79b76c12b2e1070e82553296913ee792ed46a6428430cb45be0325264f930cf",
+        "length": 10898,
         "mediaType": "application/json"
       },
       "title": "make-music",
@@ -870,24 +877,29 @@
       "tags": [],
       "outcomes": [],
       "prerequisites": [],
-      "sourceCommit": "75018c035a988317f1feb4dace052ddf647c4ae2",
+      "sourceCommit": "4f023513bdb268fec4724e91e603ff9f75826a6f",
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-29T06:46:27.406Z",
+      "publishedAt": "2026-10-31T07:41:31.658Z",
       "kind": "skill",
+      "absorbedSkills": [
+        "critique-track",
+        "find-samples",
+        "choose-media-model"
+      ],
       "id": "skills/make-music"
     },
     {
       "revision": 1,
-      "minVoyagerVersion": "2026.10.29-nightly.20261028.14778",
+      "minVoyagerVersion": "2026.10.30-nightly.20261029.15108",
       "requiredCapabilities": [],
       "dependencies": [],
       "suggestedSkills": [],
       "payload": {
-        "target": "skills/make-product-demo/58a5a994f3df56defd1a1343b861317f717c9801dea23902a672d3859695d653.json",
-        "sha256": "58a5a994f3df56defd1a1343b861317f717c9801dea23902a672d3859695d653",
-        "length": 6847,
+        "target": "skills/make-product-demo/4cd196331fcb6768118aa943a715e4aea8d75e2e12172b5cc7bb0b7a4b274177.json",
+        "sha256": "4cd196331fcb6768118aa943a715e4aea8d75e2e12172b5cc7bb0b7a4b274177",
+        "length": 7096,
         "mediaType": "application/json"
       },
       "title": "make-product-demo",
@@ -895,24 +907,24 @@
       "tags": [],
       "outcomes": [],
       "prerequisites": [],
-      "sourceCommit": "75018c035a988317f1feb4dace052ddf647c4ae2",
+      "sourceCommit": "4f023513bdb268fec4724e91e603ff9f75826a6f",
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-29T06:46:27.406Z",
+      "publishedAt": "2026-10-31T07:41:31.658Z",
       "kind": "skill",
       "id": "skills/make-product-demo"
     },
     {
       "revision": 1,
-      "minVoyagerVersion": "2026.10.29-nightly.20261028.14778",
+      "minVoyagerVersion": "2026.10.30-nightly.20261029.15108",
       "requiredCapabilities": [],
       "dependencies": [],
       "suggestedSkills": [],
       "payload": {
-        "target": "skills/make-social-loop/2a6015f4c50e0c50e093332476d26e858ba1eb3495ef50a88ab99c588689daaf.json",
-        "sha256": "2a6015f4c50e0c50e093332476d26e858ba1eb3495ef50a88ab99c588689daaf",
-        "length": 9236,
+        "target": "skills/make-social-loop/02f1f4e95a689aed26609503b734edd6c80d5a65f351da8658c58b87ea39202b.json",
+        "sha256": "02f1f4e95a689aed26609503b734edd6c80d5a65f351da8658c58b87ea39202b",
+        "length": 9478,
         "mediaType": "application/json"
       },
       "title": "make-social-loop",
@@ -920,24 +932,24 @@
       "tags": [],
       "outcomes": [],
       "prerequisites": [],
-      "sourceCommit": "75018c035a988317f1feb4dace052ddf647c4ae2",
+      "sourceCommit": "4f023513bdb268fec4724e91e603ff9f75826a6f",
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-29T06:46:27.406Z",
+      "publishedAt": "2026-10-31T07:41:31.658Z",
       "kind": "skill",
       "id": "skills/make-social-loop"
     },
     {
       "revision": 1,
-      "minVoyagerVersion": "2026.10.29-nightly.20261028.14778",
+      "minVoyagerVersion": "2026.10.29",
       "requiredCapabilities": [],
       "dependencies": [],
       "suggestedSkills": [],
       "payload": {
-        "target": "skills/make-sound/e1baafd74522fd06ddccde3ca676f2e8a4d7aef34d0e3ebc625687fdc73b73f3.json",
-        "sha256": "e1baafd74522fd06ddccde3ca676f2e8a4d7aef34d0e3ebc625687fdc73b73f3",
-        "length": 6170,
+        "target": "skills/make-sound/91962c15e8f40dd858197f58d5ca52bc50b6fa794788d6c8455b6fd3d5c4e478.json",
+        "sha256": "91962c15e8f40dd858197f58d5ca52bc50b6fa794788d6c8455b6fd3d5c4e478",
+        "length": 5780,
         "mediaType": "application/json"
       },
       "title": "make-sound",
@@ -945,24 +957,27 @@
       "tags": [],
       "outcomes": [],
       "prerequisites": [],
-      "sourceCommit": "75018c035a988317f1feb4dace052ddf647c4ae2",
+      "sourceCommit": "4f023513bdb268fec4724e91e603ff9f75826a6f",
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-29T06:46:27.406Z",
+      "publishedAt": "2026-10-31T07:41:31.658Z",
       "kind": "skill",
+      "absorbedSkills": [
+        "choose-media-model"
+      ],
       "id": "skills/make-sound"
     },
     {
       "revision": 1,
-      "minVoyagerVersion": "2026.10.29-nightly.20261028.14778",
+      "minVoyagerVersion": "2026.10.30-nightly.20261029.15108",
       "requiredCapabilities": [],
       "dependencies": [],
       "suggestedSkills": [],
       "payload": {
-        "target": "skills/make-static-graphic/7761ddf62c88d89495099217411d3276d3b573b94bbb5c26b8a57b55a83e2ea1.json",
-        "sha256": "7761ddf62c88d89495099217411d3276d3b573b94bbb5c26b8a57b55a83e2ea1",
-        "length": 9327,
+        "target": "skills/make-static-graphic/acdd365215228d4f8e5159d63fe699cc20573802eb321a6fdb7546b93ec09248.json",
+        "sha256": "acdd365215228d4f8e5159d63fe699cc20573802eb321a6fdb7546b93ec09248",
+        "length": 10102,
         "mediaType": "application/json"
       },
       "title": "make-static-graphic",
@@ -970,24 +985,24 @@
       "tags": [],
       "outcomes": [],
       "prerequisites": [],
-      "sourceCommit": "75018c035a988317f1feb4dace052ddf647c4ae2",
+      "sourceCommit": "4f023513bdb268fec4724e91e603ff9f75826a6f",
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-29T06:46:27.406Z",
+      "publishedAt": "2026-10-31T07:41:31.658Z",
       "kind": "skill",
       "id": "skills/make-static-graphic"
     },
     {
       "revision": 1,
-      "minVoyagerVersion": "2026.10.29-nightly.20261028.14778",
+      "minVoyagerVersion": "2026.10.29",
       "requiredCapabilities": [],
       "dependencies": [],
       "suggestedSkills": [],
       "payload": {
-        "target": "skills/manim/3e26b99a6e3a409f9d850abdcac605498cf11f884eb84725bf8797e0e27b48c6.json",
-        "sha256": "3e26b99a6e3a409f9d850abdcac605498cf11f884eb84725bf8797e0e27b48c6",
-        "length": 3252,
+        "target": "skills/manim/e4b8f24eceeb841dcc752c8d608ac3c59383e7ad13e5b7ff27820b22e0b63814.json",
+        "sha256": "e4b8f24eceeb841dcc752c8d608ac3c59383e7ad13e5b7ff27820b22e0b63814",
+        "length": 3247,
         "mediaType": "application/json"
       },
       "title": "manim",
@@ -995,24 +1010,24 @@
       "tags": [],
       "outcomes": [],
       "prerequisites": [],
-      "sourceCommit": "75018c035a988317f1feb4dace052ddf647c4ae2",
+      "sourceCommit": "4f023513bdb268fec4724e91e603ff9f75826a6f",
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-29T06:46:27.406Z",
+      "publishedAt": "2026-10-31T07:41:31.658Z",
       "kind": "skill",
       "id": "skills/manim"
     },
     {
       "revision": 1,
-      "minVoyagerVersion": "2026.10.29-nightly.20261028.14778",
+      "minVoyagerVersion": "2026.10.29",
       "requiredCapabilities": [],
       "dependencies": [],
       "suggestedSkills": [],
       "payload": {
-        "target": "skills/mini-flows/9c0737d0e99706d1786de00520aa5e80ffd8c2f0f432d0e9ca5aa988e243ddca.json",
-        "sha256": "9c0737d0e99706d1786de00520aa5e80ffd8c2f0f432d0e9ca5aa988e243ddca",
-        "length": 115870,
+        "target": "skills/mini-flows/769fd414c8bbb8d60500cd668564f835fba462ed34653b206281c139458d108c.json",
+        "sha256": "769fd414c8bbb8d60500cd668564f835fba462ed34653b206281c139458d108c",
+        "length": 116031,
         "mediaType": "application/json"
       },
       "title": "mini-flows",
@@ -1020,11 +1035,11 @@
       "tags": [],
       "outcomes": [],
       "prerequisites": [],
-      "sourceCommit": "75018c035a988317f1feb4dace052ddf647c4ae2",
+      "sourceCommit": "4f023513bdb268fec4724e91e603ff9f75826a6f",
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-29T06:46:27.406Z",
+      "publishedAt": "2026-10-31T07:41:31.658Z",
       "kind": "skill",
       "id": "skills/mini-flows"
     },
@@ -1045,11 +1060,11 @@
       "tags": [],
       "outcomes": [],
       "prerequisites": [],
-      "sourceCommit": "75018c035a988317f1feb4dace052ddf647c4ae2",
+      "sourceCommit": "4f023513bdb268fec4724e91e603ff9f75826a6f",
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-29T06:46:27.406Z",
+      "publishedAt": "2026-10-31T07:41:31.658Z",
       "kind": "skill",
       "id": "skills/mirage-tesseract"
     },
@@ -1070,11 +1085,11 @@
       "tags": [],
       "outcomes": [],
       "prerequisites": [],
-      "sourceCommit": "75018c035a988317f1feb4dace052ddf647c4ae2",
+      "sourceCommit": "4f023513bdb268fec4724e91e603ff9f75826a6f",
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-29T06:46:27.406Z",
+      "publishedAt": "2026-10-31T07:41:31.658Z",
       "kind": "skill",
       "id": "skills/obs-studio"
     },
@@ -1095,11 +1110,11 @@
       "tags": [],
       "outcomes": [],
       "prerequisites": [],
-      "sourceCommit": "75018c035a988317f1feb4dace052ddf647c4ae2",
+      "sourceCommit": "4f023513bdb268fec4724e91e603ff9f75826a6f",
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-29T06:46:27.406Z",
+      "publishedAt": "2026-10-31T07:41:31.658Z",
       "kind": "skill",
       "id": "skills/photocraft"
     },
@@ -1120,11 +1135,11 @@
       "tags": [],
       "outcomes": [],
       "prerequisites": [],
-      "sourceCommit": "75018c035a988317f1feb4dace052ddf647c4ae2",
+      "sourceCommit": "4f023513bdb268fec4724e91e603ff9f75826a6f",
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-29T06:46:27.406Z",
+      "publishedAt": "2026-10-31T07:41:31.658Z",
       "kind": "skill",
       "id": "skills/photoshop"
     },
@@ -1145,24 +1160,24 @@
       "tags": [],
       "outcomes": [],
       "prerequisites": [],
-      "sourceCommit": "75018c035a988317f1feb4dace052ddf647c4ae2",
+      "sourceCommit": "4f023513bdb268fec4724e91e603ff9f75826a6f",
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-29T06:46:27.406Z",
+      "publishedAt": "2026-10-31T07:41:31.658Z",
       "kind": "skill",
       "id": "skills/pixellab"
     },
     {
       "revision": 1,
-      "minVoyagerVersion": "2026.10.28-nightly.20261027.14234",
+      "minVoyagerVersion": "2026.10.29",
       "requiredCapabilities": [],
       "dependencies": [],
       "suggestedSkills": [],
       "payload": {
-        "target": "skills/premiere-pro/3c9bc6a9d770c95e22b321b86deacbce6c33704427bacf30e2608afcb5cb1ff7.json",
-        "sha256": "3c9bc6a9d770c95e22b321b86deacbce6c33704427bacf30e2608afcb5cb1ff7",
-        "length": 1382,
+        "target": "skills/premiere-pro/bb362d7664728c8b570fe681c9a5ade8b30eb51f8487d20cf417a5e36d65d9f7.json",
+        "sha256": "bb362d7664728c8b570fe681c9a5ade8b30eb51f8487d20cf417a5e36d65d9f7",
+        "length": 1616,
         "mediaType": "application/json"
       },
       "title": "premiere-pro",
@@ -1170,11 +1185,11 @@
       "tags": [],
       "outcomes": [],
       "prerequisites": [],
-      "sourceCommit": "75018c035a988317f1feb4dace052ddf647c4ae2",
+      "sourceCommit": "4f023513bdb268fec4724e91e603ff9f75826a6f",
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-29T06:46:27.406Z",
+      "publishedAt": "2026-10-31T07:41:31.658Z",
       "kind": "skill",
       "id": "skills/premiere-pro"
     },
@@ -1195,11 +1210,11 @@
       "tags": [],
       "outcomes": [],
       "prerequisites": [],
-      "sourceCommit": "75018c035a988317f1feb4dace052ddf647c4ae2",
+      "sourceCommit": "4f023513bdb268fec4724e91e603ff9f75826a6f",
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-29T06:46:27.406Z",
+      "publishedAt": "2026-10-31T07:41:31.658Z",
       "kind": "skill",
       "absorbedSkills": [
         "publish-to-itch"
@@ -1208,14 +1223,14 @@
     },
     {
       "revision": 1,
-      "minVoyagerVersion": "2026.10.29-nightly.20261028.14778",
+      "minVoyagerVersion": "2026.10.29",
       "requiredCapabilities": [],
       "dependencies": [],
       "suggestedSkills": [],
       "payload": {
-        "target": "skills/publish-video/a6437ec88ec9bec28ff43a0eeaff054f056563dd72a7cb59302ee3256622ab3e.json",
-        "sha256": "a6437ec88ec9bec28ff43a0eeaff054f056563dd72a7cb59302ee3256622ab3e",
-        "length": 14270,
+        "target": "skills/publish-video/2c6147d5dba4b929196c2cb97cfa26f1520f93e0780f273a4bc03b065f730368.json",
+        "sha256": "2c6147d5dba4b929196c2cb97cfa26f1520f93e0780f273a4bc03b065f730368",
+        "length": 14265,
         "mediaType": "application/json"
       },
       "title": "publish-video",
@@ -1223,24 +1238,24 @@
       "tags": [],
       "outcomes": [],
       "prerequisites": [],
-      "sourceCommit": "75018c035a988317f1feb4dace052ddf647c4ae2",
+      "sourceCommit": "4f023513bdb268fec4724e91e603ff9f75826a6f",
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-29T06:46:27.406Z",
+      "publishedAt": "2026-10-31T07:41:31.658Z",
       "kind": "skill",
       "id": "skills/publish-video"
     },
     {
       "revision": 1,
-      "minVoyagerVersion": "2026.10.27+1",
+      "minVoyagerVersion": "2026.10.29",
       "requiredCapabilities": [],
       "dependencies": [],
       "suggestedSkills": [],
       "payload": {
-        "target": "skills/reaper/93d3dd4de7323be5b26bf80badb8e6b230a7c0fae2335e530cb73af6d6d69682.json",
-        "sha256": "93d3dd4de7323be5b26bf80badb8e6b230a7c0fae2335e530cb73af6d6d69682",
-        "length": 1668,
+        "target": "skills/reaper/ac4fd1badcdb2b57d8a67b41c974393f14b4080c4be4bec023d53527b027b232.json",
+        "sha256": "ac4fd1badcdb2b57d8a67b41c974393f14b4080c4be4bec023d53527b027b232",
+        "length": 1663,
         "mediaType": "application/json"
       },
       "title": "reaper",
@@ -1248,24 +1263,24 @@
       "tags": [],
       "outcomes": [],
       "prerequisites": [],
-      "sourceCommit": "75018c035a988317f1feb4dace052ddf647c4ae2",
+      "sourceCommit": "4f023513bdb268fec4724e91e603ff9f75826a6f",
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-29T06:46:27.406Z",
+      "publishedAt": "2026-10-31T07:41:31.658Z",
       "kind": "skill",
       "id": "skills/reaper"
     },
     {
       "revision": 1,
-      "minVoyagerVersion": "2026.10.29-nightly.20261028.14778",
+      "minVoyagerVersion": "2026.10.30-nightly.20261029.15108",
       "requiredCapabilities": [],
       "dependencies": [],
       "suggestedSkills": [],
       "payload": {
-        "target": "skills/remotion/46a1eeae60097bb07c773e8ea0d819057f46d29fca24533f53b599cb05e12dd2.json",
-        "sha256": "46a1eeae60097bb07c773e8ea0d819057f46d29fca24533f53b599cb05e12dd2",
-        "length": 15523,
+        "target": "skills/remotion/8bd6b883410eb798e2a56750b8429f1e5d9097aeff7695d80d94d53d86c5055e.json",
+        "sha256": "8bd6b883410eb798e2a56750b8429f1e5d9097aeff7695d80d94d53d86c5055e",
+        "length": 15664,
         "mediaType": "application/json"
       },
       "title": "remotion",
@@ -1273,24 +1288,24 @@
       "tags": [],
       "outcomes": [],
       "prerequisites": [],
-      "sourceCommit": "75018c035a988317f1feb4dace052ddf647c4ae2",
+      "sourceCommit": "4f023513bdb268fec4724e91e603ff9f75826a6f",
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-29T06:46:27.406Z",
+      "publishedAt": "2026-10-31T07:41:31.658Z",
       "kind": "skill",
       "id": "skills/remotion"
     },
     {
       "revision": 1,
-      "minVoyagerVersion": "2026.10.29-nightly.20261028.14778",
+      "minVoyagerVersion": "2026.10.29",
       "requiredCapabilities": [],
       "dependencies": [],
       "suggestedSkills": [],
       "payload": {
-        "target": "skills/roblox-studio/495c7cbe4fedcfbf69f3e57a38fa78f95fb900139fb5ec15d7d684ac56094c72.json",
-        "sha256": "495c7cbe4fedcfbf69f3e57a38fa78f95fb900139fb5ec15d7d684ac56094c72",
-        "length": 5395,
+        "target": "skills/roblox-studio/bb7e8c4cf0078dc39516f17c1de8094cb433f7e4031ec1d432eb7cea609c2b57.json",
+        "sha256": "bb7e8c4cf0078dc39516f17c1de8094cb433f7e4031ec1d432eb7cea609c2b57",
+        "length": 4430,
         "mediaType": "application/json"
       },
       "title": "roblox-studio",
@@ -1298,24 +1313,24 @@
       "tags": [],
       "outcomes": [],
       "prerequisites": [],
-      "sourceCommit": "75018c035a988317f1feb4dace052ddf647c4ae2",
+      "sourceCommit": "4f023513bdb268fec4724e91e603ff9f75826a6f",
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-29T06:46:27.406Z",
+      "publishedAt": "2026-10-31T07:41:31.658Z",
       "kind": "skill",
       "id": "skills/roblox-studio"
     },
     {
       "revision": 1,
-      "minVoyagerVersion": "2026.10.28-nightly.20261027.14234",
+      "minVoyagerVersion": "2026.10.30-nightly.20261029.15108",
       "requiredCapabilities": [],
       "dependencies": [],
       "suggestedSkills": [],
       "payload": {
-        "target": "skills/room-to-video/61318ac05e0f5194a6b623a2fe8a9f88d4266783d45c1be57395026c363a6c08.json",
-        "sha256": "61318ac05e0f5194a6b623a2fe8a9f88d4266783d45c1be57395026c363a6c08",
-        "length": 50946,
+        "target": "skills/room-to-video/989feae352b85243d9766ca6917e3762a329baa7b67197892b8b3e83ac073ab5.json",
+        "sha256": "989feae352b85243d9766ca6917e3762a329baa7b67197892b8b3e83ac073ab5",
+        "length": 51152,
         "mediaType": "application/json"
       },
       "title": "room-to-video",
@@ -1323,24 +1338,24 @@
       "tags": [],
       "outcomes": [],
       "prerequisites": [],
-      "sourceCommit": "75018c035a988317f1feb4dace052ddf647c4ae2",
+      "sourceCommit": "4f023513bdb268fec4724e91e603ff9f75826a6f",
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-29T06:46:27.406Z",
+      "publishedAt": "2026-10-31T07:41:31.658Z",
       "kind": "skill",
       "id": "skills/room-to-video"
     },
     {
       "revision": 1,
-      "minVoyagerVersion": "2026.10.29-nightly.20261028.14778",
+      "minVoyagerVersion": "2026.10.30-nightly.20261029.15108",
       "requiredCapabilities": [],
       "dependencies": [],
       "suggestedSkills": [],
       "payload": {
-        "target": "skills/screen-capture/7f277a51e6ce7d7ec50f22724e3c5b11e78b95dc17d901fd906a3940e35a55f1.json",
-        "sha256": "7f277a51e6ce7d7ec50f22724e3c5b11e78b95dc17d901fd906a3940e35a55f1",
-        "length": 11834,
+        "target": "skills/screen-capture/2b1e23e33ede85e809de91c6ea8a2030dfa7d452d2c2033efcd50e031401b1e4.json",
+        "sha256": "2b1e23e33ede85e809de91c6ea8a2030dfa7d452d2c2033efcd50e031401b1e4",
+        "length": 11527,
         "mediaType": "application/json"
       },
       "title": "screen-capture",
@@ -1348,24 +1363,24 @@
       "tags": [],
       "outcomes": [],
       "prerequisites": [],
-      "sourceCommit": "75018c035a988317f1feb4dace052ddf647c4ae2",
+      "sourceCommit": "4f023513bdb268fec4724e91e603ff9f75826a6f",
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-29T06:46:27.406Z",
+      "publishedAt": "2026-10-31T07:41:31.658Z",
       "kind": "skill",
       "id": "skills/screen-capture"
     },
     {
       "revision": 1,
-      "minVoyagerVersion": "2026.10.29-nightly.20261028.14778",
+      "minVoyagerVersion": "2026.10.29",
       "requiredCapabilities": [],
       "dependencies": [],
       "suggestedSkills": [],
       "payload": {
-        "target": "skills/unity-engine/ee4b5206e42b51e2e78d58fa42f9bc3ca6b2a2ea8a64612332b897265b69259f.json",
-        "sha256": "ee4b5206e42b51e2e78d58fa42f9bc3ca6b2a2ea8a64612332b897265b69259f",
-        "length": 4082,
+        "target": "skills/unity-engine/0fb9386d197733ed74c85af53025f53d0164c8b438a366c8b5685a4848ea98f1.json",
+        "sha256": "0fb9386d197733ed74c85af53025f53d0164c8b438a366c8b5685a4848ea98f1",
+        "length": 3117,
         "mediaType": "application/json"
       },
       "title": "unity-engine",
@@ -1373,24 +1388,24 @@
       "tags": [],
       "outcomes": [],
       "prerequisites": [],
-      "sourceCommit": "75018c035a988317f1feb4dace052ddf647c4ae2",
+      "sourceCommit": "4f023513bdb268fec4724e91e603ff9f75826a6f",
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-29T06:46:27.406Z",
+      "publishedAt": "2026-10-31T07:41:31.658Z",
       "kind": "skill",
       "id": "skills/unity-engine"
     },
     {
       "revision": 1,
-      "minVoyagerVersion": "2026.10.29-nightly.20261028.14778",
+      "minVoyagerVersion": "2026.10.29",
       "requiredCapabilities": [],
       "dependencies": [],
       "suggestedSkills": [],
       "payload": {
-        "target": "skills/unreal-engine/591290c5e7dcd0b5c549ebe519f8762e6cb0ac8dfd79b01fd88022991248ab89.json",
-        "sha256": "591290c5e7dcd0b5c549ebe519f8762e6cb0ac8dfd79b01fd88022991248ab89",
-        "length": 4018,
+        "target": "skills/unreal-engine/89697fa407e1a106a0f27dca1f3071d0ceb3d700e6541ca3fd1bc5a510f49948.json",
+        "sha256": "89697fa407e1a106a0f27dca1f3071d0ceb3d700e6541ca3fd1bc5a510f49948",
+        "length": 3053,
         "mediaType": "application/json"
       },
       "title": "unreal-engine",
@@ -1398,11 +1413,11 @@
       "tags": [],
       "outcomes": [],
       "prerequisites": [],
-      "sourceCommit": "75018c035a988317f1feb4dace052ddf647c4ae2",
+      "sourceCommit": "4f023513bdb268fec4724e91e603ff9f75826a6f",
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-29T06:46:27.406Z",
+      "publishedAt": "2026-10-31T07:41:31.658Z",
       "kind": "skill",
       "id": "skills/unreal-engine"
     },
@@ -1423,11 +1438,11 @@
       "tags": [],
       "outcomes": [],
       "prerequisites": [],
-      "sourceCommit": "75018c035a988317f1feb4dace052ddf647c4ae2",
+      "sourceCommit": "4f023513bdb268fec4724e91e603ff9f75826a6f",
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-29T06:46:27.406Z",
+      "publishedAt": "2026-10-31T07:41:31.658Z",
       "kind": "skill",
       "id": "skills/vectorcraft"
     },
@@ -1448,11 +1463,11 @@
       "tags": [],
       "outcomes": [],
       "prerequisites": [],
-      "sourceCommit": "75018c035a988317f1feb4dace052ddf647c4ae2",
+      "sourceCommit": "4f023513bdb268fec4724e91e603ff9f75826a6f",
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-29T06:46:27.406Z",
+      "publishedAt": "2026-10-31T07:41:31.658Z",
       "kind": "skill",
       "id": "skills/video-styles"
     },
@@ -1473,24 +1488,24 @@
       "tags": [],
       "outcomes": [],
       "prerequisites": [],
-      "sourceCommit": "75018c035a988317f1feb4dace052ddf647c4ae2",
+      "sourceCommit": "4f023513bdb268fec4724e91e603ff9f75826a6f",
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-29T06:46:27.406Z",
+      "publishedAt": "2026-10-31T07:41:31.658Z",
       "kind": "skill",
       "id": "skills/vmo"
     },
     {
       "revision": 1,
-      "minVoyagerVersion": "2026.10.29-nightly.20261028.14778",
+      "minVoyagerVersion": "2026.10.29",
       "requiredCapabilities": [],
       "dependencies": [],
       "suggestedSkills": [],
       "payload": {
-        "target": "skills/voiceover/b9d240d01f9dbe0c65d7cfcd4de452ae92db408cc3758acf5cb2b74681cad2e7.json",
-        "sha256": "b9d240d01f9dbe0c65d7cfcd4de452ae92db408cc3758acf5cb2b74681cad2e7",
-        "length": 55441,
+        "target": "skills/voiceover/9fb04b68921655134380d215404c73411067feb59268d2b068690b7fdb4a24d1.json",
+        "sha256": "9fb04b68921655134380d215404c73411067feb59268d2b068690b7fdb4a24d1",
+        "length": 57608,
         "mediaType": "application/json"
       },
       "title": "voiceover",
@@ -1498,11 +1513,11 @@
       "tags": [],
       "outcomes": [],
       "prerequisites": [],
-      "sourceCommit": "75018c035a988317f1feb4dace052ddf647c4ae2",
+      "sourceCommit": "4f023513bdb268fec4724e91e603ff9f75826a6f",
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-29T06:46:27.406Z",
+      "publishedAt": "2026-10-31T07:41:31.658Z",
       "kind": "skill",
       "id": "skills/voiceover"
     },
@@ -1523,11 +1538,11 @@
       "tags": [],
       "outcomes": [],
       "prerequisites": [],
-      "sourceCommit": "75018c035a988317f1feb4dace052ddf647c4ae2",
+      "sourceCommit": "4f023513bdb268fec4724e91e603ff9f75826a6f",
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-29T06:46:27.406Z",
+      "publishedAt": "2026-10-31T07:41:31.658Z",
       "kind": "skill",
       "id": "skills/voyager-setup"
     },
@@ -1548,11 +1563,11 @@
       "tags": [],
       "outcomes": [],
       "prerequisites": [],
-      "sourceCommit": "75018c035a988317f1feb4dace052ddf647c4ae2",
+      "sourceCommit": "4f023513bdb268fec4724e91e603ff9f75826a6f",
       "testedAgainst": [
         "0.1.0"
       ],
-      "publishedAt": "2026-10-29T06:46:27.406Z",
+      "publishedAt": "2026-10-31T07:41:31.658Z",
       "kind": "skill",
       "id": "skills/widgets"
     }
