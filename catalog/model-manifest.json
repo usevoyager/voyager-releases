@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-31T00:10:00Z",
+  "updatedAt": "2026-10-31T01:20:00Z",
   "compatibility": [
     {
       "driver": "codex",
@@ -625,6 +625,11 @@
                     "warning": "Uses far more credits and takes much longer. Best for hard problems, not for quick edits."
                   }
                 ]
+              },
+              {
+                "id": "fastMode",
+                "label": "Fast Mode",
+                "type": "boolean"
               }
             ]
           },
